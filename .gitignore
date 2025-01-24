@@ -3,3 +3,5 @@ env
 VENV 
 ENV 
 .env
+scripts/credentials.json
+credentials.json
