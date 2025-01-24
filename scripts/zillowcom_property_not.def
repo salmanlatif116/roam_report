@@ -1,0 +1,16 @@
+[Parsing Method]
+method = html_selector
+
+[Selectors]
+tag = script
+attribute_id = __NEXT_DATA__
+
+[Processing Instructions]
+json_path = props.pageProps.componentProps.gdpClientCache.NotForSaleShopperPlatformFullRenderQuery.property
+
+[Include Keys]
+keys = 
+
+[Exclude Keys]
+keys = collections,nearbyCities,nearbyZipcodes,adTargets,currency,nearbyHomes
+

@@ -1,0 +1,30 @@
+2025-01-24 14:17:59,198 - logger.config - INFO - Navigating to the 'https://www.withroam.com/state/TX'.
+2025-01-24 14:19:13,685 - logger.config - INFO - Navigating to the 'https://www.withroam.com/state/TX'.
+2025-01-24 14:19:22,855 - logger.config - INFO - Scraping listings from the current page.
+2025-01-24 14:19:23,206 - logger.config - INFO - Retrieved 13 listings on this page.
+2025-01-24 14:19:23,206 - logger.config - INFO - Processing listing 1
+2025-01-24 14:19:31,004 - logger.config - INFO - Data scraped: {'address': '420 Jacks Pl, Seguin, TX 78155', 'listing_price': '$298,000', 'down_payment': '$25,999', 'principal_and_interest': '$1,172/mo.', 'interest_rate': '2.73%'}
+2025-01-24 14:19:36,164 - logger.config - INFO - Processing listing 2
+2025-01-24 14:19:40,649 - logger.config - INFO - Data scraped: {'address': '2407 Hartsel Forest Trl, Spring, TX 77373', 'listing_price': '$260,000', 'down_payment': '$31,939', 'principal_and_interest': '$1,006/mo.', 'interest_rate': '2.75%'}
+2025-01-24 14:19:45,780 - logger.config - INFO - Processing listing 3
+2025-01-24 14:19:50,081 - logger.config - INFO - Data scraped: {'address': '171 Whitetail Way, Caddo Mills, TX 75135', 'listing_price': '$369,900', 'down_payment': '$46,176', 'principal_and_interest': '$1,425/mo.', 'interest_rate': '2.75%'}
+2025-01-24 14:19:55,209 - logger.config - INFO - Processing listing 4
+2025-01-24 14:19:59,482 - logger.config - INFO - Data scraped: {'address': '529 Sentry Valley St, New Braunfels, TX 78130', 'listing_price': '$334,650', 'down_payment': '$18,545', 'principal_and_interest': '$1,562/mo.', 'interest_rate': '4%'}
+2025-01-24 14:20:04,615 - logger.config - INFO - Processing listing 5
+2025-01-24 14:20:08,426 - logger.config - INFO - Data scraped: {'address': '153 Niemietz Cv, Cibolo, TX 78108', 'listing_price': '$340,000', 'down_payment': '$35,981', 'principal_and_interest': '$1,370/mo.', 'interest_rate': '3%'}
+2025-01-24 14:20:13,556 - logger.config - INFO - Processing listing 6
+2025-01-24 14:20:19,057 - logger.config - INFO - Data scraped: {'address': '12131 Sampson Crk, San Antonio, TX 78245', 'listing_price': '$260,000', 'down_payment': '$37,607', 'principal_and_interest': '$981/mo.', 'interest_rate': '2.75%'}
+2025-01-24 14:20:24,240 - logger.config - INFO - Processing listing 7
+2025-01-24 14:20:30,933 - logger.config - INFO - Data scraped: {'address': '12750 Rambling Rose, San Antonio, TX 78253', 'listing_price': '$308,000', 'down_payment': '$8,097', 'principal_and_interest': '$1,450/mo.', 'interest_rate': '4%'}
+2025-01-24 14:20:36,084 - logger.config - INFO - Processing listing 8
+2025-01-24 14:20:40,318 - logger.config - INFO - Data scraped: {'address': '421 Blueberry Dr, Azle, TX 76020', 'listing_price': '$385,000', 'down_payment': '$26,593', 'principal_and_interest': '$1,753/mo.', 'interest_rate': '3.76%'}
+2025-01-24 14:20:45,457 - logger.config - INFO - Processing listing 9
+2025-01-24 14:20:50,275 - logger.config - INFO - Data scraped: {'address': '504 Stimpson St, Baytown, TX 77520', 'listing_price': '$190,000', 'down_payment': '$49,805', 'principal_and_interest': '$592/mo.', 'interest_rate': '2.5%'}
+2025-01-24 14:20:55,343 - logger.config - INFO - Processing listing 10
+2025-01-24 14:20:59,738 - logger.config - INFO - Data scraped: {'address': '2316 Julia Ln, Forney, TX 75126', 'listing_price': '$285,000', 'down_payment': '$0', 'principal_and_interest': '$1,765/mo.', 'interest_rate': '5.125%'}
+2025-01-24 14:21:04,857 - logger.config - INFO - Processing listing 11
+2025-01-24 14:21:09,234 - logger.config - INFO - Data scraped: {'address': '14627 Woodcott Warren Way, Rosharon, TX 77583', 'listing_price': '$305,000', 'down_payment': '$21,080', 'principal_and_interest': '$1,406/mo.', 'interest_rate': '3.99%'}
+2025-01-24 14:21:14,363 - logger.config - INFO - Processing listing 12
+2025-01-24 14:21:20,035 - logger.config - INFO - Data scraped: {'address': '5519 Lacreek Ln, Spring, TX 77379', 'listing_price': '$350,000', 'down_payment': '$30,735', 'principal_and_interest': '$1,599/mo.', 'interest_rate': '4%'}
+2025-01-24 14:21:25,218 - logger.config - INFO - Processing listing 13
+2025-01-24 14:21:29,408 - logger.config - INFO - Data scraped: {'address': '928 Edwards St, Copperas Cove, TX 76522', 'listing_price': '$160,000', 'down_payment': '$27,757', 'principal_and_interest': '$642/mo.', 'interest_rate': '3.69%'}
