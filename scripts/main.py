@@ -16,6 +16,7 @@ from google.oauth2.service_account import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
+from sheet import save_to_sheet
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
 
@@ -201,61 +202,67 @@ def get_required_fields(url):
             logger.error(f"Error encountered with file {parser_file_path} and url: {url}. Error: {str(e)}")
 
 def perform_calculations(fields_dict):
-    
     for key, value in fields_dict.items():
-        if key not in ("mortgage_type","address","interest_rate"):
-            fields_dict[key] = ''.join (char for char in str(value) if char.isdigit())
-    
-    heloc_payment = float(fields_dict.get("down_payment", 0) or 0) * 0.00573
-    
-    try:
-        monthly_net_income = (
-            float(fields_dict.get("rent_zestimate", 0) or 0)
-            - float(fields_dict.get("principal_and_interest", 0) or 0)
-            - float(fields_dict.get("monthly_taxes", 0) or 0)
-            - float(fields_dict.get("monthly_insurance", 0) or 0)
-            - float(fields_dict.get("monthly_hoa", 0) or 0)
-            - heloc_payment
-        )
-    except ValueError:
-        monthly_net_income = 0 
-    
-    try:
-        mortgage = (int(fields_dict.get("listing_price")) - int(fields_dict.get("down_payment")))
+        if key not in ("mortgage_type", "address", "interest_rate"):
+            value_str = str(value).replace(",", "").strip()
+            if value_str.startswith("-"):  # Handle negative values correctly
+                fields_dict[key] = "-" + "".join(char for char in value_str if char.isdigit() or char == ".")
+            else:
+                fields_dict[key] = "".join(char for char in value_str if char.isdigit() or char == ".")
 
-    except ValueError:
-        mortgage = 0
+    # Convert extracted numbers to correct data types
+    fields_dict["down_payment"] = float(fields_dict.get("down_payment", 0) or 0)
+    fields_dict["listing_price"] = float(fields_dict.get("listing_price", 0) or 0)
+    fields_dict["principal_and_interest"] = float(fields_dict.get("principal_and_interest", 0) or 0)
+    fields_dict["monthly_taxes"] = float(fields_dict.get("monthly_taxes", 0) or 0)
+    fields_dict["monthly_insurance"] = float(fields_dict.get("monthly_insurance", 0) or 0)
+    fields_dict["monthly_hoa"] = float(fields_dict.get("monthly_hoa", 0) or 0)
+    fields_dict["rent_zestimate"] = float(fields_dict.get("rent_zestimate", 0) or 0)
 
-    try:
-        down_payment = float(fields_dict.get("down_payment", 0))
-        monthly_downpayment_and_interest = int(down_payment * 0.00573)
-    except (ValueError, ZeroDivisionError) as e:
-        monthly_downpayment_and_interest = 0
+    # Calculate HELOC payment
+    heloc_payment = fields_dict["down_payment"] * 0.00573
 
+    # Calculate monthly net income
+    monthly_net_income = (
+        fields_dict["rent_zestimate"]
+        - fields_dict["principal_and_interest"]
+        - fields_dict["monthly_taxes"]
+        - fields_dict["monthly_insurance"]
+        - fields_dict["monthly_hoa"]
+        - heloc_payment
+    )
+
+    # Calculate mortgage
+    mortgage = fields_dict["listing_price"] - fields_dict["down_payment"]
+
+    # Calculate monthly down payment and interest
+    monthly_downpayment_and_interest = fields_dict["down_payment"] * 0.00573
+
+    # Update dictionary with calculated values
     fields_dict["mortgage"] = mortgage
     fields_dict["monthly_downpayment_and_interest"] = monthly_downpayment_and_interest
-    fields_dict["monthly_net_income"] = int(monthly_net_income)
-    
+    fields_dict["monthly_net_income"] = monthly_net_income
+
+    # Formatting values for display
     for key, value in fields_dict.items():
         if key not in {"address", "interest_rate", "mortgage_type"}:
-            value_str = str(value)
-            if value_str.isdigit() or (value_str.startswith('-') and len(value_str) > 1 and value_str[1:].isdigit()):
-                if value_str.startswith('-'):
-                    fields_dict[key] = "-${:,}".format(int(value_str[1:]))
-                else:
-                    fields_dict[key] = "${:,}".format(int(value_str))
+            if isinstance(value, (int, float)):
+                fields_dict[key] = "-${:,.2f}".format(abs(value)) if value < 0 else "${:,.2f}".format(value)
 
-        if key in ("rent_zestimate") and not fields_dict[key]:
-            fields_dict[key] = "$0"
-            
+    # Ensure rent_zestimate is properly formatted
+    if not fields_dict["rent_zestimate"]:
+        fields_dict["rent_zestimate"] = "$0.00"
+
     return fields_dict
 
 
+
+
 if __name__ == "__main__":
-    while True:
-        roam_data =  perform_web_interaction()
-        if roam_data:
-            break
+    # while True:
+    #     roam_data =  perform_web_interaction()
+    #     if roam_data:
+    #         break
     
          
     with open("roam_data.json","r") as file:
@@ -294,6 +301,10 @@ if __name__ == "__main__":
                     json_data = json.dumps(calculated_fields)
                     print(json_data)
                     file.write(json_data + "\n") 
+                with open("calculated_results.json", "r") as file:
+                    data = [json.loads(line.strip()) for line in file if line.strip()]
+                    save_to_sheet(data)
+
             else:
                 logger.error("An error occurred fetching rent_zestimate, HOA, insurance, and taxes fields.")
         else:

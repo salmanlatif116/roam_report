@@ -1,0 +1,2263 @@
+[
+    {
+        "address": "420 Jacks Pl, Seguin, TX 78155",
+        "listing_price": "$298,000",
+        "down_payment": "$25,999",
+        "principal_and_interest": "$1,172/mo.",
+        "interest_rate": "2.73%"
+    },
+    {
+        "address": "2407 Hartsel Forest Trl, Spring, TX 77373",
+        "listing_price": "$260,000",
+        "down_payment": "$31,939",
+        "principal_and_interest": "$1,006/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "171 Whitetail Way, Caddo Mills, TX 75135",
+        "listing_price": "$369,900",
+        "down_payment": "$46,176",
+        "principal_and_interest": "$1,425/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "529 Sentry Valley St, New Braunfels, TX 78130",
+        "listing_price": "$334,650",
+        "down_payment": "$18,545",
+        "principal_and_interest": "$1,562/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "153 Niemietz Cv, Cibolo, TX 78108",
+        "listing_price": "$340,000",
+        "down_payment": "$35,981",
+        "principal_and_interest": "$1,370/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "12131 Sampson Crk, San Antonio, TX 78245",
+        "listing_price": "$260,000",
+        "down_payment": "$37,607",
+        "principal_and_interest": "$981/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "12750 Rambling Rose, San Antonio, TX 78253",
+        "listing_price": "$308,000",
+        "down_payment": "$8,097",
+        "principal_and_interest": "$1,450/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "421 Blueberry Dr, Azle, TX 76020",
+        "listing_price": "$385,000",
+        "down_payment": "$26,593",
+        "principal_and_interest": "$1,753/mo.",
+        "interest_rate": "3.76%"
+    },
+    {
+        "address": "504 Stimpson St, Baytown, TX 77520",
+        "listing_price": "$190,000",
+        "down_payment": "$49,805",
+        "principal_and_interest": "$592/mo.",
+        "interest_rate": "2.5%"
+    },
+    {
+        "address": "2316 Julia Ln, Forney, TX 75126",
+        "listing_price": "$285,000",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,765/mo.",
+        "interest_rate": "5.125%"
+    },
+    {
+        "address": "14627 Woodcott Warren Way, Rosharon, TX 77583",
+        "listing_price": "$305,000",
+        "down_payment": "$21,080",
+        "principal_and_interest": "$1,406/mo.",
+        "interest_rate": "3.99%"
+    },
+    {
+        "address": "5519 Lacreek Ln, Spring, TX 77379",
+        "listing_price": "$350,000",
+        "down_payment": "$30,735",
+        "principal_and_interest": "$1,599/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "928 Edwards St, Copperas Cove, TX 76522",
+        "listing_price": "$160,000",
+        "down_payment": "$27,757",
+        "principal_and_interest": "$642/mo.",
+        "interest_rate": "3.69%"
+    },
+    {
+        "address": "6059 Shelbourne Park Ln, Houston, TX 77084",
+        "listing_price": "$245,000",
+        "down_payment": "$25,416",
+        "principal_and_interest": "$1,154/mo.",
+        "interest_rate": "4.42%"
+    },
+    {
+        "address": "3527 Palm Grove Dr, Missouri City, TX 77459",
+        "listing_price": "$260,000",
+        "down_payment": "$171",
+        "principal_and_interest": "$1,487/mo.",
+        "interest_rate": "5.25%"
+    },
+    {
+        "address": "15414 Night Heron, San Antonio, TX 78253",
+        "listing_price": "$354,900",
+        "down_payment": "$13,742",
+        "principal_and_interest": "$1,927/mo.",
+        "interest_rate": "5.1%"
+    },
+    {
+        "address": "440 Panther Way, Seguin, TX 78155",
+        "listing_price": "$365,000",
+        "down_payment": "$30,201",
+        "principal_and_interest": "$1,874/mo.",
+        "interest_rate": "5%"
+    },
+    {
+        "address": "8901 Eastwood Ave, Cross Roads, TX 76227",
+        "listing_price": "$333,000",
+        "down_payment": "$23,266",
+        "principal_and_interest": "$1,754/mo.",
+        "interest_rate": "5.125%"
+    },
+    {
+        "address": "401 Suzie St, Killeen, TX 76542",
+        "listing_price": "$205,000",
+        "down_payment": "$18,176",
+        "principal_and_interest": "$1,058/mo.",
+        "interest_rate": "5.125%"
+    },
+    {
+        "address": "2607 Bolzano Trl, Temple, TX 76502",
+        "listing_price": "$364,900",
+        "down_payment": "$26,130",
+        "principal_and_interest": "$1,929/mo.",
+        "interest_rate": "5.25%"
+    },
+    {
+        "address": "12730 Cooper Breaks Dr, Humble, TX 77346",
+        "listing_price": "$279,900",
+        "down_payment": "$31,397",
+        "principal_and_interest": "$1,421/mo.",
+        "interest_rate": "5.23%"
+    },
+    {
+        "address": "2820 Arrowhead Dr, Copperas Cove, TX 76522",
+        "listing_price": "$272,500",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,288/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "10915 Airmen Dr, Converse, TX 78109",
+        "listing_price": "$215,000",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,314/mo.",
+        "interest_rate": "4.42%"
+    },
+    {
+        "address": "7003 Cokui Dr, Killeen, TX 76542",
+        "listing_price": "$265,000",
+        "down_payment": "$13,535",
+        "principal_and_interest": "$1,135/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "349 Zarya, Kyle, TX 78640",
+        "listing_price": "$390,000",
+        "down_payment": "$28,561",
+        "principal_and_interest": "$1,611/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "623 Coral Hbr, San Antonio, TX 78251",
+        "listing_price": "$239,900",
+        "down_payment": "$24,589",
+        "principal_and_interest": "$952/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "13322 Ailey Knl, San Antonio, TX 78254",
+        "listing_price": "$330,000",
+        "down_payment": "$36,631",
+        "principal_and_interest": "$1,294/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "10731 Giacconi Dr, Converse, TX 78109",
+        "listing_price": "$225,000",
+        "down_payment": "$37,247",
+        "principal_and_interest": "$805/mo.",
+        "interest_rate": "2.375%"
+    },
+    {
+        "address": "245 Legacy Rdg, Canyon Lake, TX 78133",
+        "listing_price": "$348,000",
+        "down_payment": "$29,333",
+        "principal_and_interest": "$1,436/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "2952 Red Tip Dr, Schertz, TX 78154",
+        "listing_price": "$280,000",
+        "down_payment": "$28,438",
+        "principal_and_interest": "$1,121/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "9418 Madison Crk, Converse, TX 78109",
+        "listing_price": "$295,000",
+        "down_payment": "$27,686",
+        "principal_and_interest": "$1,207/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "8210 Green Gully, Converse, TX 78109",
+        "listing_price": "$245,000",
+        "down_payment": "$33,149",
+        "principal_and_interest": "$929/mo.",
+        "interest_rate": "2.7%"
+    },
+    {
+        "address": "3322 Taurus Sky, Converse, TX 78109",
+        "listing_price": "$310,000",
+        "down_payment": "$45,583",
+        "principal_and_interest": "$1,169/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "14923 Costa Leon, San Antonio, TX 78245",
+        "listing_price": "$354,900",
+        "down_payment": "$44,782",
+        "principal_and_interest": "$1,397/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "421 Big Timber Dr, Temple, TX 76502",
+        "listing_price": "$295,000",
+        "down_payment": "$38,699",
+        "principal_and_interest": "$1,157/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "3802 Brunswick Dr, Killeen, TX 76549",
+        "listing_price": "$345,000",
+        "down_payment": "$31,202",
+        "principal_and_interest": "$1,474/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "9722 Marbach Hl, San Antonio, TX 78245",
+        "listing_price": "$259,999",
+        "down_payment": "$46,650",
+        "principal_and_interest": "$984/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "3210 Rancho Grande, San Antonio, TX 78224",
+        "listing_price": "$238,500",
+        "down_payment": "$10,143",
+        "principal_and_interest": "$1,139/mo.",
+        "interest_rate": "3.92%"
+    },
+    {
+        "address": "4504 Donegal Bay Ct, Killeen, TX 76549",
+        "listing_price": "$259,900",
+        "down_payment": "$30,821",
+        "principal_and_interest": "$1,076/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "3809 Tanchico Dr, Killeen, TX 76542",
+        "listing_price": "$279,000",
+        "down_payment": "$15,492",
+        "principal_and_interest": "$1,308/mo.",
+        "interest_rate": "3.89%"
+    },
+    {
+        "address": "3423 Southton Vw, San Antonio, TX 78222",
+        "listing_price": "$210,000",
+        "down_payment": "$11,413",
+        "principal_and_interest": "$978/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "2250 Golf Dr, Spring Branch, TX 78070",
+        "listing_price": "$249,000",
+        "down_payment": "$20,620",
+        "principal_and_interest": "$1,137/mo.",
+        "interest_rate": "3.92%"
+    },
+    {
+        "address": "11518 Lightning Way, San Antonio, TX 78245",
+        "listing_price": "$375,000",
+        "down_payment": "$42,476",
+        "principal_and_interest": "$1,482/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "13003 Minuet Sway, San Antonio, TX 78252",
+        "listing_price": "$310,000",
+        "down_payment": "$25,698",
+        "principal_and_interest": "$1,407/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "5101 Parkwood Dr, Killeen, TX 76542",
+        "listing_price": "$200,340",
+        "down_payment": "$21,239",
+        "principal_and_interest": "$889/mo.",
+        "interest_rate": "3.89%"
+    },
+    {
+        "address": "10334 Big Four, Converse, TX 78109",
+        "listing_price": "$289,900",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,732/mo.",
+        "interest_rate": "5.13%"
+    },
+    {
+        "address": "891 Highland Vis, New Braunfels, TX 78130",
+        "listing_price": "$295,000",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,458/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "4122 Tamarak Dr, San Antonio, TX 78220",
+        "listing_price": "$220,000",
+        "down_payment": "$24,056",
+        "principal_and_interest": "$971/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "5622 Tranquil Cv, Converse, TX 78109",
+        "listing_price": "$285,000",
+        "down_payment": "$42,776",
+        "principal_and_interest": "$1,071/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "2703 Roadrunner Dr, Killeen, TX 76549",
+        "listing_price": "$199,900",
+        "down_payment": "$42,640",
+        "principal_and_interest": "$738/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "15312 Osprey Pass, San Antonio, TX 78253",
+        "listing_price": "$354,998",
+        "down_payment": "$26,800",
+        "principal_and_interest": "$1,439/mo.",
+        "interest_rate": "2.7%"
+    },
+    {
+        "address": "229 E Langley Blvd, Universal City, TX 78148",
+        "listing_price": "$242,000",
+        "down_payment": "$4,288",
+        "principal_and_interest": "$1,169/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "1910 Michele Dr, Killeen, TX 76542",
+        "listing_price": "$230,000",
+        "down_payment": "$2,907",
+        "principal_and_interest": "$1,281/mo.",
+        "interest_rate": "5.125%"
+    },
+    {
+        "address": "630 Lovera Blvd, San Antonio, TX 78212",
+        "listing_price": "$199,000",
+        "down_payment": "$32,693",
+        "principal_and_interest": "$779/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "1101 Victoria Cir, Copperas Cove, TX 76522",
+        "listing_price": "$350,000",
+        "down_payment": "$48,464",
+        "principal_and_interest": "$1,330/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "1322 Rigsby Ave, San Antonio, TX 78210",
+        "listing_price": "$249,000",
+        "down_payment": "$46,578",
+        "principal_and_interest": "$1,004/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "6631 Hoffman Pln, San Antonio, TX 78252",
+        "listing_price": "$319,000",
+        "down_payment": "$10,588",
+        "principal_and_interest": "$1,764/mo.",
+        "interest_rate": "5.23%"
+    },
+    {
+        "address": "2809 Transit Dr, Killeen, TX 76543",
+        "listing_price": "$225,000",
+        "down_payment": "$24,313",
+        "principal_and_interest": "$1,090/mo.",
+        "interest_rate": "4.72%"
+    },
+    {
+        "address": "13123 Sendero Roble, San Antonio, TX 78253",
+        "listing_price": "$365,000",
+        "down_payment": "$18,627",
+        "principal_and_interest": "$1,684/mo.",
+        "interest_rate": "3.69%"
+    },
+    {
+        "address": "11607 Fort Smith, San Antonio, TX 78245",
+        "listing_price": "$249,999",
+        "down_payment": "$48,966",
+        "principal_and_interest": "$895/mo.",
+        "interest_rate": "2.625%"
+    },
+    {
+        "address": "4830 Via Sonoma Trl, Converse, TX 78109",
+        "listing_price": "$274,999",
+        "down_payment": "$35,153",
+        "principal_and_interest": "$1,302/mo.",
+        "interest_rate": "4.72%"
+    },
+    {
+        "address": "1101 S Trinity St, Decatur, TX 76234",
+        "listing_price": "$199,999",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,524/mo.",
+        "interest_rate": "4.67%"
+    },
+    {
+        "address": "513 White Oak Ln, Burleson, TX 76028",
+        "listing_price": "$259,000",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,648/mo.",
+        "interest_rate": "6%"
+    },
+    {
+        "address": "3427 Aubree Katherine Dr, Killeen, TX 76542",
+        "listing_price": "$320,000",
+        "down_payment": "$20,969",
+        "principal_and_interest": "$1,711/mo.",
+        "interest_rate": "5.25%"
+    },
+    {
+        "address": "5212 Donegal Bay Ct, Killeen, TX 76549",
+        "listing_price": "$210,000",
+        "down_payment": "$26,759",
+        "principal_and_interest": "$890/mo.",
+        "interest_rate": "3.69%"
+    },
+    {
+        "address": "4211 Mustang Dr, Killeen, TX 76549",
+        "listing_price": "$232,900",
+        "down_payment": "$16,042",
+        "principal_and_interest": "$1,241/mo.",
+        "interest_rate": "5.25%"
+    },
+    {
+        "address": "7223 Marina Del Rey, Converse, TX 78109",
+        "listing_price": "$325,000",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,846/mo.",
+        "interest_rate": "5.1%"
+    },
+    {
+        "address": "2117 Charmion Ln, Fort Worth, TX 76131",
+        "listing_price": "$309,500",
+        "down_payment": "$5,743",
+        "principal_and_interest": "$1,846/mo.",
+        "interest_rate": "5.875%"
+    },
+    {
+        "address": "131 Savannah Dr, San Antonio, TX 78213",
+        "listing_price": "$240,000",
+        "down_payment": "$31,710",
+        "principal_and_interest": "$1,021/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "9123 Bennett Frst, Converse, TX 78109",
+        "listing_price": "$380,000",
+        "down_payment": "$37,447",
+        "principal_and_interest": "$1,706/mo.",
+        "interest_rate": "3.92%"
+    },
+    {
+        "address": "1536 Mustang Ave, West Orange, TX 77630",
+        "listing_price": "$100,000",
+        "down_payment": "$0",
+        "principal_and_interest": "$505/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "10746 Impala Spgs, San Antonio, TX 78245",
+        "listing_price": "$270,000",
+        "down_payment": "$43,883",
+        "principal_and_interest": "$1,004/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "14007 Big Tree Dr, San Antonio, TX 78247",
+        "listing_price": "$285,000",
+        "down_payment": "$49,187",
+        "principal_and_interest": "$1,169/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "1107 Larkspur Ln, Cleburne, TX 76033",
+        "listing_price": "$335,000",
+        "down_payment": "$11,973",
+        "principal_and_interest": "$1,978/mo.",
+        "interest_rate": "6%"
+    },
+    {
+        "address": "1511 Center St, San Antonio, TX 78202",
+        "listing_price": "$298,000",
+        "down_payment": "$49,895",
+        "principal_and_interest": "$1,094/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "302 Shadwell Dr, San Antonio, TX 78228",
+        "listing_price": "$329,999",
+        "down_payment": "$34,978",
+        "principal_and_interest": "$1,434/mo.",
+        "interest_rate": "3.69%"
+    },
+    {
+        "address": "1426 Robin Willow, San Antonio, TX 78260",
+        "listing_price": "$444,900",
+        "down_payment": "$41,225",
+        "principal_and_interest": "$1,974/mo.",
+        "interest_rate": "3.76%"
+    },
+    {
+        "address": "2131 Islawild Way, La Marque, TX 77568",
+        "listing_price": "$300,000",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,541/mo.",
+        "interest_rate": "3.22%"
+    },
+    {
+        "address": "5640 Shore Point Trl, Fort Worth, TX 76119",
+        "listing_price": "$300,000",
+        "down_payment": "$16,841",
+        "principal_and_interest": "$1,730/mo.",
+        "interest_rate": "6%"
+    },
+    {
+        "address": "9614 Kensley Rose Dr, Killeen, TX 76542",
+        "listing_price": "$299,000",
+        "down_payment": "$45,644",
+        "principal_and_interest": "$1,471/mo.",
+        "interest_rate": "5.375%"
+    },
+    {
+        "address": "7211 Marina Del Rey, Converse, TX 78109",
+        "listing_price": "$289,000",
+        "down_payment": "$30,126",
+        "principal_and_interest": "$1,154/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "13814 Ostrich Run, San Antonio, TX 78252",
+        "listing_price": "$255,000",
+        "down_payment": "$24,722",
+        "principal_and_interest": "$1,142/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "31242 Roos River Dr, Hockley, TX 77447",
+        "listing_price": "$304,848",
+        "down_payment": "$25,373",
+        "principal_and_interest": "$1,705/mo.",
+        "interest_rate": "6%"
+    },
+    {
+        "address": "1223 Longhorn Xing, San Antonio, TX 78245",
+        "listing_price": "$339,999",
+        "down_payment": "$25,695",
+        "principal_and_interest": "$1,780/mo.",
+        "interest_rate": "5.125%"
+    },
+    {
+        "address": "180 Kaker Ct, Bridgeport, TX 76426",
+        "listing_price": "$260,000",
+        "down_payment": "$26,490",
+        "principal_and_interest": "$1,419/mo.",
+        "interest_rate": "5.875%"
+    },
+    {
+        "address": "11817 Navasota St, Manor, TX 78653",
+        "listing_price": "$315,000",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,416/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "1605 Brooking St, Belton, TX 76513",
+        "listing_price": "$215,000",
+        "down_payment": "$19,396",
+        "principal_and_interest": "$1,199/mo.",
+        "interest_rate": "6%"
+    },
+    {
+        "address": "1901 Southwood Dr, Baytown, TX 77520",
+        "listing_price": "$225,000",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,010/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "8923 Portobello Way, Converse, TX 78109",
+        "listing_price": "$276,900",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,416/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "1115 Alta Vista Dr, Killeen, TX 76549",
+        "listing_price": "$208,000",
+        "down_payment": "$46,551",
+        "principal_and_interest": "$912/mo.",
+        "interest_rate": "5.1%"
+    },
+    {
+        "address": "6814 Turnpike, Converse, TX 78109",
+        "listing_price": "$298,000",
+        "down_payment": "$30,073",
+        "principal_and_interest": "$1,642/mo.",
+        "interest_rate": "6%"
+    },
+    {
+        "address": "4713 Ascot Pkwy, Temple, TX 76502",
+        "listing_price": "$360,000",
+        "down_payment": "$6,007",
+        "principal_and_interest": "$1,577/mo.",
+        "interest_rate": "2.625%"
+    },
+    {
+        "address": "3917 Amy Ave, Garland, TX 75043",
+        "listing_price": "$340,000",
+        "down_payment": "$1,486",
+        "principal_and_interest": "$1,503/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "13507 Lunar Lgt, Saint Hedwig, TX 78152",
+        "listing_price": "$225,000",
+        "down_payment": "$41,061",
+        "principal_and_interest": "$848/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "7374 Braes Cor, San Antonio, TX 78244",
+        "listing_price": "$215,000",
+        "down_payment": "$45,394",
+        "principal_and_interest": "$750/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "8301 Grayson Trl, Killeen, TX 76542",
+        "listing_price": "$370,900",
+        "down_payment": "$36,275",
+        "principal_and_interest": "$1,479/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "850 Fm 970, Florence, TX 76527",
+        "listing_price": "$350,000",
+        "down_payment": "$24,539",
+        "principal_and_interest": "$1,399/mo.",
+        "interest_rate": "2.375%"
+    },
+    {
+        "address": "7632 Rampart Dr, Aubrey, TX 76227",
+        "listing_price": "$329,900",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,859/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "130 May Ct, Weatherford, TX 76088",
+        "listing_price": "$159,000",
+        "down_payment": "$0",
+        "principal_and_interest": "$720/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "1615 Connor Ave, Waco, TX 76706",
+        "listing_price": "$155,000",
+        "down_payment": "$29,336",
+        "principal_and_interest": "$540/mo.",
+        "interest_rate": "2.375%"
+    },
+    {
+        "address": "6566 Runaway Row, Converse, TX 78109",
+        "listing_price": "$289,999",
+        "down_payment": "$11,035",
+        "principal_and_interest": "$1,620/mo.",
+        "interest_rate": "5.375%"
+    },
+    {
+        "address": "2109 Vernice Dr, Copperas Cove, TX 76522",
+        "listing_price": "$270,000",
+        "down_payment": "$12,261",
+        "principal_and_interest": "$1,137/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "10401 Birch Peak Dr, Rosharon, TX 77583",
+        "listing_price": "$280,000",
+        "down_payment": "$4,170",
+        "principal_and_interest": "$1,243/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "13540 Leather Strap Dr, Haslet, TX 76052",
+        "listing_price": "$398,000",
+        "down_payment": "$6,435",
+        "principal_and_interest": "$1,768/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "4805 Rosaline Dr, Belton, TX 76513",
+        "listing_price": "$280,000",
+        "down_payment": "$14,812",
+        "principal_and_interest": "$1,172/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "2362 Jason Crest Ln, La Porte, TX 77571",
+        "listing_price": "$299,999",
+        "down_payment": "$15,943",
+        "principal_and_interest": "$1,256/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "9612 Falme Ln, Killeen, TX 76542",
+        "listing_price": "$247,000",
+        "down_payment": "$39,893",
+        "principal_and_interest": "$923/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "9314 Trap Rock Dr, San Antonio, TX 78211",
+        "listing_price": "$295,000",
+        "down_payment": "$32,087",
+        "principal_and_interest": "$1,471/mo.",
+        "interest_rate": "5%"
+    },
+    {
+        "address": "543 Filibusters Trl, San Antonio, TX 78220",
+        "listing_price": "$230,000",
+        "down_payment": "$10,147",
+        "principal_and_interest": "$980/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "5501 Shawn Dr, Killeen, TX 76542",
+        "listing_price": "$255,000",
+        "down_payment": "$43,234",
+        "principal_and_interest": "$994/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "5906 Horne Dr, Killeen, TX 76542",
+        "listing_price": "$225,000",
+        "down_payment": "$20,331",
+        "principal_and_interest": "$1,045/mo.",
+        "interest_rate": "4.16%"
+    },
+    {
+        "address": "7945 Cactus Plum Dr, San Antonio, TX 78254",
+        "listing_price": "$319,900",
+        "down_payment": "$49,533",
+        "principal_and_interest": "$1,223/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "3602 Iroquois Trl, Temple, TX 76504",
+        "listing_price": "$384,900",
+        "down_payment": "$33,643",
+        "principal_and_interest": "$1,981/mo.",
+        "interest_rate": "5.1%"
+    },
+    {
+        "address": "10415 Francisco Way, Converse, TX 78109",
+        "listing_price": "$299,000",
+        "down_payment": "$24,728",
+        "principal_and_interest": "$1,203/mo.",
+        "interest_rate": "2.7%"
+    },
+    {
+        "address": "625 Cypress Byu, Cibolo, TX 78108",
+        "listing_price": "$315,000",
+        "down_payment": "$24,271",
+        "principal_and_interest": "$1,285/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "10423 Idared, San Antonio, TX 78252",
+        "listing_price": "$305,000",
+        "down_payment": "$19,838",
+        "principal_and_interest": "$1,656/mo.",
+        "interest_rate": "5.375%"
+    },
+    {
+        "address": "98 N Highland Dr, Sanger, TX 76266",
+        "listing_price": "$385,000",
+        "down_payment": "$31,248",
+        "principal_and_interest": "$1,564/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "1127 Mount Olive Ln, Forney, TX 75126",
+        "listing_price": "$260,000",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,820/mo.",
+        "interest_rate": "5.11%"
+    },
+    {
+        "address": "1410 Stephen St, Killeen, TX 76549",
+        "listing_price": "$170,000",
+        "down_payment": "$9,828",
+        "principal_and_interest": "$795/mo.",
+        "interest_rate": "3.89%"
+    },
+    {
+        "address": "7322 Bowdre, San Antonio, TX 78252",
+        "listing_price": "$249,000",
+        "down_payment": "$25,264",
+        "principal_and_interest": "$1,049/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "10519 Midsummer Mdw, Converse, TX 78109",
+        "listing_price": "$249,999",
+        "down_payment": "$21,745",
+        "principal_and_interest": "$1,009/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "3504 Oglala Trl, Temple, TX 76502",
+        "listing_price": "$294,900",
+        "down_payment": "$15,968",
+        "principal_and_interest": "$1,573/mo.",
+        "interest_rate": "5.125%"
+    },
+    {
+        "address": "293 Nautical Loop, Kyle, TX 78640",
+        "listing_price": "$380,000",
+        "down_payment": "$40,325",
+        "principal_and_interest": "$1,496/mo.",
+        "interest_rate": "2.625%"
+    },
+    {
+        "address": "9604 Rogano Ct, Killeen, TX 76542",
+        "listing_price": "$279,900",
+        "down_payment": "$17,323",
+        "principal_and_interest": "$1,183/mo.",
+        "interest_rate": "2.98%"
+    },
+    {
+        "address": "108 Linda St, Anahuac, TX 77514",
+        "listing_price": "$220,000",
+        "down_payment": "$20,688",
+        "principal_and_interest": "$877/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "935 Red Merganser, San Antonio, TX 78253",
+        "listing_price": "$285,000",
+        "down_payment": "$36,613",
+        "principal_and_interest": "$1,088/mo.",
+        "interest_rate": "2.5%"
+    },
+    {
+        "address": "2373 Carson Loop, New Braunfels, TX 78130",
+        "listing_price": "$249,000",
+        "down_payment": "$19,205",
+        "principal_and_interest": "$1,024/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "200 Walnut St, Chico, TX 76431",
+        "listing_price": "$274,495",
+        "down_payment": "$35,550",
+        "principal_and_interest": "$1,047/mo.",
+        "interest_rate": "2.5%"
+    },
+    {
+        "address": "5638 Barkridge Dr, Granbury, TX 76048",
+        "listing_price": "$285,000",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,428/mo.",
+        "interest_rate": "3.69%"
+    },
+    {
+        "address": "4734 Lyndys Farm, San Antonio, TX 78244",
+        "listing_price": "$230,000",
+        "down_payment": "$14,684",
+        "principal_and_interest": "$970/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "500 Comal Run, Hutto, TX 78634",
+        "listing_price": "$350,000",
+        "down_payment": "$28,566",
+        "principal_and_interest": "$1,433/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "7118 Elgin St, Pearland, TX 77584",
+        "listing_price": "$319,000",
+        "down_payment": "$31,629",
+        "principal_and_interest": "$1,265/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "10021 Cedar Lake Dr, Providence Village, TX 76227",
+        "listing_price": "$295,000",
+        "down_payment": "$29,460",
+        "principal_and_interest": "$1,169/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "14838 Maverick Ave, San Antonio, TX 78217",
+        "listing_price": "$315,000",
+        "down_payment": "$32,230",
+        "principal_and_interest": "$1,247/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "177 Cuban Emerald, San Antonio, TX 78253",
+        "listing_price": "$308,000",
+        "down_payment": "$22,030",
+        "principal_and_interest": "$1,288/mo.",
+        "interest_rate": "2.98%"
+    },
+    {
+        "address": "11675 Folsom Pass, San Antonio, TX 78245",
+        "listing_price": "$355,000",
+        "down_payment": "$31,123",
+        "principal_and_interest": "$1,444/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "2977 County Road 1545, Crockett, TX 75835",
+        "listing_price": "$310,000",
+        "down_payment": "$43,422",
+        "principal_and_interest": "$1,168/mo.",
+        "interest_rate": "2.5%"
+    },
+    {
+        "address": "732 Olaf Dr, Temple, TX 76504",
+        "listing_price": "$305,000",
+        "down_payment": "$6,711",
+        "principal_and_interest": "$1,401/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "4325 E Bayou Maison Cir, Dickinson, TX 77539",
+        "listing_price": "$295,000",
+        "down_payment": "$27,276",
+        "principal_and_interest": "$1,203/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "4914 Drovers Path, Saint Hedwig, TX 78152",
+        "listing_price": "$305,000",
+        "down_payment": "$28,209",
+        "principal_and_interest": "$1,244/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "9907 Kents Store St, San Antonio, TX 78245",
+        "listing_price": "$219,999",
+        "down_payment": "$24,784",
+        "principal_and_interest": "$867/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "945 Sam St, Springtown, TX 76082",
+        "listing_price": "$299,900",
+        "down_payment": "$49,612",
+        "principal_and_interest": "$1,073/mo.",
+        "interest_rate": "2.375%"
+    },
+    {
+        "address": "323 Big Hawk, New Braunfels, TX 78130",
+        "listing_price": "$339,000",
+        "down_payment": "$38,988",
+        "principal_and_interest": "$1,326/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "1815 Overlook Knl, San Antonio, TX 78245",
+        "listing_price": "$300,000",
+        "down_payment": "$38,061",
+        "principal_and_interest": "$1,182/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "22535 Aspen Tarn Trl, Spring, TX 77373",
+        "listing_price": "$244,000",
+        "down_payment": "$20,082",
+        "principal_and_interest": "$1,009/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "5708 Black Pine Cir, Granbury, TX 76048",
+        "listing_price": "$300,000",
+        "down_payment": "$37,442",
+        "principal_and_interest": "$1,151/mo.",
+        "interest_rate": "2.7%"
+    },
+    {
+        "address": "831 S Flores St, San Antonio, TX 78204",
+        "listing_price": "$319,999",
+        "down_payment": "$43,743",
+        "principal_and_interest": "$1,216/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "717 Acacia Dr, Anna, TX 75409",
+        "listing_price": "$290,000",
+        "down_payment": "$29,503",
+        "principal_and_interest": "$1,161/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "4104 Princess Point Ct, Forney, TX 75126",
+        "listing_price": "$344,500",
+        "down_payment": "$41,026",
+        "principal_and_interest": "$1,336/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "5514 Bat Cyn, San Antonio, TX 78252",
+        "listing_price": "$225,000",
+        "down_payment": "$28,654",
+        "principal_and_interest": "$861/mo.",
+        "interest_rate": "2.7%"
+    },
+    {
+        "address": "16427 Dawncrest Way, Sugar Land, TX 77498",
+        "listing_price": "$262,500",
+        "down_payment": "$27,123",
+        "principal_and_interest": "$1,049/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "722 Aberdeen Pl, San Antonio, TX 78210",
+        "listing_price": "$189,000",
+        "down_payment": "$6,732",
+        "principal_and_interest": "$854/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "1603 Advance Dr, San Antonio, TX 78220",
+        "listing_price": "$170,000",
+        "down_payment": "$23,617",
+        "principal_and_interest": "$644/mo.",
+        "interest_rate": "2.625%"
+    },
+    {
+        "address": "3916 Ancient Song, San Antonio, TX 78245",
+        "listing_price": "$269,999",
+        "down_payment": "$30,123",
+        "principal_and_interest": "$1,069/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "505 Sapphire Ln, Jarrell, TX 76537",
+        "listing_price": "$268,000",
+        "down_payment": "$30,064",
+        "principal_and_interest": "$1,061/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "224 Maddox St, Clute, TX 77531",
+        "listing_price": "$210,000",
+        "down_payment": "$24,024",
+        "principal_and_interest": "$829/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "211 Shady Ln, Livingston, TX 77351",
+        "listing_price": "$335,000",
+        "down_payment": "$44,219",
+        "principal_and_interest": "$1,285/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "1609 Glenbrook St, Corsicana, TX 75110",
+        "listing_price": "$379,999",
+        "down_payment": "$37,136",
+        "principal_and_interest": "$1,548/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "8907 Ridge Hollow St, San Antonio, TX 78250",
+        "listing_price": "$245,000",
+        "down_payment": "$28,180",
+        "principal_and_interest": "$974/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "5839 Lake Champlain St, San Antonio, TX 78233",
+        "listing_price": "$270,000",
+        "down_payment": "$26,751",
+        "principal_and_interest": "$1,096/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "121 Everest Ct, Burleson, TX 76028",
+        "listing_price": "$409,900",
+        "down_payment": "$41,111",
+        "principal_and_interest": "$1,662/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "4007 Somers Crst, San Antonio, TX 78211",
+        "listing_price": "$245,000",
+        "down_payment": "$11,958",
+        "principal_and_interest": "$1,092/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "2308 Terrace Dr, Killeen, TX 76543",
+        "listing_price": "$169,900",
+        "down_payment": "$22,905",
+        "principal_and_interest": "$647/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "408 Town Frk, Cibolo, TX 78108",
+        "listing_price": "$305,000",
+        "down_payment": "$41,446",
+        "principal_and_interest": "$1,163/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "1035 Northern Oaks Ct, Springtown, TX 76082",
+        "listing_price": "$429,000",
+        "down_payment": "$43,710",
+        "principal_and_interest": "$1,736/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "23923 Sage Row Ln, Katy, TX 77493",
+        "listing_price": "$415,000",
+        "down_payment": "$49,706",
+        "principal_and_interest": "$1,629/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "18693 Swainboro Dr, New Caney, TX 77357",
+        "listing_price": "$289,900",
+        "down_payment": "$39,736",
+        "principal_and_interest": "$1,106/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "1219 Glencoe Dr, Glenn Heights, TX 75154",
+        "listing_price": "$350,000",
+        "down_payment": "$48,714",
+        "principal_and_interest": "$1,326/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "12056 Latour Vly, San Antonio, TX 78252",
+        "listing_price": "$235,000",
+        "down_payment": "$28,758",
+        "principal_and_interest": "$933/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "145 Horsemint Way, San Marcos, TX 78666",
+        "listing_price": "$315,000",
+        "down_payment": "$44,047",
+        "principal_and_interest": "$1,193/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "7727 Vacek Meadows Loop, Richmond, TX 77469",
+        "listing_price": "$245,000",
+        "down_payment": "$47,175",
+        "principal_and_interest": "$850/mo.",
+        "interest_rate": "2.375%"
+    },
+    {
+        "address": "2506 Ventura Dr, League City, TX 77573",
+        "listing_price": "$430,000",
+        "down_payment": "$46,075",
+        "principal_and_interest": "$1,733/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "2019 Deer Field Way, Harker Heights, TX 76548",
+        "listing_price": "$290,000",
+        "down_payment": "$41,109",
+        "principal_and_interest": "$1,098/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "15859 Misty Loch Ln, Houston, TX 77084",
+        "listing_price": "$210,000",
+        "down_payment": "$29,993",
+        "principal_and_interest": "$796/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "7104 Andalucia St, Killeen, TX 76542",
+        "listing_price": "$325,000",
+        "down_payment": "$46,482",
+        "principal_and_interest": "$1,226/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "13521 Martha Washington Pl, Manor, TX 78653",
+        "listing_price": "$321,000",
+        "down_payment": "$46,005",
+        "principal_and_interest": "$1,216/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "616 Elizabeth Ln, Bastrop, TX 78602",
+        "listing_price": "$375,000",
+        "down_payment": "$12,748",
+        "principal_and_interest": "$1,733/mo.",
+        "interest_rate": "3.55%"
+    },
+    {
+        "address": "1806 Kangaroo Ave, Killeen, TX 76543",
+        "listing_price": "$175,500",
+        "down_payment": "$19,516",
+        "principal_and_interest": "$703/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "15102 Jetfire Pt, Von Ormy, TX 78073",
+        "listing_price": "$340,000",
+        "down_payment": "$49,838",
+        "principal_and_interest": "$1,277/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "2407 High Spruce Cir, Spring, TX 77373",
+        "listing_price": "$284,999",
+        "down_payment": "$32,012",
+        "principal_and_interest": "$1,142/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "3709 Rusack Dr, Killeen, TX 76542",
+        "listing_price": "$332,000",
+        "down_payment": "$48,792",
+        "principal_and_interest": "$1,252/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "11707 Silver Fld, San Antonio, TX 78254",
+        "listing_price": "$294,000",
+        "down_payment": "$38,214",
+        "principal_and_interest": "$1,150/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "421 House St, Lufkin, TX 75904",
+        "listing_price": "$299,900",
+        "down_payment": "$33,927",
+        "principal_and_interest": "$1,201/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "7345 Ventura Ln, Grand Prairie, TX 75054",
+        "listing_price": "$357,000",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,795/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "265 Remington Rd, Tuscola, TX 79562",
+        "listing_price": "$329,900",
+        "down_payment": "$3,520",
+        "principal_and_interest": "$1,597/mo.",
+        "interest_rate": "3.75%"
+    },
+    {
+        "address": "4734 Night Herder, Saint Hedwig, TX 78152",
+        "listing_price": "$297,999",
+        "down_payment": "$39,053",
+        "principal_and_interest": "$1,154/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "3507 Addison St, Killeen, TX 76542",
+        "listing_price": "$245,000",
+        "down_payment": "$21,809",
+        "principal_and_interest": "$1,103/mo.",
+        "interest_rate": "3.85%"
+    },
+    {
+        "address": "17110 Mystic River Ln, Conroe, TX 77302",
+        "listing_price": "$390,000",
+        "down_payment": "$24,449",
+        "principal_and_interest": "$1,717/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "9334 Nubuck Br, Converse, TX 78109",
+        "listing_price": "$296,000",
+        "down_payment": "$44,090",
+        "principal_and_interest": "$1,118/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "6918 Jennings Dr, Abilene, TX 79606",
+        "listing_price": "$270,000",
+        "down_payment": "$31,240",
+        "principal_and_interest": "$1,078/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "134 E High Ave, San Antonio, TX 78210",
+        "listing_price": "$284,000",
+        "down_payment": "$18,854",
+        "principal_and_interest": "$1,245/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "3717 Limestone Mesa, Schertz, TX 78154",
+        "listing_price": "$340,000",
+        "down_payment": "$46,030",
+        "principal_and_interest": "$1,310/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "6708 Parker Oaks Ln, Houston, TX 77076",
+        "listing_price": "$285,900",
+        "down_payment": "$45,187",
+        "principal_and_interest": "$1,064/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "313 Elm St, Copperas Cove, TX 76522",
+        "listing_price": "$159,400",
+        "down_payment": "$25,443",
+        "principal_and_interest": "$589/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "3612 Judges Dr, Ennis, TX 75119",
+        "listing_price": "$257,000",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,281/mo.",
+        "interest_rate": "3.92%"
+    },
+    {
+        "address": "21318 Russell Chase Dr, Porter, TX 77365",
+        "listing_price": "$374,999",
+        "down_payment": "$47,594",
+        "principal_and_interest": "$1,475/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "7707 Watersedge Cv, San Antonio, TX 78254",
+        "listing_price": "$335,000",
+        "down_payment": "$48,521",
+        "principal_and_interest": "$1,288/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "3401 Knight Ln, Baytown, TX 77521",
+        "listing_price": "$265,000",
+        "down_payment": "$38,498",
+        "principal_and_interest": "$1,010/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "4307 Brigadier Dr, Converse, TX 78109",
+        "listing_price": "$287,000",
+        "down_payment": "$47,054",
+        "principal_and_interest": "$1,065/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "5015 Cassiopeia, San Antonio, TX 78245",
+        "listing_price": "$298,999",
+        "down_payment": "$49,592",
+        "principal_and_interest": "$1,098/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "3254 Old Almonte Dr, San Antonio, TX 78224",
+        "listing_price": "$287,000",
+        "down_payment": "$23,268",
+        "principal_and_interest": "$1,239/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "2008 Clairidge Ave, Killeen, TX 76549",
+        "listing_price": "$207,900",
+        "down_payment": "$28,005",
+        "principal_and_interest": "$812/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "909 Kiowa Dr, Burkburnett, TX 76354",
+        "listing_price": "$289,900",
+        "down_payment": "$47,417",
+        "principal_and_interest": "$1,071/mo.",
+        "interest_rate": "2.8%"
+    },
+    {
+        "address": "2985 Willow Pl, Beaumont, TX 77707",
+        "listing_price": "$165,000",
+        "down_payment": "$22,457",
+        "principal_and_interest": "$668/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "8011 Chasemont Ct, Converse, TX 78109",
+        "listing_price": "$269,900",
+        "down_payment": "$46,053",
+        "principal_and_interest": "$1,016/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "15603 Wood Sorrel, San Antonio, TX 78247",
+        "listing_price": "$256,000",
+        "down_payment": "$25,752",
+        "principal_and_interest": "$1,145/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "411 Dandelion Bnd, San Antonio, TX 78245",
+        "listing_price": "$290,000",
+        "down_payment": "$49,898",
+        "principal_and_interest": "$1,057/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "141 Bell St, Abilene, TX 79602",
+        "listing_price": "$406,500",
+        "down_payment": "$115",
+        "principal_and_interest": "$1,963/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "3509 Fortner Way, Fort Worth, TX 76116",
+        "listing_price": "$235,000",
+        "down_payment": "$21,309",
+        "principal_and_interest": "$1,004/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "2041 Woodard St, Abilene, TX 79605",
+        "listing_price": "$199,900",
+        "down_payment": "$35,344",
+        "principal_and_interest": "$730/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "6161 Lavaca Dr, Belton, TX 76513",
+        "listing_price": "$340,000",
+        "down_payment": "$16,429",
+        "principal_and_interest": "$1,828/mo.",
+        "interest_rate": "5.1%"
+    },
+    {
+        "address": "639 Hummingbird Hl, Canyon Lake, TX 78133",
+        "listing_price": "$339,900",
+        "down_payment": "$44,782",
+        "principal_and_interest": "$1,413/mo.",
+        "interest_rate": "3.56%"
+    },
+    {
+        "address": "4430 Heathers Dawn, Saint Hedwig, TX 78152",
+        "listing_price": "$280,000",
+        "down_payment": "$45,923",
+        "principal_and_interest": "$1,052/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "3404 Catalina Dr, Killeen, TX 76549",
+        "listing_price": "$235,000",
+        "down_payment": "$38,677",
+        "principal_and_interest": "$882/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "7834 London Tower Ln, Houston, TX 77044",
+        "listing_price": "$300,000",
+        "down_payment": "$49,708",
+        "principal_and_interest": "$1,130/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "349 Wagon Wheel Way, Cibolo, TX 78108",
+        "listing_price": "$345,000",
+        "down_payment": "$33,551",
+        "principal_and_interest": "$1,463/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "723 Ridingate Farm, San Antonio, TX 78228",
+        "listing_price": "$295,000",
+        "down_payment": "$43,997",
+        "principal_and_interest": "$1,133/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "17811 Oxford Mt, Helotes, TX 78023",
+        "listing_price": "$469,900",
+        "down_payment": "$45,861",
+        "principal_and_interest": "$1,992/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "18515 Egret Bay Blvd Apt 1201 # 1201, Houston, TX 77058",
+        "listing_price": "$193,000",
+        "down_payment": "$2,529",
+        "principal_and_interest": "$935/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "23303 Canyon Lake Dr, Spring, TX 77373",
+        "listing_price": "$250,316",
+        "down_payment": "$46,368",
+        "principal_and_interest": "$898/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "1025 Mulberry St, Abilene, TX 79601",
+        "listing_price": "$202,000",
+        "down_payment": "$20,074",
+        "principal_and_interest": "$854/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "5607 Schorn Dr, Killeen, TX 76542",
+        "listing_price": "$295,000",
+        "down_payment": "$31,052",
+        "principal_and_interest": "$1,298/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "3217 S 5th St, Abilene, TX 79605",
+        "listing_price": "$160,000",
+        "down_payment": "$24,323",
+        "principal_and_interest": "$611/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "5108 Parkwood Dr, Killeen, TX 76542",
+        "listing_price": "$199,900",
+        "down_payment": "$33,825",
+        "principal_and_interest": "$746/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "105 Wisteria St, Richwood, TX 77531",
+        "listing_price": "$220,000",
+        "down_payment": "$5,153",
+        "principal_and_interest": "$1,184/mo.",
+        "interest_rate": "3.94%"
+    },
+    {
+        "address": "1804 SE 12th St, Mineral Wells, TX 76067",
+        "listing_price": "$250,000",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,606/mo.",
+        "interest_rate": "5.125%"
+    },
+    {
+        "address": "4602 Janelle Dr, Killeen, TX 76549",
+        "listing_price": "$225,000",
+        "down_payment": "$11,684",
+        "principal_and_interest": "$1,043/mo.",
+        "interest_rate": "3.76%"
+    },
+    {
+        "address": "2301 Birdwell Cv, Forney, TX 75126",
+        "listing_price": "$399,999",
+        "down_payment": "$42,446",
+        "principal_and_interest": "$1,679/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "6108 Abrams Rd Apt 103 # 103, Dallas, TX 75231",
+        "listing_price": "$89,900",
+        "down_payment": "$9,582",
+        "principal_and_interest": "$377/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "2108 Nimitz Dr, Killeen, TX 76543",
+        "listing_price": "$235,000",
+        "down_payment": "$13,761",
+        "principal_and_interest": "$1,253/mo.",
+        "interest_rate": "5.125%"
+    },
+    {
+        "address": "221 Timber Ridge Dr, Nolanville, TX 76559",
+        "listing_price": "$260,000",
+        "down_payment": "$45,858",
+        "principal_and_interest": "$954/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "4812 Water Oak Dr, Killeen, TX 76542",
+        "listing_price": "$225,000",
+        "down_payment": "$43,679",
+        "principal_and_interest": "$800/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "6530 Robin Frst, San Antonio, TX 78239",
+        "listing_price": "$239,000",
+        "down_payment": "$37,394",
+        "principal_and_interest": "$905/mo.",
+        "interest_rate": "3.05%"
+    },
+    {
+        "address": "10450 De Gonzalo Way, Converse, TX 78109",
+        "listing_price": "$227,000",
+        "down_payment": "$49,022",
+        "principal_and_interest": "$793/mo.",
+        "interest_rate": "2.625%"
+    },
+    {
+        "address": "5590 Spring Valley Rd # E, Dallas, TX 75254",
+        "listing_price": "$179,900",
+        "down_payment": "$38,883",
+        "principal_and_interest": "$628/mo.",
+        "interest_rate": "2.625%"
+    },
+    {
+        "address": "104 Memita Rd, Jarrell, TX 76537",
+        "listing_price": "$279,000",
+        "down_payment": "$8,062",
+        "principal_and_interest": "$1,316/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "733 S La Salle Dr, Abilene, TX 79605",
+        "listing_price": "$189,900",
+        "down_payment": "$38,163",
+        "principal_and_interest": "$668/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "1458 Bel Air Dr, Abilene, TX 79603",
+        "listing_price": "$179,900",
+        "down_payment": "$45,655",
+        "principal_and_interest": "$575/mo.",
+        "interest_rate": "2.375%"
+    },
+    {
+        "address": "6909 Oliver Loving Dr, Killeen, TX 76549",
+        "listing_price": "$239,900",
+        "down_payment": "$44,775",
+        "principal_and_interest": "$881/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "100 Wilson Ct, Hutto, TX 78634",
+        "listing_price": "$360,000",
+        "down_payment": "$11,679",
+        "principal_and_interest": "$1,713/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "618 Woodard Ave, Cleburne, TX 76033",
+        "listing_price": "$195,000",
+        "down_payment": "$10,722",
+        "principal_and_interest": "$910/mo.",
+        "interest_rate": "3.85%"
+    },
+    {
+        "address": "4540 Chaha Rd Apt 201 # 201, Garland, TX 75043",
+        "listing_price": "$170,000",
+        "down_payment": "$5,845",
+        "principal_and_interest": "$811/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "9035 Interlachen, Selma, TX 78154",
+        "listing_price": "$258,999",
+        "down_payment": "$44,535",
+        "principal_and_interest": "$966/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "4554 Martin Way, San Antonio, TX 78222",
+        "listing_price": "$325,000",
+        "down_payment": "$11,324",
+        "principal_and_interest": "$1,536/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "0 Bright Sun Dr, Houston, TX 77048",
+        "listing_price": "$289,900",
+        "down_payment": "$10,741",
+        "principal_and_interest": "$1,365/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "8846 Barrow Path, Converse, TX 78109",
+        "listing_price": "$299,999",
+        "down_payment": "$11,430",
+        "principal_and_interest": "$1,440/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "11131 30th Ave N, Texas City, TX 77591",
+        "listing_price": "$345,000",
+        "down_payment": "$42,811",
+        "principal_and_interest": "$1,419/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "11375 Olney Spgs, San Antonio, TX 78245",
+        "listing_price": "$182,500",
+        "down_payment": "$41,675",
+        "principal_and_interest": "$628/mo.",
+        "interest_rate": "2.625%"
+    },
+    {
+        "address": "413 Big Timber Dr, Temple, TX 76502",
+        "listing_price": "$275,000",
+        "down_payment": "$4,811",
+        "principal_and_interest": "$1,380/mo.",
+        "interest_rate": "4.16%"
+    },
+    {
+        "address": "6247 Ozona Ml, San Antonio, TX 78253",
+        "listing_price": "$415,000",
+        "down_payment": "$16,491",
+        "principal_and_interest": "$1,973/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "9207 Hartford Valley Trl, Baytown, TX 77521",
+        "listing_price": "$410,000",
+        "down_payment": "$33,828",
+        "principal_and_interest": "$1,828/mo.",
+        "interest_rate": "3.69%"
+    },
+    {
+        "address": "4526 Don Juan St, Abilene, TX 79605",
+        "listing_price": "$199,900",
+        "down_payment": "$35,480",
+        "principal_and_interest": "$742/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "3008 Belmont Dr, Killeen, TX 76549",
+        "listing_price": "$230,000",
+        "down_payment": "$19,133",
+        "principal_and_interest": "$1,025/mo.",
+        "interest_rate": "3.69%"
+    },
+    {
+        "address": "7210 Willow Rain, San Antonio, TX 78244",
+        "listing_price": "$246,000",
+        "down_payment": "$48,205",
+        "principal_and_interest": "$912/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "276 Broadmoor Dr, Brookeland, TX 75931",
+        "listing_price": "$369,500",
+        "down_payment": "$31,547",
+        "principal_and_interest": "$1,643/mo.",
+        "interest_rate": "3.69%"
+    },
+    {
+        "address": "232 Governor Hogg Dr, Pointblank, TX 77364",
+        "listing_price": "$199,000",
+        "down_payment": "$22,307",
+        "principal_and_interest": "$886/mo.",
+        "interest_rate": "3.5%"
+    },
+    {
+        "address": "2 Finley Cir, Krum, TX 76249",
+        "listing_price": "$297,000",
+        "down_payment": "$12,951",
+        "principal_and_interest": "$1,415/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "9915 Loma Alta Cir, Converse, TX 78109",
+        "listing_price": "$394,990",
+        "down_payment": "$18,367",
+        "principal_and_interest": "$1,853/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "2806 Live Oak Dr, Copperas Cove, TX 76522",
+        "listing_price": "$170,000",
+        "down_payment": "$24,156",
+        "principal_and_interest": "$685/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "6309 Creek Land Rd, Killeen, TX 76549",
+        "listing_price": "$269,000",
+        "down_payment": "$22,206",
+        "principal_and_interest": "$1,208/mo.",
+        "interest_rate": "3.75%"
+    },
+    {
+        "address": "3131 Canterbury Ln, Montgomery, TX 77356",
+        "listing_price": "$420,000",
+        "down_payment": "$26,772",
+        "principal_and_interest": "$1,962/mo.",
+        "interest_rate": "3.92%"
+    },
+    {
+        "address": "5633 Topwater Trl, Fort Worth, TX 76119",
+        "listing_price": "$259,900",
+        "down_payment": "$13,996",
+        "principal_and_interest": "$1,208/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "8504 Platinum Dr, Killeen, TX 76542",
+        "listing_price": "$419,500",
+        "down_payment": "$31,342",
+        "principal_and_interest": "$1,918/mo.",
+        "interest_rate": "3.85%"
+    },
+    {
+        "address": "1147 W Rosewood Ave, San Antonio, TX 78201",
+        "listing_price": "$229,870",
+        "down_payment": "$33,216",
+        "principal_and_interest": "$923/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "636 Kyle St, Angleton, TX 77515",
+        "listing_price": "$165,000",
+        "down_payment": "$38,154",
+        "principal_and_interest": "$563/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "4819 Galewood Ave, San Antonio, TX 78247",
+        "listing_price": "$309,900",
+        "down_payment": "$35,904",
+        "principal_and_interest": "$1,348/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "434 Appalachian Trl, Copperas Cove, TX 76522",
+        "listing_price": "$278,000",
+        "down_payment": "$17,097",
+        "principal_and_interest": "$1,267/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "6810 Red Yucca Rd, Abilene, TX 79606",
+        "listing_price": "$350,000",
+        "down_payment": "$25,500",
+        "principal_and_interest": "$1,616/mo.",
+        "interest_rate": "3.92%"
+    },
+    {
+        "address": "11351 Dawn Beach Ln, Conroe, TX 77304",
+        "listing_price": "$270,000",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,715/mo.",
+        "interest_rate": "5.25%"
+    },
+    {
+        "address": "2707 Stonehedge Dr, Baytown, TX 77521",
+        "listing_price": "$215,000",
+        "down_payment": "$46,868",
+        "principal_and_interest": "$759/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "1107 Bluebonnet Hill Dr, Ennis, TX 75119",
+        "listing_price": "$269,000",
+        "down_payment": "$11,151",
+        "principal_and_interest": "$1,319/mo.",
+        "interest_rate": "4.16%"
+    },
+    {
+        "address": "1526 Stony Island Dr, San Antonio, TX 78245",
+        "listing_price": "$344,999",
+        "down_payment": "$22,200",
+        "principal_and_interest": "$1,588/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "110 E Rob Ave, Corsicana, TX 75110",
+        "listing_price": "$155,000",
+        "down_payment": "$42,031",
+        "principal_and_interest": "$493/mo.",
+        "interest_rate": "2.5%"
+    },
+    {
+        "address": "3222 Cumby Dr, Royse City, TX 75189",
+        "listing_price": "$409,900",
+        "down_payment": "$32,997",
+        "principal_and_interest": "$1,871/mo.",
+        "interest_rate": "3.89%"
+    },
+    {
+        "address": "2707 Volute Ct, Houston, TX 77038",
+        "listing_price": "$277,777",
+        "down_payment": "$18,163",
+        "principal_and_interest": "$1,267/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "17031 Stones River Ln, Humble, TX 77346",
+        "listing_price": "$415,000",
+        "down_payment": "$28,142",
+        "principal_and_interest": "$1,885/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "3915 Southern Sky, San Antonio, TX 78222",
+        "listing_price": "$265,000",
+        "down_payment": "$18,043",
+        "principal_and_interest": "$1,220/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "3327 Carriage Cir, Sherman, TX 75092",
+        "listing_price": "$289,000",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,821/mo.",
+        "interest_rate": "5.25%"
+    },
+    {
+        "address": "3207 Pine St, Dallas, TX 75215",
+        "listing_price": "$195,000",
+        "down_payment": "$40,653",
+        "principal_and_interest": "$695/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "2502 Golden Rain, San Antonio, TX 78245",
+        "listing_price": "$405,000",
+        "down_payment": "$40,579",
+        "principal_and_interest": "$1,790/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "6807 Cougar Clf, San Antonio, TX 78242",
+        "listing_price": "$203,999",
+        "down_payment": "$15,083",
+        "principal_and_interest": "$1,057/mo.",
+        "interest_rate": "5%"
+    },
+    {
+        "address": "2104 Brantley Ave, Copperas Cove, TX 76522",
+        "listing_price": "$175,000",
+        "down_payment": "$7,405",
+        "principal_and_interest": "$958/mo.",
+        "interest_rate": "5.23%"
+    },
+    {
+        "address": "3701 Chevy Chase Dr, Nacogdoches, TX 75965",
+        "listing_price": "$348,500",
+        "down_payment": "$33,572",
+        "principal_and_interest": "$1,556/mo.",
+        "interest_rate": "3.85%"
+    },
+    {
+        "address": "7912 Hidden Path Ln, Denton, TX 76210",
+        "listing_price": "$380,000",
+        "down_payment": "$29,056",
+        "principal_and_interest": "$1,718/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "1102 Jefferson Ave, Cleveland, TX 77327",
+        "listing_price": "$262,000",
+        "down_payment": "$42,767",
+        "principal_and_interest": "$1,030/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "1028 Rs County Road 4261, Emory, TX 75440",
+        "listing_price": "$415,000",
+        "down_payment": "$41,398",
+        "principal_and_interest": "$1,846/mo.",
+        "interest_rate": "3.85%"
+    },
+    {
+        "address": "109 Myers Ave, Cleburne, TX 76033",
+        "listing_price": "$314,995",
+        "down_payment": "$28,551",
+        "principal_and_interest": "$1,426/mo.",
+        "interest_rate": "3.92%"
+    },
+    {
+        "address": "13907 Cyprus Sedge, San Antonio, TX 78254",
+        "listing_price": "$295,000",
+        "down_payment": "$33,363",
+        "principal_and_interest": "$1,279/mo.",
+        "interest_rate": "3.76%"
+    },
+    {
+        "address": "4402 Janelle Dr, Killeen, TX 76549",
+        "listing_price": "$215,000",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,308/mo.",
+        "interest_rate": "5.125%"
+    },
+    {
+        "address": "424 Waterline Dr, Crowley, TX 76036",
+        "listing_price": "$399,000",
+        "down_payment": "$49,153",
+        "principal_and_interest": "$1,700/mo.",
+        "interest_rate": "3.69%"
+    },
+    {
+        "address": "12513 Burninglog Ln, Dallas, TX 75243",
+        "listing_price": "$365,000",
+        "down_payment": "$42,393",
+        "principal_and_interest": "$1,579/mo.",
+        "interest_rate": "3.75%"
+    },
+    {
+        "address": "6508 Deorsam Loop, Killeen, TX 76542",
+        "listing_price": "$265,000",
+        "down_payment": "$25,722",
+        "principal_and_interest": "$1,349/mo.",
+        "interest_rate": "5.1%"
+    },
+    {
+        "address": "1908 Chattanooga Dr, Bedford, TX 76022",
+        "listing_price": "$365,000",
+        "down_payment": "$30,555",
+        "principal_and_interest": "$1,617/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "27100 Meadowmore Ct # 302, Whitney, TX 76692",
+        "listing_price": "$309,900",
+        "down_payment": "$39,538",
+        "principal_and_interest": "$1,314/mo.",
+        "interest_rate": "3.69%"
+    },
+    {
+        "address": "4090 Woodlawn St, Beaumont, TX 77703",
+        "listing_price": "$100,000",
+        "down_payment": "$17,308",
+        "principal_and_interest": "$406/mo.",
+        "interest_rate": "3.375%"
+    },
+    {
+        "address": "2700 Boyd Ave, Killeen, TX 76543",
+        "listing_price": "$199,500",
+        "down_payment": "$48,483",
+        "principal_and_interest": "$679/mo.",
+        "interest_rate": "2.875%"
+    },
+    {
+        "address": "4311 Waterproof, Killeen, TX 76549",
+        "listing_price": "$235,000",
+        "down_payment": "$41,134",
+        "principal_and_interest": "$967/mo.",
+        "interest_rate": "3.92%"
+    },
+    {
+        "address": "2308 32nd Ave N, Texas City, TX 77590",
+        "listing_price": "$129,900",
+        "down_payment": "$34,112",
+        "principal_and_interest": "$425/mo.",
+        "interest_rate": "2.75%"
+    },
+    {
+        "address": "13001 Ryden Dr, Live Oak, TX 78233",
+        "listing_price": "$269,500",
+        "down_payment": "$24,801",
+        "principal_and_interest": "$1,211/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "1126 Rosebay Rd, Baytown, TX 77521",
+        "listing_price": "$237,900",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,432/mo.",
+        "interest_rate": "5.125%"
+    },
+    {
+        "address": "2610 Homestead Loop, San Antonio, TX 78245",
+        "listing_price": "$315,000",
+        "down_payment": "$23,001",
+        "principal_and_interest": "$1,494/mo.",
+        "interest_rate": "4.16%"
+    },
+    {
+        "address": "4534 Beaus Way, Garland, TX 75043",
+        "listing_price": "$350,000",
+        "down_payment": "$13,048",
+        "principal_and_interest": "$1,771/mo.",
+        "interest_rate": "4.42%"
+    },
+    {
+        "address": "405 High Tech Dr # 9A, Georgetown, TX 78626",
+        "listing_price": "$339,000",
+        "down_payment": "$1,157",
+        "principal_and_interest": "$1,825/mo.",
+        "interest_rate": "4.67%"
+    },
+    {
+        "address": "31214 Zacara Ln, Fulshear, TX 77441",
+        "listing_price": "$319,000",
+        "down_payment": "$30,729",
+        "principal_and_interest": "$1,432/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "15010 Rolling Oaks Dr, Houston, TX 77070",
+        "listing_price": "$295,000",
+        "down_payment": "$28,918",
+        "principal_and_interest": "$1,317/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "6518 Tudor Pl, Aubrey, TX 76227",
+        "listing_price": "$395,000",
+        "down_payment": "$39,483",
+        "principal_and_interest": "$1,757/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "3949 Ridgway Rd, Abilene, TX 79606",
+        "listing_price": "$279,900",
+        "down_payment": "$45,602",
+        "principal_and_interest": "$1,121/mo.",
+        "interest_rate": "3.55%"
+    },
+    {
+        "address": "182 Lt Rusty Dr, Jarrell, TX 76537",
+        "listing_price": "$285,000",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,604/mo.",
+        "interest_rate": "4.875%"
+    },
+    {
+        "address": "9310 Poplar Bluff Ln, Houston, TX 77095",
+        "listing_price": "$389,900",
+        "down_payment": "$39,963",
+        "principal_and_interest": "$1,713/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "2909 Canadian River Loop, Killeen, TX 76549",
+        "listing_price": "$339,900",
+        "down_payment": "$49,716",
+        "principal_and_interest": "$1,410/mo.",
+        "interest_rate": "3.69%"
+    },
+    {
+        "address": "3413 Oleander Ave, Texas City, TX 77590",
+        "listing_price": "$175,000",
+        "down_payment": "$49,522",
+        "principal_and_interest": "$550/mo.",
+        "interest_rate": "2.7%"
+    },
+    {
+        "address": "761 Rushing Banks, Cibolo, TX 78108",
+        "listing_price": "$448,000",
+        "down_payment": "$46,722",
+        "principal_and_interest": "$1,980/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "2808 Kneese Dr, Belton, TX 76513",
+        "listing_price": "$297,900",
+        "down_payment": "$31,287",
+        "principal_and_interest": "$1,322/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "3001 Murworth Dr # 1704, Houston, TX 77025",
+        "listing_price": "$199,900",
+        "down_payment": "$48,543",
+        "principal_and_interest": "$711/mo.",
+        "interest_rate": "3%"
+    },
+    {
+        "address": "5834 Les Harrison Dr, San Antonio, TX 78250",
+        "listing_price": "$259,900",
+        "down_payment": "$22,115",
+        "principal_and_interest": "$1,216/mo.",
+        "interest_rate": "4.16%"
+    },
+    {
+        "address": "2711 Darwin Dr, Wichita Falls, TX 76308",
+        "listing_price": "$229,900",
+        "down_payment": "$40,581",
+        "principal_and_interest": "$949/mo.",
+        "interest_rate": "3.5%"
+    },
+    {
+        "address": "1106 Liberty Bell Loop, Killeen, TX 76543",
+        "listing_price": "$190,000",
+        "down_payment": "$27,104",
+        "principal_and_interest": "$796/mo.",
+        "interest_rate": "3.76%"
+    },
+    {
+        "address": "9919 Fortune Ridge Dr, Converse, TX 78109",
+        "listing_price": "$255,000",
+        "down_payment": "$28,445",
+        "principal_and_interest": "$1,121/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "707 Acacia Park Ln, Rosharon, TX 77583",
+        "listing_price": "$255,000",
+        "down_payment": "$46,073",
+        "principal_and_interest": "$1,048/mo.",
+        "interest_rate": "3.5%"
+    },
+    {
+        "address": "18946 Jasper Ridge Dr, Hockley, TX 77447",
+        "listing_price": "$250,000",
+        "down_payment": "$28,097",
+        "principal_and_interest": "$1,098/mo.",
+        "interest_rate": "4%"
+    },
+    {
+        "address": "1050 Broadmoor Dr, Huntsville, TX 77340",
+        "listing_price": "$287,500",
+        "down_payment": "$0",
+        "principal_and_interest": "$1,683/mo.",
+        "interest_rate": "5.1%"
+    },
+    {
+        "address": "22818 Skila Dr, Elmendorf, TX 78112",
+        "listing_price": "$249,998",
+        "down_payment": "$15,597",
+        "principal_and_interest": "$1,232/mo.",
+        "interest_rate": "4.42%"
+    },
+    {
+        "address": "2601 Bellefontaine St Apt C201 # C201, Houston, TX 77025",
+        "listing_price": "$100,000",
+        "down_payment": "$9,969",
+        "principal_and_interest": "$459/mo.",
+        "interest_rate": "4.16%"
+    }
+]
