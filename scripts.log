@@ -1,1154 +1,191 @@
-2025-01-24 14:17:59,198 - logger.config - INFO - Navigating to the 'https://www.withroam.com/state/TX'.
-2025-01-24 14:19:13,685 - logger.config - INFO - Navigating to the 'https://www.withroam.com/state/TX'.
-2025-01-24 14:19:22,855 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 14:19:23,206 - logger.config - INFO - Retrieved 13 listings on this page.
-2025-01-24 14:19:23,206 - logger.config - INFO - Processing listing 1
-2025-01-24 14:19:31,004 - logger.config - INFO - Data scraped: {'address': '420 Jacks Pl, Seguin, TX 78155', 'listing_price': '$298,000', 'down_payment': '$25,999', 'principal_and_interest': '$1,172/mo.', 'interest_rate': '2.73%'}
-2025-01-24 14:19:36,164 - logger.config - INFO - Processing listing 2
-2025-01-24 14:19:40,649 - logger.config - INFO - Data scraped: {'address': '2407 Hartsel Forest Trl, Spring, TX 77373', 'listing_price': '$260,000', 'down_payment': '$31,939', 'principal_and_interest': '$1,006/mo.', 'interest_rate': '2.75%'}
-2025-01-24 14:19:45,780 - logger.config - INFO - Processing listing 3
-2025-01-24 14:19:50,081 - logger.config - INFO - Data scraped: {'address': '171 Whitetail Way, Caddo Mills, TX 75135', 'listing_price': '$369,900', 'down_payment': '$46,176', 'principal_and_interest': '$1,425/mo.', 'interest_rate': '2.75%'}
-2025-01-24 14:19:55,209 - logger.config - INFO - Processing listing 4
-2025-01-24 14:19:59,482 - logger.config - INFO - Data scraped: {'address': '529 Sentry Valley St, New Braunfels, TX 78130', 'listing_price': '$334,650', 'down_payment': '$18,545', 'principal_and_interest': '$1,562/mo.', 'interest_rate': '4%'}
-2025-01-24 14:20:04,615 - logger.config - INFO - Processing listing 5
-2025-01-24 14:20:08,426 - logger.config - INFO - Data scraped: {'address': '153 Niemietz Cv, Cibolo, TX 78108', 'listing_price': '$340,000', 'down_payment': '$35,981', 'principal_and_interest': '$1,370/mo.', 'interest_rate': '3%'}
-2025-01-24 14:20:13,556 - logger.config - INFO - Processing listing 6
-2025-01-24 14:20:19,057 - logger.config - INFO - Data scraped: {'address': '12131 Sampson Crk, San Antonio, TX 78245', 'listing_price': '$260,000', 'down_payment': '$37,607', 'principal_and_interest': '$981/mo.', 'interest_rate': '2.75%'}
-2025-01-24 14:20:24,240 - logger.config - INFO - Processing listing 7
-2025-01-24 14:20:30,933 - logger.config - INFO - Data scraped: {'address': '12750 Rambling Rose, San Antonio, TX 78253', 'listing_price': '$308,000', 'down_payment': '$8,097', 'principal_and_interest': '$1,450/mo.', 'interest_rate': '4%'}
-2025-01-24 14:20:36,084 - logger.config - INFO - Processing listing 8
-2025-01-24 14:20:40,318 - logger.config - INFO - Data scraped: {'address': '421 Blueberry Dr, Azle, TX 76020', 'listing_price': '$385,000', 'down_payment': '$26,593', 'principal_and_interest': '$1,753/mo.', 'interest_rate': '3.76%'}
-2025-01-24 14:20:45,457 - logger.config - INFO - Processing listing 9
-2025-01-24 14:20:50,275 - logger.config - INFO - Data scraped: {'address': '504 Stimpson St, Baytown, TX 77520', 'listing_price': '$190,000', 'down_payment': '$49,805', 'principal_and_interest': '$592/mo.', 'interest_rate': '2.5%'}
-2025-01-24 14:20:55,343 - logger.config - INFO - Processing listing 10
-2025-01-24 14:20:59,738 - logger.config - INFO - Data scraped: {'address': '2316 Julia Ln, Forney, TX 75126', 'listing_price': '$285,000', 'down_payment': '$0', 'principal_and_interest': '$1,765/mo.', 'interest_rate': '5.125%'}
-2025-01-24 14:21:04,857 - logger.config - INFO - Processing listing 11
-2025-01-24 14:21:09,234 - logger.config - INFO - Data scraped: {'address': '14627 Woodcott Warren Way, Rosharon, TX 77583', 'listing_price': '$305,000', 'down_payment': '$21,080', 'principal_and_interest': '$1,406/mo.', 'interest_rate': '3.99%'}
-2025-01-24 14:21:14,363 - logger.config - INFO - Processing listing 12
-2025-01-24 14:21:20,035 - logger.config - INFO - Data scraped: {'address': '5519 Lacreek Ln, Spring, TX 77379', 'listing_price': '$350,000', 'down_payment': '$30,735', 'principal_and_interest': '$1,599/mo.', 'interest_rate': '4%'}
-2025-01-24 14:21:25,218 - logger.config - INFO - Processing listing 13
-2025-01-24 14:21:29,408 - logger.config - INFO - Data scraped: {'address': '928 Edwards St, Copperas Cove, TX 76522', 'listing_price': '$160,000', 'down_payment': '$27,757', 'principal_and_interest': '$642/mo.', 'interest_rate': '3.69%'}
-2025-01-24 16:32:18,174 - logger.config - INFO - Navigating to the 'https://www.withroam.com/state/TX'.
-2025-01-24 16:32:28,449 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 16:32:28,569 - logger.config - INFO - Retrieved 13 listings on this page.
-2025-01-24 16:32:28,569 - logger.config - INFO - Processing listing 1
-2025-01-24 16:32:35,560 - logger.config - INFO - Data scraped: {'address': '420 Jacks Pl, Seguin, TX 78155', 'listing_price': '$298,000', 'down_payment': '$25,999', 'principal_and_interest': '$1,172/mo.', 'interest_rate': '2.73%'}
-2025-01-24 16:32:41,173 - logger.config - INFO - Processing listing 2
-2025-01-24 16:32:44,051 - logger.config - ERROR - Error scraping listing 2: Message: stale element reference: stale element not found
-  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Stacktrace:
-#0 0x57fee3d45dca <unknown>
-#1 0x57fee383c3f0 <unknown>
-#2 0x57fee384e14b <unknown>
-#3 0x57fee384cf30 <unknown>
-#4 0x57fee3842e49 <unknown>
-#5 0x57fee3842f75 <unknown>
-#6 0x57fee3840f43 <unknown>
-#7 0x57fee3844d4e <unknown>
-#8 0x57fee38d05ac <unknown>
-#9 0x57fee38b0a92 <unknown>
-#10 0x57fee38cf4b3 <unknown>
-#11 0x57fee38b0833 <unknown>
-#12 0x57fee387d5a0 <unknown>
-#13 0x57fee387eece <unknown>
-#14 0x57fee3d0fbdb <unknown>
-#15 0x57fee3d13b67 <unknown>
-#16 0x57fee3cfb3bc <unknown>
-#17 0x57fee3d14727 <unknown>
-#18 0x57fee3cdf74f <unknown>
-#19 0x57fee3d34938 <unknown>
-#20 0x57fee3d34b00 <unknown>
-#21 0x57fee3d44c46 <unknown>
-#22 0x794b18c9ca94 <unknown>
-#23 0x794b18d29c3c <unknown>
-
-2025-01-24 16:33:08,259 - logger.config - INFO - Navigating to the 'https://www.withroam.com/state/TX'.
-2025-01-24 16:33:17,054 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 16:33:17,223 - logger.config - INFO - Retrieved 13 listings on this page.
-2025-01-24 16:33:17,224 - logger.config - INFO - Processing listing 1
-2025-01-24 16:33:23,609 - logger.config - INFO - Data scraped: {'address': '420 Jacks Pl, Seguin, TX 78155', 'listing_price': '$298,000', 'down_payment': '$25,999', 'principal_and_interest': '$1,172/mo.', 'interest_rate': '2.73%'}
-2025-01-24 16:33:28,665 - logger.config - INFO - Processing listing 2
-2025-01-24 16:33:32,327 - logger.config - INFO - Data scraped: {'address': '2407 Hartsel Forest Trl, Spring, TX 77373', 'listing_price': '$260,000', 'down_payment': '$31,939', 'principal_and_interest': '$1,006/mo.', 'interest_rate': '2.75%'}
-2025-01-24 16:33:37,383 - logger.config - INFO - Processing listing 3
-2025-01-24 16:33:40,809 - logger.config - INFO - Data scraped: {'address': '171 Whitetail Way, Caddo Mills, TX 75135', 'listing_price': '$369,900', 'down_payment': '$46,176', 'principal_and_interest': '$1,425/mo.', 'interest_rate': '2.75%'}
-2025-01-24 16:33:45,866 - logger.config - INFO - Processing listing 4
-2025-01-24 16:33:49,357 - logger.config - INFO - Data scraped: {'address': '529 Sentry Valley St, New Braunfels, TX 78130', 'listing_price': '$334,650', 'down_payment': '$18,545', 'principal_and_interest': '$1,562/mo.', 'interest_rate': '4%'}
-2025-01-24 16:33:54,413 - logger.config - INFO - Processing listing 5
-2025-01-24 16:33:59,061 - logger.config - INFO - Data scraped: {'address': '153 Niemietz Cv, Cibolo, TX 78108', 'listing_price': '$340,000', 'down_payment': '$35,981', 'principal_and_interest': '$1,370/mo.', 'interest_rate': '3%'}
-2025-01-24 16:34:04,117 - logger.config - INFO - Processing listing 6
-2025-01-24 16:34:08,514 - logger.config - INFO - Data scraped: {'address': '12131 Sampson Crk, San Antonio, TX 78245', 'listing_price': '$260,000', 'down_payment': '$37,607', 'principal_and_interest': '$981/mo.', 'interest_rate': '2.75%'}
-2025-01-24 16:34:13,572 - logger.config - INFO - Processing listing 7
-2025-01-24 16:34:19,836 - logger.config - INFO - Data scraped: {'address': '12750 Rambling Rose, San Antonio, TX 78253', 'listing_price': '$308,000', 'down_payment': '$8,097', 'principal_and_interest': '$1,450/mo.', 'interest_rate': '4%'}
-2025-01-24 16:34:24,892 - logger.config - INFO - Processing listing 8
-2025-01-24 16:34:30,528 - logger.config - INFO - Data scraped: {'address': '421 Blueberry Dr, Azle, TX 76020', 'listing_price': '$385,000', 'down_payment': '$26,593', 'principal_and_interest': '$1,753/mo.', 'interest_rate': '3.76%'}
-2025-01-24 16:34:35,584 - logger.config - INFO - Processing listing 9
-2025-01-24 16:34:38,811 - logger.config - INFO - Data scraped: {'address': '504 Stimpson St, Baytown, TX 77520', 'listing_price': '$190,000', 'down_payment': '$49,805', 'principal_and_interest': '$592/mo.', 'interest_rate': '2.5%'}
-2025-01-24 16:34:43,868 - logger.config - INFO - Processing listing 10
-2025-01-24 16:34:47,090 - logger.config - INFO - Data scraped: {'address': '2316 Julia Ln, Forney, TX 75126', 'listing_price': '$285,000', 'down_payment': '$0', 'principal_and_interest': '$1,765/mo.', 'interest_rate': '5.125%'}
-2025-01-24 16:34:52,150 - logger.config - INFO - Processing listing 11
-2025-01-24 16:34:55,411 - logger.config - INFO - Data scraped: {'address': '14627 Woodcott Warren Way, Rosharon, TX 77583', 'listing_price': '$305,000', 'down_payment': '$21,080', 'principal_and_interest': '$1,406/mo.', 'interest_rate': '3.99%'}
-2025-01-24 16:35:00,467 - logger.config - INFO - Processing listing 12
-2025-01-24 16:35:03,757 - logger.config - INFO - Data scraped: {'address': '5519 Lacreek Ln, Spring, TX 77379', 'listing_price': '$350,000', 'down_payment': '$30,735', 'principal_and_interest': '$1,599/mo.', 'interest_rate': '4%'}
-2025-01-24 16:35:08,813 - logger.config - INFO - Processing listing 13
-2025-01-24 16:35:12,743 - logger.config - INFO - Data scraped: {'address': '928 Edwards St, Copperas Cove, TX 76522', 'listing_price': '$160,000', 'down_payment': '$27,757', 'principal_and_interest': '$642/mo.', 'interest_rate': '3.69%'}
-2025-01-24 16:35:47,888 - logger.config - INFO - No 'Next' button found. Exiting pagination loop.
-2025-01-24 16:35:52,985 - logger.config - INFO - making request to address 420 Jacks Pl to get detail url
-2025-01-24 16:36:38,399 - logger.config - INFO - fond detail_url for address: 420 Jacks Pl
-2025-01-24 16:36:38,399 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/420-Jacks-Pl-Seguin-TX-78155/339759960_zpid/.
-2025-01-24 16:38:47,634 - logger.config - INFO - Navigating to the 'https://www.withroam.com/state/TX'.
-2025-01-24 16:38:56,660 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 16:38:56,733 - logger.config - INFO - Retrieved 13 listings on this page.
-2025-01-24 16:38:56,734 - logger.config - INFO - Processing listing 1
-2025-01-24 16:39:02,700 - logger.config - INFO - Data scraped: {'address': '420 Jacks Pl, Seguin, TX 78155', 'listing_price': '$298,000', 'down_payment': '$25,999', 'principal_and_interest': '$1,172/mo.', 'interest_rate': '2.73%'}
-2025-01-24 16:39:07,758 - logger.config - INFO - Processing listing 2
-2025-01-24 16:39:10,391 - logger.config - ERROR - Error scraping listing 2: Message: stale element reference: stale element not found
-  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Stacktrace:
-#0 0x5f0f50a81dca <unknown>
-#1 0x5f0f505783f0 <unknown>
-#2 0x5f0f5058a14b <unknown>
-#3 0x5f0f50588f30 <unknown>
-#4 0x5f0f5057ee49 <unknown>
-#5 0x5f0f5057ef75 <unknown>
-#6 0x5f0f5057cf43 <unknown>
-#7 0x5f0f50580d4e <unknown>
-#8 0x5f0f5060c5ac <unknown>
-#9 0x5f0f505eca92 <unknown>
-#10 0x5f0f5060b4b3 <unknown>
-#11 0x5f0f505ec833 <unknown>
-#12 0x5f0f505b95a0 <unknown>
-#13 0x5f0f505baece <unknown>
-#14 0x5f0f50a4bbdb <unknown>
-#15 0x5f0f50a4fb67 <unknown>
-#16 0x5f0f50a373bc <unknown>
-#17 0x5f0f50a50727 <unknown>
-#18 0x5f0f50a1b74f <unknown>
-#19 0x5f0f50a70938 <unknown>
-#20 0x5f0f50a70b00 <unknown>
-#21 0x5f0f50a80c46 <unknown>
-#22 0x750491e9ca94 <unknown>
-#23 0x750491f29c3c <unknown>
-
-2025-01-24 16:39:27,068 - logger.config - INFO - Navigating to the 'https://www.withroam.com/state/TX'.
-2025-01-24 16:39:35,929 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 16:39:36,014 - logger.config - INFO - Retrieved 13 listings on this page.
-2025-01-24 16:39:36,015 - logger.config - INFO - Processing listing 1
-2025-01-24 16:39:41,880 - logger.config - INFO - Data scraped: {'address': '420 Jacks Pl, Seguin, TX 78155', 'listing_price': '$298,000', 'down_payment': '$25,999', 'principal_and_interest': '$1,172/mo.', 'interest_rate': '2.73%'}
-2025-01-24 16:39:46,937 - logger.config - INFO - Processing listing 2
-2025-01-24 16:39:50,377 - logger.config - INFO - Data scraped: {'address': '2407 Hartsel Forest Trl, Spring, TX 77373', 'listing_price': '$260,000', 'down_payment': '$31,939', 'principal_and_interest': '$1,006/mo.', 'interest_rate': '2.75%'}
-2025-01-24 16:39:55,434 - logger.config - INFO - Processing listing 3
-2025-01-24 16:40:00,680 - logger.config - INFO - Data scraped: {'address': '171 Whitetail Way, Caddo Mills, TX 75135', 'listing_price': '$369,900', 'down_payment': '$46,176', 'principal_and_interest': '$1,425/mo.', 'interest_rate': '2.75%'}
-2025-01-24 16:40:05,738 - logger.config - INFO - Processing listing 4
-2025-01-24 16:40:09,358 - logger.config - INFO - Data scraped: {'address': '529 Sentry Valley St, New Braunfels, TX 78130', 'listing_price': '$334,650', 'down_payment': '$18,545', 'principal_and_interest': '$1,562/mo.', 'interest_rate': '4%'}
-2025-01-24 16:40:14,415 - logger.config - INFO - Processing listing 5
-2025-01-24 16:40:17,918 - logger.config - INFO - Data scraped: {'address': '153 Niemietz Cv, Cibolo, TX 78108', 'listing_price': '$340,000', 'down_payment': '$35,981', 'principal_and_interest': '$1,370/mo.', 'interest_rate': '3%'}
-2025-01-24 16:40:22,975 - logger.config - INFO - Processing listing 6
-2025-01-24 16:40:28,000 - logger.config - INFO - Data scraped: {'address': '12131 Sampson Crk, San Antonio, TX 78245', 'listing_price': '$260,000', 'down_payment': '$37,607', 'principal_and_interest': '$981/mo.', 'interest_rate': '2.75%'}
-2025-01-24 16:40:33,061 - logger.config - INFO - Processing listing 7
-2025-01-24 16:40:37,370 - logger.config - INFO - Data scraped: {'address': '12750 Rambling Rose, San Antonio, TX 78253', 'listing_price': '$308,000', 'down_payment': '$8,097', 'principal_and_interest': '$1,450/mo.', 'interest_rate': '4%'}
-2025-01-24 16:40:42,428 - logger.config - INFO - Processing listing 8
-2025-01-24 16:40:46,603 - logger.config - INFO - Data scraped: {'address': '421 Blueberry Dr, Azle, TX 76020', 'listing_price': '$385,000', 'down_payment': '$26,593', 'principal_and_interest': '$1,753/mo.', 'interest_rate': '3.76%'}
-2025-01-24 16:40:51,660 - logger.config - INFO - Processing listing 9
-2025-01-24 16:40:55,246 - logger.config - INFO - Data scraped: {'address': '504 Stimpson St, Baytown, TX 77520', 'listing_price': '$190,000', 'down_payment': '$49,805', 'principal_and_interest': '$592/mo.', 'interest_rate': '2.5%'}
-2025-01-24 16:41:00,303 - logger.config - INFO - Processing listing 10
-2025-01-24 16:41:04,289 - logger.config - INFO - Data scraped: {'address': '2316 Julia Ln, Forney, TX 75126', 'listing_price': '$285,000', 'down_payment': '$0', 'principal_and_interest': '$1,765/mo.', 'interest_rate': '5.125%'}
-2025-01-24 16:41:09,362 - logger.config - INFO - Processing listing 11
-2025-01-24 16:41:13,920 - logger.config - INFO - Data scraped: {'address': '14627 Woodcott Warren Way, Rosharon, TX 77583', 'listing_price': '$305,000', 'down_payment': '$21,080', 'principal_and_interest': '$1,406/mo.', 'interest_rate': '3.99%'}
-2025-01-24 16:41:18,978 - logger.config - INFO - Processing listing 12
-2025-01-24 16:41:22,074 - logger.config - INFO - Data scraped: {'address': '5519 Lacreek Ln, Spring, TX 77379', 'listing_price': '$350,000', 'down_payment': '$30,735', 'principal_and_interest': '$1,599/mo.', 'interest_rate': '4%'}
-2025-01-24 16:41:27,130 - logger.config - INFO - Processing listing 13
-2025-01-24 16:41:31,938 - logger.config - INFO - Data scraped: {'address': '928 Edwards St, Copperas Cove, TX 76522', 'listing_price': '$160,000', 'down_payment': '$27,757', 'principal_and_interest': '$642/mo.', 'interest_rate': '3.69%'}
-2025-01-24 16:42:07,084 - logger.config - INFO - No 'Next' button found. Exiting pagination loop.
-2025-01-24 16:44:53,261 - logger.config - INFO - Navigating to the 'https://www.withroam.com/state/TX'.
-2025-01-24 16:45:02,090 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 16:45:02,235 - logger.config - INFO - Retrieved 13 listings on this page.
-2025-01-24 16:45:02,235 - logger.config - INFO - Processing listing 1
-2025-01-24 16:45:08,791 - logger.config - INFO - Data scraped: {'address': '420 Jacks Pl, Seguin, TX 78155', 'listing_price': '$298,000', 'down_payment': '$25,999', 'principal_and_interest': '$1,172/mo.', 'interest_rate': '2.73%'}
-2025-01-24 16:45:13,848 - logger.config - INFO - Processing listing 2
-2025-01-24 16:45:18,786 - logger.config - INFO - Data scraped: {'address': '2407 Hartsel Forest Trl, Spring, TX 77373', 'listing_price': '$260,000', 'down_payment': '$31,939', 'principal_and_interest': '$1,006/mo.', 'interest_rate': '2.75%'}
-2025-01-24 16:45:23,855 - logger.config - INFO - Processing listing 3
-2025-01-24 16:45:30,863 - logger.config - INFO - Data scraped: {'address': '171 Whitetail Way, Caddo Mills, TX 75135', 'listing_price': '$369,900', 'down_payment': '$46,176', 'principal_and_interest': '$1,425/mo.', 'interest_rate': '2.75%'}
-2025-01-24 16:45:35,940 - logger.config - INFO - Processing listing 4
-2025-01-24 16:45:39,611 - logger.config - INFO - Data scraped: {'address': '529 Sentry Valley St, New Braunfels, TX 78130', 'listing_price': '$334,650', 'down_payment': '$18,545', 'principal_and_interest': '$1,562/mo.', 'interest_rate': '4%'}
-2025-01-24 16:45:44,671 - logger.config - INFO - Processing listing 5
-2025-01-24 16:45:48,204 - logger.config - INFO - Data scraped: {'address': '153 Niemietz Cv, Cibolo, TX 78108', 'listing_price': '$340,000', 'down_payment': '$35,981', 'principal_and_interest': '$1,370/mo.', 'interest_rate': '3%'}
-2025-01-24 16:45:53,261 - logger.config - INFO - Processing listing 6
-2025-01-24 16:45:59,145 - logger.config - INFO - Data scraped: {'address': '12131 Sampson Crk, San Antonio, TX 78245', 'listing_price': '$260,000', 'down_payment': '$37,607', 'principal_and_interest': '$981/mo.', 'interest_rate': '2.75%'}
-2025-01-24 16:46:04,205 - logger.config - INFO - Processing listing 7
-2025-01-24 16:46:09,473 - logger.config - INFO - Data scraped: {'address': '12750 Rambling Rose, San Antonio, TX 78253', 'listing_price': '$308,000', 'down_payment': '$8,097', 'principal_and_interest': '$1,450/mo.', 'interest_rate': '4%'}
-2025-01-24 16:46:14,533 - logger.config - INFO - Processing listing 8
-2025-01-24 16:46:18,411 - logger.config - INFO - Data scraped: {'address': '421 Blueberry Dr, Azle, TX 76020', 'listing_price': '$385,000', 'down_payment': '$26,593', 'principal_and_interest': '$1,753/mo.', 'interest_rate': '3.76%'}
-2025-01-24 16:46:23,469 - logger.config - INFO - Processing listing 9
-2025-01-24 16:46:26,585 - logger.config - INFO - Data scraped: {'address': '504 Stimpson St, Baytown, TX 77520', 'listing_price': '$190,000', 'down_payment': '$49,805', 'principal_and_interest': '$592/mo.', 'interest_rate': '2.5%'}
-2025-01-24 16:46:31,642 - logger.config - INFO - Processing listing 10
-2025-01-24 16:46:35,248 - logger.config - INFO - Data scraped: {'address': '2316 Julia Ln, Forney, TX 75126', 'listing_price': '$285,000', 'down_payment': '$0', 'principal_and_interest': '$1,765/mo.', 'interest_rate': '5.125%'}
-2025-01-24 16:46:40,305 - logger.config - INFO - Processing listing 11
-2025-01-24 16:46:44,445 - logger.config - INFO - Data scraped: {'address': '14627 Woodcott Warren Way, Rosharon, TX 77583', 'listing_price': '$305,000', 'down_payment': '$21,080', 'principal_and_interest': '$1,406/mo.', 'interest_rate': '3.99%'}
-2025-01-24 16:46:49,509 - logger.config - INFO - Processing listing 12
-2025-01-24 16:46:52,709 - logger.config - INFO - Data scraped: {'address': '5519 Lacreek Ln, Spring, TX 77379', 'listing_price': '$350,000', 'down_payment': '$30,735', 'principal_and_interest': '$1,599/mo.', 'interest_rate': '4%'}
-2025-01-24 16:46:57,766 - logger.config - INFO - Processing listing 13
-2025-01-24 16:47:02,003 - logger.config - INFO - Data scraped: {'address': '928 Edwards St, Copperas Cove, TX 76522', 'listing_price': '$160,000', 'down_payment': '$27,757', 'principal_and_interest': '$642/mo.', 'interest_rate': '3.69%'}
-2025-01-24 16:47:17,538 - logger.config - INFO - No 'Next' button found. Exiting pagination loop.
-2025-01-24 16:49:06,572 - logger.config - INFO - Navigating to the 'https://www.withroam.com/state/TX'.
-2025-01-24 16:49:15,388 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 16:49:15,475 - logger.config - INFO - Retrieved 13 listings on this page.
-2025-01-24 16:49:15,475 - logger.config - INFO - Processing listing 1
-2025-01-24 16:49:21,672 - logger.config - INFO - Data scraped: {'address': '420 Jacks Pl, Seguin, TX 78155', 'listing_price': '$298,000', 'down_payment': '$25,999', 'principal_and_interest': '$1,172/mo.', 'interest_rate': '2.73%'}
-2025-01-24 16:49:26,739 - logger.config - INFO - Processing listing 2
-2025-01-24 16:49:30,015 - logger.config - INFO - Data scraped: {'address': '2407 Hartsel Forest Trl, Spring, TX 77373', 'listing_price': '$260,000', 'down_payment': '$31,939', 'principal_and_interest': '$1,006/mo.', 'interest_rate': '2.75%'}
-2025-01-24 16:49:35,071 - logger.config - INFO - Processing listing 3
-2025-01-24 16:49:38,977 - logger.config - INFO - Data scraped: {'address': '171 Whitetail Way, Caddo Mills, TX 75135', 'listing_price': '$369,900', 'down_payment': '$46,176', 'principal_and_interest': '$1,425/mo.', 'interest_rate': '2.75%'}
-2025-01-24 16:49:44,035 - logger.config - INFO - Processing listing 4
-2025-01-24 16:49:47,553 - logger.config - INFO - Data scraped: {'address': '529 Sentry Valley St, New Braunfels, TX 78130', 'listing_price': '$334,650', 'down_payment': '$18,545', 'principal_and_interest': '$1,562/mo.', 'interest_rate': '4%'}
-2025-01-24 16:49:52,609 - logger.config - INFO - Processing listing 5
-2025-01-24 16:49:56,090 - logger.config - INFO - Data scraped: {'address': '153 Niemietz Cv, Cibolo, TX 78108', 'listing_price': '$340,000', 'down_payment': '$35,981', 'principal_and_interest': '$1,370/mo.', 'interest_rate': '3%'}
-2025-01-24 16:50:01,147 - logger.config - INFO - Processing listing 6
-2025-01-24 16:50:05,940 - logger.config - INFO - Data scraped: {'address': '12131 Sampson Crk, San Antonio, TX 78245', 'listing_price': '$260,000', 'down_payment': '$37,607', 'principal_and_interest': '$981/mo.', 'interest_rate': '2.75%'}
-2025-01-24 16:50:10,998 - logger.config - INFO - Processing listing 7
-2025-01-24 16:50:15,251 - logger.config - INFO - Data scraped: {'address': '12750 Rambling Rose, San Antonio, TX 78253', 'listing_price': '$308,000', 'down_payment': '$8,097', 'principal_and_interest': '$1,450/mo.', 'interest_rate': '4%'}
-2025-01-24 16:50:20,308 - logger.config - INFO - Processing listing 8
-2025-01-24 16:50:23,853 - logger.config - INFO - Data scraped: {'address': '421 Blueberry Dr, Azle, TX 76020', 'listing_price': '$385,000', 'down_payment': '$26,593', 'principal_and_interest': '$1,753/mo.', 'interest_rate': '3.76%'}
-2025-01-24 16:50:28,909 - logger.config - INFO - Processing listing 9
-2025-01-24 16:50:32,426 - logger.config - INFO - Data scraped: {'address': '504 Stimpson St, Baytown, TX 77520', 'listing_price': '$190,000', 'down_payment': '$49,805', 'principal_and_interest': '$592/mo.', 'interest_rate': '2.5%'}
-2025-01-24 16:50:37,484 - logger.config - INFO - Processing listing 10
-2025-01-24 16:50:41,293 - logger.config - INFO - Data scraped: {'address': '2316 Julia Ln, Forney, TX 75126', 'listing_price': '$285,000', 'down_payment': '$0', 'principal_and_interest': '$1,765/mo.', 'interest_rate': '5.125%'}
-2025-01-24 16:50:46,350 - logger.config - INFO - Processing listing 11
-2025-01-24 16:50:50,316 - logger.config - INFO - Data scraped: {'address': '14627 Woodcott Warren Way, Rosharon, TX 77583', 'listing_price': '$305,000', 'down_payment': '$21,080', 'principal_and_interest': '$1,406/mo.', 'interest_rate': '3.99%'}
-2025-01-24 16:50:55,373 - logger.config - INFO - Processing listing 12
-2025-01-24 16:50:59,659 - logger.config - INFO - Data scraped: {'address': '5519 Lacreek Ln, Spring, TX 77379', 'listing_price': '$350,000', 'down_payment': '$30,735', 'principal_and_interest': '$1,599/mo.', 'interest_rate': '4%'}
-2025-01-24 16:51:04,717 - logger.config - INFO - Processing listing 13
-2025-01-24 16:51:08,374 - logger.config - INFO - Data scraped: {'address': '928 Edwards St, Copperas Cove, TX 76522', 'listing_price': '$160,000', 'down_payment': '$27,757', 'principal_and_interest': '$642/mo.', 'interest_rate': '3.69%'}
-2025-01-24 16:51:43,503 - logger.config - INFO - No 'Next' button found. Exiting pagination loop.
-2025-01-24 16:51:48,598 - logger.config - INFO - making request to address 420 Jacks Pl to get detail url
-2025-01-24 16:53:01,628 - logger.config - INFO - Navigating to the 'https://www.withroam.com/state/TX'.
-2025-01-24 16:53:10,697 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 16:53:10,787 - logger.config - INFO - Retrieved 13 listings on this page.
-2025-01-24 16:53:10,787 - logger.config - INFO - Processing listing 1
-2025-01-24 16:53:16,521 - logger.config - INFO - Data scraped: {'address': '420 Jacks Pl, Seguin, TX 78155', 'listing_price': '$298,000', 'down_payment': '$25,999', 'principal_and_interest': '$1,172/mo.', 'interest_rate': '2.73%'}
-2025-01-24 16:53:21,578 - logger.config - INFO - Processing listing 2
-2025-01-24 16:53:24,587 - logger.config - ERROR - Error scraping listing 2: Message: stale element reference: stale element not found
-  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Stacktrace:
-#0 0x6121d558bdca <unknown>
-#1 0x6121d50823f0 <unknown>
-#2 0x6121d509414b <unknown>
-#3 0x6121d5092f30 <unknown>
-#4 0x6121d5088e49 <unknown>
-#5 0x6121d5088f75 <unknown>
-#6 0x6121d5086f43 <unknown>
-#7 0x6121d508ad4e <unknown>
-#8 0x6121d51165ac <unknown>
-#9 0x6121d50f6a92 <unknown>
-#10 0x6121d51154b3 <unknown>
-#11 0x6121d50f6833 <unknown>
-#12 0x6121d50c35a0 <unknown>
-#13 0x6121d50c4ece <unknown>
-#14 0x6121d5555bdb <unknown>
-#15 0x6121d5559b67 <unknown>
-#16 0x6121d55413bc <unknown>
-#17 0x6121d555a727 <unknown>
-#18 0x6121d552574f <unknown>
-#19 0x6121d557a938 <unknown>
-#20 0x6121d557ab00 <unknown>
-#21 0x6121d558ac46 <unknown>
-#22 0x774523a9ca94 <unknown>
-#23 0x774523b29c3c <unknown>
-
-2025-01-24 16:54:59,741 - logger.config - INFO - Navigating to the 'https://www.withroam.com/state/TX'.
-2025-01-24 16:55:08,526 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 16:55:08,600 - logger.config - INFO - Retrieved 13 listings on this page.
-2025-01-24 16:55:08,600 - logger.config - INFO - Processing listing 1
-2025-01-24 16:55:14,422 - logger.config - INFO - Data scraped: {'address': '420 Jacks Pl, Seguin, TX 78155', 'listing_price': '$298,000', 'down_payment': '$25,999', 'principal_and_interest': '$1,172/mo.', 'interest_rate': '2.73%'}
-2025-01-24 16:55:19,478 - logger.config - INFO - Processing listing 2
-2025-01-24 16:55:22,732 - logger.config - INFO - Data scraped: {'address': '2407 Hartsel Forest Trl, Spring, TX 77373', 'listing_price': '$260,000', 'down_payment': '$31,939', 'principal_and_interest': '$1,006/mo.', 'interest_rate': '2.75%'}
-2025-01-24 16:55:27,803 - logger.config - INFO - Processing listing 3
-2025-01-24 16:55:31,193 - logger.config - INFO - Data scraped: {'address': '171 Whitetail Way, Caddo Mills, TX 75135', 'listing_price': '$369,900', 'down_payment': '$46,176', 'principal_and_interest': '$1,425/mo.', 'interest_rate': '2.75%'}
-2025-01-24 16:55:36,250 - logger.config - INFO - Processing listing 4
-2025-01-24 16:55:39,741 - logger.config - INFO - Data scraped: {'address': '529 Sentry Valley St, New Braunfels, TX 78130', 'listing_price': '$334,650', 'down_payment': '$18,545', 'principal_and_interest': '$1,562/mo.', 'interest_rate': '4%'}
-2025-01-24 16:55:44,798 - logger.config - INFO - Processing listing 5
-2025-01-24 16:55:48,166 - logger.config - INFO - Data scraped: {'address': '153 Niemietz Cv, Cibolo, TX 78108', 'listing_price': '$340,000', 'down_payment': '$35,981', 'principal_and_interest': '$1,370/mo.', 'interest_rate': '3%'}
-2025-01-24 16:55:53,223 - logger.config - INFO - Processing listing 6
-2025-01-24 16:55:57,760 - logger.config - INFO - Data scraped: {'address': '12131 Sampson Crk, San Antonio, TX 78245', 'listing_price': '$260,000', 'down_payment': '$37,607', 'principal_and_interest': '$981/mo.', 'interest_rate': '2.75%'}
-2025-01-24 16:56:02,834 - logger.config - INFO - Processing listing 7
-2025-01-24 16:56:07,676 - logger.config - INFO - Data scraped: {'address': '12750 Rambling Rose, San Antonio, TX 78253', 'listing_price': '$308,000', 'down_payment': '$8,097', 'principal_and_interest': '$1,450/mo.', 'interest_rate': '4%'}
-2025-01-24 16:56:12,734 - logger.config - INFO - Processing listing 8
-2025-01-24 16:56:16,194 - logger.config - INFO - Data scraped: {'address': '421 Blueberry Dr, Azle, TX 76020', 'listing_price': '$385,000', 'down_payment': '$26,593', 'principal_and_interest': '$1,753/mo.', 'interest_rate': '3.76%'}
-2025-01-24 16:56:21,250 - logger.config - INFO - Processing listing 9
-2025-01-24 16:56:26,430 - logger.config - INFO - Data scraped: {'address': '504 Stimpson St, Baytown, TX 77520', 'listing_price': '$190,000', 'down_payment': '$49,805', 'principal_and_interest': '$592/mo.', 'interest_rate': '2.5%'}
-2025-01-24 16:56:31,489 - logger.config - INFO - Processing listing 10
-2025-01-24 16:56:34,674 - logger.config - INFO - Data scraped: {'address': '2316 Julia Ln, Forney, TX 75126', 'listing_price': '$285,000', 'down_payment': '$0', 'principal_and_interest': '$1,765/mo.', 'interest_rate': '5.125%'}
-2025-01-24 16:56:39,732 - logger.config - INFO - Processing listing 11
-2025-01-24 16:56:43,014 - logger.config - INFO - Data scraped: {'address': '14627 Woodcott Warren Way, Rosharon, TX 77583', 'listing_price': '$305,000', 'down_payment': '$21,080', 'principal_and_interest': '$1,406/mo.', 'interest_rate': '3.99%'}
-2025-01-24 16:56:48,070 - logger.config - INFO - Processing listing 12
-2025-01-24 16:56:51,278 - logger.config - INFO - Data scraped: {'address': '5519 Lacreek Ln, Spring, TX 77379', 'listing_price': '$350,000', 'down_payment': '$30,735', 'principal_and_interest': '$1,599/mo.', 'interest_rate': '4%'}
-2025-01-24 16:56:56,334 - logger.config - INFO - Processing listing 13
-2025-01-24 16:57:00,676 - logger.config - INFO - Data scraped: {'address': '928 Edwards St, Copperas Cove, TX 76522', 'listing_price': '$160,000', 'down_payment': '$27,757', 'principal_and_interest': '$642/mo.', 'interest_rate': '3.69%'}
-2025-01-24 16:57:05,899 - logger.config - INFO - Navigating to the next page.
-2025-01-24 16:57:10,899 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 16:57:10,942 - logger.config - INFO - Retrieved 13 listings on this page.
-2025-01-24 16:57:10,942 - logger.config - INFO - Processing listing 1
-2025-01-24 16:57:15,069 - logger.config - INFO - Data scraped: {'address': '6059 Shelbourne Park Ln, Houston, TX 77084', 'listing_price': '$245,000', 'down_payment': '$25,416', 'principal_and_interest': '$1,154/mo.', 'interest_rate': '4.42%'}
-2025-01-24 16:57:20,125 - logger.config - INFO - Processing listing 2
-2025-01-24 16:57:24,140 - logger.config - INFO - Data scraped: {'address': '3527 Palm Grove Dr, Missouri City, TX 77459', 'listing_price': '$260,000', 'down_payment': '$171', 'principal_and_interest': '$1,487/mo.', 'interest_rate': '5.25%'}
-2025-01-24 16:57:29,199 - logger.config - INFO - Processing listing 3
-2025-01-24 16:57:34,972 - logger.config - INFO - Data scraped: {'address': '15414 Night Heron, San Antonio, TX 78253', 'listing_price': '$354,900', 'down_payment': '$13,742', 'principal_and_interest': '$1,927/mo.', 'interest_rate': '5.1%'}
-2025-01-24 16:57:40,030 - logger.config - INFO - Processing listing 4
-2025-01-24 16:57:43,556 - logger.config - INFO - Data scraped: {'address': '440 Panther Way, Seguin, TX 78155', 'listing_price': '$365,000', 'down_payment': '$30,201', 'principal_and_interest': '$1,874/mo.', 'interest_rate': '5%'}
-2025-01-24 16:57:48,614 - logger.config - INFO - Processing listing 5
-2025-01-24 16:57:53,452 - logger.config - INFO - Data scraped: {'address': '8901 Eastwood Ave, Cross Roads, TX 76227', 'listing_price': '$333,000', 'down_payment': '$23,266', 'principal_and_interest': '$1,754/mo.', 'interest_rate': '5.125%'}
-2025-01-24 16:57:58,510 - logger.config - INFO - Processing listing 6
-2025-01-24 16:58:03,334 - logger.config - INFO - Data scraped: {'address': '401 Suzie St, Killeen, TX 76542', 'listing_price': '$205,000', 'down_payment': '$18,176', 'principal_and_interest': '$1,058/mo.', 'interest_rate': '5.125%'}
-2025-01-24 16:58:08,392 - logger.config - INFO - Processing listing 7
-2025-01-24 16:58:13,620 - logger.config - INFO - Data scraped: {'address': '2607 Bolzano Trl, Temple, TX 76502', 'listing_price': '$364,900', 'down_payment': '$26,130', 'principal_and_interest': '$1,929/mo.', 'interest_rate': '5.25%'}
-2025-01-24 16:58:18,679 - logger.config - INFO - Processing listing 8
-2025-01-24 16:58:24,027 - logger.config - INFO - Data scraped: {'address': '12730 Cooper Breaks Dr, Humble, TX 77346', 'listing_price': '$279,900', 'down_payment': '$31,397', 'principal_and_interest': '$1,421/mo.', 'interest_rate': '5.23%'}
-2025-01-24 16:58:29,087 - logger.config - INFO - Processing listing 9
-2025-01-24 16:58:33,398 - logger.config - INFO - Data scraped: {'address': '2820 Arrowhead Dr, Copperas Cove, TX 76522', 'listing_price': '$272,500', 'down_payment': '$0', 'principal_and_interest': '$1,288/mo.', 'interest_rate': '3%'}
-2025-01-24 16:58:38,457 - logger.config - INFO - Processing listing 10
-2025-01-24 16:58:45,045 - logger.config - INFO - Data scraped: {'address': '10915 Airmen Dr, Converse, TX 78109', 'listing_price': '$215,000', 'down_payment': '$0', 'principal_and_interest': '$1,314/mo.', 'interest_rate': '4.42%'}
-2025-01-24 16:58:50,108 - logger.config - INFO - Processing listing 11
-2025-01-24 16:58:54,522 - logger.config - INFO - Data scraped: {'address': '7003 Cokui Dr, Killeen, TX 76542', 'listing_price': '$265,000', 'down_payment': '$13,535', 'principal_and_interest': '$1,135/mo.', 'interest_rate': '3%'}
-2025-01-24 16:58:59,612 - logger.config - INFO - Processing listing 12
-2025-01-24 16:59:03,811 - logger.config - INFO - Data scraped: {'address': '349 Zarya, Kyle, TX 78640', 'listing_price': '$390,000', 'down_payment': '$28,561', 'principal_and_interest': '$1,611/mo.', 'interest_rate': '2.875%'}
-2025-01-24 16:59:08,876 - logger.config - INFO - Processing listing 13
-2025-01-24 16:59:14,198 - logger.config - INFO - Data scraped: {'address': '623 Coral Hbr, San Antonio, TX 78251', 'listing_price': '$239,900', 'down_payment': '$24,589', 'principal_and_interest': '$952/mo.', 'interest_rate': '2.75%'}
-2025-01-24 16:59:19,343 - logger.config - INFO - Navigating to the next page.
-2025-01-24 16:59:24,343 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 16:59:24,365 - logger.config - INFO - Retrieved 19 listings on this page.
-2025-01-24 16:59:24,365 - logger.config - INFO - Processing listing 1
-2025-01-24 16:59:28,391 - logger.config - INFO - Data scraped: {'address': '13322 Ailey Knl, San Antonio, TX 78254', 'listing_price': '$330,000', 'down_payment': '$36,631', 'principal_and_interest': '$1,294/mo.', 'interest_rate': '2.75%'}
-2025-01-24 16:59:33,448 - logger.config - INFO - Processing listing 2
-2025-01-24 16:59:40,124 - logger.config - INFO - Data scraped: {'address': '10731 Giacconi Dr, Converse, TX 78109', 'listing_price': '$225,000', 'down_payment': '$37,247', 'principal_and_interest': '$805/mo.', 'interest_rate': '2.375%'}
-2025-01-24 16:59:45,185 - logger.config - INFO - Processing listing 3
-2025-01-24 16:59:50,210 - logger.config - INFO - Data scraped: {'address': '245 Legacy Rdg, Canyon Lake, TX 78133', 'listing_price': '$348,000', 'down_payment': '$29,333', 'principal_and_interest': '$1,436/mo.', 'interest_rate': '3%'}
-2025-01-24 16:59:55,272 - logger.config - INFO - Processing listing 4
-2025-01-24 17:00:00,364 - logger.config - INFO - Data scraped: {'address': '2952 Red Tip Dr, Schertz, TX 78154', 'listing_price': '$280,000', 'down_payment': '$28,438', 'principal_and_interest': '$1,121/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:00:05,422 - logger.config - INFO - Processing listing 5
-2025-01-24 17:00:10,915 - logger.config - INFO - Data scraped: {'address': '9418 Madison Crk, Converse, TX 78109', 'listing_price': '$295,000', 'down_payment': '$27,686', 'principal_and_interest': '$1,207/mo.', 'interest_rate': '3%'}
-2025-01-24 17:00:15,971 - logger.config - INFO - Processing listing 6
-2025-01-24 17:00:20,823 - logger.config - INFO - Data scraped: {'address': '8210 Green Gully, Converse, TX 78109', 'listing_price': '$245,000', 'down_payment': '$33,149', 'principal_and_interest': '$929/mo.', 'interest_rate': '2.7%'}
-2025-01-24 17:00:25,881 - logger.config - INFO - Processing listing 7
-2025-01-24 17:00:29,672 - logger.config - INFO - Data scraped: {'address': '3322 Taurus Sky, Converse, TX 78109', 'listing_price': '$310,000', 'down_payment': '$45,583', 'principal_and_interest': '$1,169/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:00:34,731 - logger.config - INFO - Processing listing 8
-2025-01-24 17:00:38,797 - logger.config - INFO - Data scraped: {'address': '14923 Costa Leon, San Antonio, TX 78245', 'listing_price': '$354,900', 'down_payment': '$44,782', 'principal_and_interest': '$1,397/mo.', 'interest_rate': '3%'}
-2025-01-24 17:00:43,854 - logger.config - INFO - Processing listing 9
-2025-01-24 17:00:47,309 - logger.config - INFO - Data scraped: {'address': '421 Big Timber Dr, Temple, TX 76502', 'listing_price': '$295,000', 'down_payment': '$38,699', 'principal_and_interest': '$1,157/mo.', 'interest_rate': '3%'}
-2025-01-24 17:00:52,367 - logger.config - INFO - Processing listing 10
-2025-01-24 17:00:55,868 - logger.config - INFO - Data scraped: {'address': '3802 Brunswick Dr, Killeen, TX 76549', 'listing_price': '$345,000', 'down_payment': '$31,202', 'principal_and_interest': '$1,474/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:01:00,925 - logger.config - INFO - Processing listing 11
-2025-01-24 17:01:06,350 - logger.config - INFO - Data scraped: {'address': '9722 Marbach Hl, San Antonio, TX 78245', 'listing_price': '$259,999', 'down_payment': '$46,650', 'principal_and_interest': '$984/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:01:11,407 - logger.config - INFO - Processing listing 12
-2025-01-24 17:01:14,919 - logger.config - INFO - Data scraped: {'address': '3210 Rancho Grande, San Antonio, TX 78224', 'listing_price': '$238,500', 'down_payment': '$10,143', 'principal_and_interest': '$1,139/mo.', 'interest_rate': '3.92%'}
-2025-01-24 17:01:19,975 - logger.config - INFO - Processing listing 13
-2025-01-24 17:01:23,943 - logger.config - INFO - Data scraped: {'address': '4504 Donegal Bay Ct, Killeen, TX 76549', 'listing_price': '$259,900', 'down_payment': '$30,821', 'principal_and_interest': '$1,076/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:01:28,999 - logger.config - INFO - Processing listing 14
-2025-01-24 17:01:33,107 - logger.config - INFO - Data scraped: {'address': '3809 Tanchico Dr, Killeen, TX 76542', 'listing_price': '$279,000', 'down_payment': '$15,492', 'principal_and_interest': '$1,308/mo.', 'interest_rate': '3.89%'}
-2025-01-24 17:01:38,164 - logger.config - INFO - Processing listing 15
-2025-01-24 17:01:41,496 - logger.config - INFO - Data scraped: {'address': '3423 Southton Vw, San Antonio, TX 78222', 'listing_price': '$210,000', 'down_payment': '$11,413', 'principal_and_interest': '$978/mo.', 'interest_rate': '4%'}
-2025-01-24 17:01:46,553 - logger.config - INFO - Processing listing 16
-2025-01-24 17:01:51,248 - logger.config - INFO - Data scraped: {'address': '2250 Golf Dr, Spring Branch, TX 78070', 'listing_price': '$249,000', 'down_payment': '$20,620', 'principal_and_interest': '$1,137/mo.', 'interest_rate': '3.92%'}
-2025-01-24 17:01:56,305 - logger.config - INFO - Processing listing 17
-2025-01-24 17:01:59,802 - logger.config - INFO - Data scraped: {'address': '11518 Lightning Way, San Antonio, TX 78245', 'listing_price': '$375,000', 'down_payment': '$42,476', 'principal_and_interest': '$1,482/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:02:04,860 - logger.config - INFO - Processing listing 18
-2025-01-24 17:02:08,402 - logger.config - INFO - Data scraped: {'address': '13003 Minuet Sway, San Antonio, TX 78252', 'listing_price': '$310,000', 'down_payment': '$25,698', 'principal_and_interest': '$1,407/mo.', 'interest_rate': '4%'}
-2025-01-24 17:02:13,458 - logger.config - INFO - Processing listing 19
-2025-01-24 17:02:17,065 - logger.config - INFO - Data scraped: {'address': '5101 Parkwood Dr, Killeen, TX 76542', 'listing_price': '$200,340', 'down_payment': '$21,239', 'principal_and_interest': '$889/mo.', 'interest_rate': '3.89%'}
-2025-01-24 17:02:22,285 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:02:27,286 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:02:27,310 - logger.config - INFO - Retrieved 12 listings on this page.
-2025-01-24 17:02:27,310 - logger.config - INFO - Processing listing 1
-2025-01-24 17:02:34,800 - logger.config - INFO - Data scraped: {'address': '10334 Big Four, Converse, TX 78109', 'listing_price': '$289,900', 'down_payment': '$0', 'principal_and_interest': '$1,732/mo.', 'interest_rate': '5.13%'}
-2025-01-24 17:02:39,861 - logger.config - INFO - Processing listing 2
-2025-01-24 17:02:43,728 - logger.config - INFO - Data scraped: {'address': '891 Highland Vis, New Braunfels, TX 78130', 'listing_price': '$295,000', 'down_payment': '$0', 'principal_and_interest': '$1,458/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:02:48,789 - logger.config - INFO - Processing listing 3
-2025-01-24 17:02:53,765 - logger.config - INFO - Data scraped: {'address': '4122 Tamarak Dr, San Antonio, TX 78220', 'listing_price': '$220,000', 'down_payment': '$24,056', 'principal_and_interest': '$971/mo.', 'interest_rate': '4%'}
-2025-01-24 17:02:58,823 - logger.config - INFO - Processing listing 4
-2025-01-24 17:03:04,821 - logger.config - INFO - Data scraped: {'address': '5622 Tranquil Cv, Converse, TX 78109', 'listing_price': '$285,000', 'down_payment': '$42,776', 'principal_and_interest': '$1,071/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:03:09,881 - logger.config - INFO - Processing listing 5
-2025-01-24 17:03:13,208 - logger.config - INFO - Data scraped: {'address': '2703 Roadrunner Dr, Killeen, TX 76549', 'listing_price': '$199,900', 'down_payment': '$42,640', 'principal_and_interest': '$738/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:03:18,264 - logger.config - INFO - Processing listing 6
-2025-01-24 17:03:23,128 - logger.config - INFO - Data scraped: {'address': '15312 Osprey Pass, San Antonio, TX 78253', 'listing_price': '$354,998', 'down_payment': '$26,800', 'principal_and_interest': '$1,439/mo.', 'interest_rate': '2.7%'}
-2025-01-24 17:03:28,188 - logger.config - INFO - Processing listing 7
-2025-01-24 17:03:32,396 - logger.config - INFO - Data scraped: {'address': '229 E Langley Blvd, Universal City, TX 78148', 'listing_price': '$242,000', 'down_payment': '$4,288', 'principal_and_interest': '$1,169/mo.', 'interest_rate': '4%'}
-2025-01-24 17:03:37,453 - logger.config - INFO - Processing listing 8
-2025-01-24 17:03:40,964 - logger.config - INFO - Data scraped: {'address': '1910 Michele Dr, Killeen, TX 76542', 'listing_price': '$230,000', 'down_payment': '$2,907', 'principal_and_interest': '$1,281/mo.', 'interest_rate': '5.125%'}
-2025-01-24 17:03:46,021 - logger.config - INFO - Processing listing 9
-2025-01-24 17:03:50,108 - logger.config - INFO - Data scraped: {'address': '630 Lovera Blvd, San Antonio, TX 78212', 'listing_price': '$199,000', 'down_payment': '$32,693', 'principal_and_interest': '$779/mo.', 'interest_rate': '3%'}
-2025-01-24 17:03:55,164 - logger.config - INFO - Processing listing 10
-2025-01-24 17:03:58,616 - logger.config - INFO - Data scraped: {'address': '1101 Victoria Cir, Copperas Cove, TX 76522', 'listing_price': '$350,000', 'down_payment': '$48,464', 'principal_and_interest': '$1,330/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:04:03,675 - logger.config - INFO - Processing listing 11
-2025-01-24 17:04:07,756 - logger.config - INFO - Data scraped: {'address': '1322 Rigsby Ave, San Antonio, TX 78210', 'listing_price': '$249,000', 'down_payment': '$46,578', 'principal_and_interest': '$1,004/mo.', 'interest_rate': '4%'}
-2025-01-24 17:04:12,814 - logger.config - INFO - Processing listing 12
-2025-01-24 17:04:16,754 - logger.config - INFO - Data scraped: {'address': '6631 Hoffman Pln, San Antonio, TX 78252', 'listing_price': '$319,000', 'down_payment': '$10,588', 'principal_and_interest': '$1,764/mo.', 'interest_rate': '5.23%'}
-2025-01-24 17:04:21,955 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:04:26,955 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:04:26,999 - logger.config - INFO - Retrieved 14 listings on this page.
-2025-01-24 17:04:27,000 - logger.config - INFO - Processing listing 1
-2025-01-24 17:04:32,668 - logger.config - INFO - Data scraped: {'address': '2809 Transit Dr, Killeen, TX 76543', 'listing_price': '$225,000', 'down_payment': '$24,313', 'principal_and_interest': '$1,090/mo.', 'interest_rate': '4.72%'}
-2025-01-24 17:04:37,725 - logger.config - INFO - Processing listing 2
-2025-01-24 17:04:41,034 - logger.config - INFO - Data scraped: {'address': '13123 Sendero Roble, San Antonio, TX 78253', 'listing_price': '$365,000', 'down_payment': '$18,627', 'principal_and_interest': '$1,684/mo.', 'interest_rate': '3.69%'}
-2025-01-24 17:04:46,092 - logger.config - INFO - Processing listing 3
-2025-01-24 17:04:50,497 - logger.config - INFO - Data scraped: {'address': '11607 Fort Smith, San Antonio, TX 78245', 'listing_price': '$249,999', 'down_payment': '$48,966', 'principal_and_interest': '$895/mo.', 'interest_rate': '2.625%'}
-2025-01-24 17:04:55,555 - logger.config - INFO - Processing listing 4
-2025-01-24 17:05:01,933 - logger.config - INFO - Data scraped: {'address': '4830 Via Sonoma Trl, Converse, TX 78109', 'listing_price': '$274,999', 'down_payment': '$35,153', 'principal_and_interest': '$1,302/mo.', 'interest_rate': '4.72%'}
-2025-01-24 17:05:06,998 - logger.config - INFO - Processing listing 5
-2025-01-24 17:05:11,018 - logger.config - INFO - Data scraped: {'address': '1101 S Trinity St, Decatur, TX 76234', 'listing_price': '$199,999', 'down_payment': '$0', 'principal_and_interest': '$1,524/mo.', 'interest_rate': '4.67%'}
-2025-01-24 17:05:16,075 - logger.config - INFO - Processing listing 6
-2025-01-24 17:05:20,576 - logger.config - INFO - Data scraped: {'address': '513 White Oak Ln, Burleson, TX 76028', 'listing_price': '$259,000', 'down_payment': '$0', 'principal_and_interest': '$1,648/mo.', 'interest_rate': '6%'}
-2025-01-24 17:05:25,634 - logger.config - INFO - Processing listing 7
-2025-01-24 17:05:29,154 - logger.config - INFO - Data scraped: {'address': '3427 Aubree Katherine Dr, Killeen, TX 76542', 'listing_price': '$320,000', 'down_payment': '$20,969', 'principal_and_interest': '$1,711/mo.', 'interest_rate': '5.25%'}
-2025-01-24 17:05:34,211 - logger.config - INFO - Processing listing 8
-2025-01-24 17:05:37,625 - logger.config - INFO - Data scraped: {'address': '5212 Donegal Bay Ct, Killeen, TX 76549', 'listing_price': '$210,000', 'down_payment': '$26,759', 'principal_and_interest': '$890/mo.', 'interest_rate': '3.69%'}
-2025-01-24 17:05:42,682 - logger.config - INFO - Processing listing 9
-2025-01-24 17:05:46,625 - logger.config - INFO - Data scraped: {'address': '4211 Mustang Dr, Killeen, TX 76549', 'listing_price': '$232,900', 'down_payment': '$16,042', 'principal_and_interest': '$1,241/mo.', 'interest_rate': '5.25%'}
-2025-01-24 17:05:51,681 - logger.config - INFO - Processing listing 10
-2025-01-24 17:05:56,282 - logger.config - INFO - Data scraped: {'address': '7223 Marina Del Rey, Converse, TX 78109', 'listing_price': '$325,000', 'down_payment': '$0', 'principal_and_interest': '$1,846/mo.', 'interest_rate': '5.1%'}
-2025-01-24 17:06:01,339 - logger.config - INFO - Processing listing 11
-2025-01-24 17:06:05,417 - logger.config - INFO - Data scraped: {'address': '2117 Charmion Ln, Fort Worth, TX 76131', 'listing_price': '$309,500', 'down_payment': '$5,743', 'principal_and_interest': '$1,846/mo.', 'interest_rate': '5.875%'}
-2025-01-24 17:06:10,476 - logger.config - INFO - Processing listing 12
-2025-01-24 17:06:16,814 - logger.config - INFO - Data scraped: {'address': '131 Savannah Dr, San Antonio, TX 78213', 'listing_price': '$240,000', 'down_payment': '$31,710', 'principal_and_interest': '$1,021/mo.', 'interest_rate': '4%'}
-2025-01-24 17:06:21,872 - logger.config - INFO - Processing listing 13
-2025-01-24 17:06:25,868 - logger.config - INFO - Data scraped: {'address': '9123 Bennett Frst, Converse, TX 78109', 'listing_price': '$380,000', 'down_payment': '$37,447', 'principal_and_interest': '$1,706/mo.', 'interest_rate': '3.92%'}
-2025-01-24 17:06:30,924 - logger.config - INFO - Processing listing 14
-2025-01-24 17:06:34,383 - logger.config - INFO - Data scraped: {'address': '1536 Mustang Ave, West Orange, TX 77630', 'listing_price': '$100,000', 'down_payment': '$0', 'principal_and_interest': '$505/mo.', 'interest_rate': '3%'}
-2025-01-24 17:06:39,598 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:06:44,599 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:06:44,640 - logger.config - INFO - Retrieved 16 listings on this page.
-2025-01-24 17:06:44,640 - logger.config - INFO - Processing listing 1
-2025-01-24 17:06:49,929 - logger.config - INFO - Data scraped: {'address': '10746 Impala Spgs, San Antonio, TX 78245', 'listing_price': '$270,000', 'down_payment': '$43,883', 'principal_and_interest': '$1,004/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:06:54,988 - logger.config - INFO - Processing listing 2
-2025-01-24 17:06:58,462 - logger.config - INFO - Data scraped: {'address': '14007 Big Tree Dr, San Antonio, TX 78247', 'listing_price': '$285,000', 'down_payment': '$49,187', 'principal_and_interest': '$1,169/mo.', 'interest_rate': '4%'}
-2025-01-24 17:07:03,521 - logger.config - INFO - Processing listing 3
-2025-01-24 17:07:07,541 - logger.config - INFO - Data scraped: {'address': '1107 Larkspur Ln, Cleburne, TX 76033', 'listing_price': '$335,000', 'down_payment': '$11,973', 'principal_and_interest': '$1,978/mo.', 'interest_rate': '6%'}
-2025-01-24 17:07:12,597 - logger.config - INFO - Processing listing 4
-2025-01-24 17:07:16,552 - logger.config - INFO - Data scraped: {'address': '1511 Center St, San Antonio, TX 78202', 'listing_price': '$298,000', 'down_payment': '$49,895', 'principal_and_interest': '$1,094/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:07:21,608 - logger.config - INFO - Processing listing 5
-2025-01-24 17:07:27,923 - logger.config - INFO - Data scraped: {'address': '302 Shadwell Dr, San Antonio, TX 78228', 'listing_price': '$329,999', 'down_payment': '$34,978', 'principal_and_interest': '$1,434/mo.', 'interest_rate': '3.69%'}
-2025-01-24 17:07:32,979 - logger.config - INFO - Processing listing 6
-2025-01-24 17:07:36,926 - logger.config - INFO - Data scraped: {'address': '1426 Robin Willow, San Antonio, TX 78260', 'listing_price': '$444,900', 'down_payment': '$41,225', 'principal_and_interest': '$1,974/mo.', 'interest_rate': '3.76%'}
-2025-01-24 17:07:41,982 - logger.config - INFO - Processing listing 7
-2025-01-24 17:07:45,389 - logger.config - INFO - Data scraped: {'address': '2131 Islawild Way, La Marque, TX 77568', 'listing_price': '$300,000', 'down_payment': '$0', 'principal_and_interest': '$1,541/mo.', 'interest_rate': '3.22%'}
-2025-01-24 17:07:50,445 - logger.config - INFO - Processing listing 8
-2025-01-24 17:07:55,918 - logger.config - INFO - Data scraped: {'address': '5640 Shore Point Trl, Fort Worth, TX 76119', 'listing_price': '$300,000', 'down_payment': '$16,841', 'principal_and_interest': '$1,730/mo.', 'interest_rate': '6%'}
-2025-01-24 17:08:00,974 - logger.config - INFO - Processing listing 9
-2025-01-24 17:08:04,467 - logger.config - INFO - Data scraped: {'address': '9614 Kensley Rose Dr, Killeen, TX 76542', 'listing_price': '$299,000', 'down_payment': '$45,644', 'principal_and_interest': '$1,471/mo.', 'interest_rate': '5.375%'}
-2025-01-24 17:08:09,523 - logger.config - INFO - Processing listing 10
-2025-01-24 17:08:13,906 - logger.config - INFO - Data scraped: {'address': '7211 Marina Del Rey, Converse, TX 78109', 'listing_price': '$289,000', 'down_payment': '$30,126', 'principal_and_interest': '$1,154/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:08:18,962 - logger.config - INFO - Processing listing 11
-2025-01-24 17:08:22,369 - logger.config - INFO - Data scraped: {'address': '13814 Ostrich Run, San Antonio, TX 78252', 'listing_price': '$255,000', 'down_payment': '$24,722', 'principal_and_interest': '$1,142/mo.', 'interest_rate': '4%'}
-2025-01-24 17:08:27,427 - logger.config - INFO - Processing listing 12
-2025-01-24 17:08:30,917 - logger.config - INFO - Data scraped: {'address': '31242 Roos River Dr, Hockley, TX 77447', 'listing_price': '$304,848', 'down_payment': '$25,373', 'principal_and_interest': '$1,705/mo.', 'interest_rate': '6%'}
-2025-01-24 17:08:35,973 - logger.config - INFO - Processing listing 13
-2025-01-24 17:08:39,446 - logger.config - INFO - Data scraped: {'address': '1223 Longhorn Xing, San Antonio, TX 78245', 'listing_price': '$339,999', 'down_payment': '$25,695', 'principal_and_interest': '$1,780/mo.', 'interest_rate': '5.125%'}
-2025-01-24 17:08:44,503 - logger.config - INFO - Processing listing 14
-2025-01-24 17:08:49,128 - logger.config - INFO - Data scraped: {'address': '180 Kaker Ct, Bridgeport, TX 76426', 'listing_price': '$260,000', 'down_payment': '$26,490', 'principal_and_interest': '$1,419/mo.', 'interest_rate': '5.875%'}
-2025-01-24 17:08:54,185 - logger.config - INFO - Processing listing 15
-2025-01-24 17:08:58,230 - logger.config - INFO - Data scraped: {'address': '11817 Navasota St, Manor, TX 78653', 'listing_price': '$315,000', 'down_payment': '$0', 'principal_and_interest': '$1,416/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:09:03,289 - logger.config - INFO - Processing listing 16
-2025-01-24 17:09:06,471 - logger.config - INFO - Data scraped: {'address': '1605 Brooking St, Belton, TX 76513', 'listing_price': '$215,000', 'down_payment': '$19,396', 'principal_and_interest': '$1,199/mo.', 'interest_rate': '6%'}
-2025-01-24 17:09:11,680 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:09:16,680 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:09:16,745 - logger.config - INFO - Retrieved 15 listings on this page.
-2025-01-24 17:09:16,745 - logger.config - INFO - Processing listing 1
-2025-01-24 17:09:20,554 - logger.config - INFO - Data scraped: {'address': '1901 Southwood Dr, Baytown, TX 77520', 'listing_price': '$225,000', 'down_payment': '$0', 'principal_and_interest': '$1,010/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:09:25,610 - logger.config - INFO - Processing listing 2
-2025-01-24 17:09:29,267 - logger.config - INFO - Data scraped: {'address': '8923 Portobello Way, Converse, TX 78109', 'listing_price': '$276,900', 'down_payment': '$0', 'principal_and_interest': '$1,416/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:09:34,324 - logger.config - INFO - Processing listing 3
-2025-01-24 17:09:37,839 - logger.config - INFO - Data scraped: {'address': '1115 Alta Vista Dr, Killeen, TX 76549', 'listing_price': '$208,000', 'down_payment': '$46,551', 'principal_and_interest': '$912/mo.', 'interest_rate': '5.1%'}
-2025-01-24 17:09:42,896 - logger.config - INFO - Processing listing 4
-2025-01-24 17:09:48,682 - logger.config - INFO - Data scraped: {'address': '6814 Turnpike, Converse, TX 78109', 'listing_price': '$298,000', 'down_payment': '$30,073', 'principal_and_interest': '$1,642/mo.', 'interest_rate': '6%'}
-2025-01-24 17:09:53,739 - logger.config - INFO - Processing listing 5
-2025-01-24 17:09:57,640 - logger.config - INFO - Data scraped: {'address': '4713 Ascot Pkwy, Temple, TX 76502', 'listing_price': '$360,000', 'down_payment': '$6,007', 'principal_and_interest': '$1,577/mo.', 'interest_rate': '2.625%'}
-2025-01-24 17:10:02,696 - logger.config - INFO - Processing listing 6
-2025-01-24 17:10:07,637 - logger.config - INFO - Data scraped: {'address': '3917 Amy Ave, Garland, TX 75043', 'listing_price': '$340,000', 'down_payment': '$1,486', 'principal_and_interest': '$1,503/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:10:12,694 - logger.config - INFO - Processing listing 7
-2025-01-24 17:10:16,209 - logger.config - INFO - Data scraped: {'address': '13507 Lunar Lgt, Saint Hedwig, TX 78152', 'listing_price': '$225,000', 'down_payment': '$41,061', 'principal_and_interest': '$848/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:10:21,266 - logger.config - INFO - Processing listing 8
-2025-01-24 17:10:29,288 - logger.config - INFO - Data scraped: {'address': '7374 Braes Cor, San Antonio, TX 78244', 'listing_price': '$215,000', 'down_payment': '$45,394', 'principal_and_interest': '$750/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:10:34,412 - logger.config - INFO - Processing listing 9
-2025-01-24 17:10:39,147 - logger.config - INFO - Data scraped: {'address': '8301 Grayson Trl, Killeen, TX 76542', 'listing_price': '$370,900', 'down_payment': '$36,275', 'principal_and_interest': '$1,479/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:10:44,206 - logger.config - INFO - Processing listing 10
-2025-01-24 17:10:48,078 - logger.config - INFO - Data scraped: {'address': '850 Fm 970, Florence, TX 76527', 'listing_price': '$350,000', 'down_payment': '$24,539', 'principal_and_interest': '$1,399/mo.', 'interest_rate': '2.375%'}
-2025-01-24 17:10:53,139 - logger.config - INFO - Processing listing 11
-2025-01-24 17:10:56,693 - logger.config - INFO - Data scraped: {'address': '7632 Rampart Dr, Aubrey, TX 76227', 'listing_price': '$329,900', 'down_payment': '$0', 'principal_and_interest': '$1,859/mo.', 'interest_rate': '4%'}
-2025-01-24 17:11:01,751 - logger.config - INFO - Processing listing 12
-2025-01-24 17:11:06,778 - logger.config - INFO - Data scraped: {'address': '130 May Ct, Weatherford, TX 76088', 'listing_price': '$159,000', 'down_payment': '$0', 'principal_and_interest': '$720/mo.', 'interest_rate': '3%'}
-2025-01-24 17:11:11,839 - logger.config - INFO - Processing listing 13
-2025-01-24 17:11:15,496 - logger.config - INFO - Data scraped: {'address': '1615 Connor Ave, Waco, TX 76706', 'listing_price': '$155,000', 'down_payment': '$29,336', 'principal_and_interest': '$540/mo.', 'interest_rate': '2.375%'}
-2025-01-24 17:11:20,553 - logger.config - INFO - Processing listing 14
-2025-01-24 17:11:24,986 - logger.config - INFO - Data scraped: {'address': '6566 Runaway Row, Converse, TX 78109', 'listing_price': '$289,999', 'down_payment': '$11,035', 'principal_and_interest': '$1,620/mo.', 'interest_rate': '5.375%'}
-2025-01-24 17:11:30,043 - logger.config - INFO - Processing listing 15
-2025-01-24 17:11:34,124 - logger.config - INFO - Data scraped: {'address': '2109 Vernice Dr, Copperas Cove, TX 76522', 'listing_price': '$270,000', 'down_payment': '$12,261', 'principal_and_interest': '$1,137/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:11:39,264 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:11:44,264 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:11:44,280 - logger.config - INFO - Retrieved 22 listings on this page.
-2025-01-24 17:11:44,281 - logger.config - INFO - Processing listing 1
-2025-01-24 17:11:50,107 - logger.config - INFO - Data scraped: {'address': '10401 Birch Peak Dr, Rosharon, TX 77583', 'listing_price': '$280,000', 'down_payment': '$4,170', 'principal_and_interest': '$1,243/mo.', 'interest_rate': '3%'}
-2025-01-24 17:11:55,193 - logger.config - INFO - Processing listing 2
-2025-01-24 17:12:00,325 - logger.config - INFO - Data scraped: {'address': '13540 Leather Strap Dr, Haslet, TX 76052', 'listing_price': '$398,000', 'down_payment': '$6,435', 'principal_and_interest': '$1,768/mo.', 'interest_rate': '3%'}
-2025-01-24 17:12:05,384 - logger.config - INFO - Processing listing 3
-2025-01-24 17:12:08,667 - logger.config - INFO - Data scraped: {'address': '4805 Rosaline Dr, Belton, TX 76513', 'listing_price': '$280,000', 'down_payment': '$14,812', 'principal_and_interest': '$1,172/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:12:13,729 - logger.config - INFO - Processing listing 4
-2025-01-24 17:12:17,206 - logger.config - INFO - Data scraped: {'address': '2362 Jason Crest Ln, La Porte, TX 77571', 'listing_price': '$299,999', 'down_payment': '$15,943', 'principal_and_interest': '$1,256/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:12:22,264 - logger.config - INFO - Processing listing 5
-2025-01-24 17:12:25,401 - logger.config - INFO - Data scraped: {'address': '9612 Falme Ln, Killeen, TX 76542', 'listing_price': '$247,000', 'down_payment': '$39,893', 'principal_and_interest': '$923/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:12:30,461 - logger.config - INFO - Processing listing 6
-2025-01-24 17:12:35,086 - logger.config - INFO - Data scraped: {'address': '9314 Trap Rock Dr, San Antonio, TX 78211', 'listing_price': '$295,000', 'down_payment': '$32,087', 'principal_and_interest': '$1,471/mo.', 'interest_rate': '5%'}
-2025-01-24 17:12:40,150 - logger.config - INFO - Processing listing 7
-2025-01-24 17:12:45,884 - logger.config - INFO - Data scraped: {'address': '543 Filibusters Trl, San Antonio, TX 78220', 'listing_price': '$230,000', 'down_payment': '$10,147', 'principal_and_interest': '$980/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:12:50,941 - logger.config - INFO - Processing listing 8
-2025-01-24 17:12:54,202 - logger.config - INFO - Data scraped: {'address': '5501 Shawn Dr, Killeen, TX 76542', 'listing_price': '$255,000', 'down_payment': '$43,234', 'principal_and_interest': '$994/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:12:59,260 - logger.config - INFO - Processing listing 9
-2025-01-24 17:13:02,487 - logger.config - INFO - Data scraped: {'address': '5906 Horne Dr, Killeen, TX 76542', 'listing_price': '$225,000', 'down_payment': '$20,331', 'principal_and_interest': '$1,045/mo.', 'interest_rate': '4.16%'}
-2025-01-24 17:13:07,544 - logger.config - INFO - Processing listing 10
-2025-01-24 17:13:11,715 - logger.config - INFO - Data scraped: {'address': '7945 Cactus Plum Dr, San Antonio, TX 78254', 'listing_price': '$319,900', 'down_payment': '$49,533', 'principal_and_interest': '$1,223/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:13:16,773 - logger.config - INFO - Processing listing 11
-2025-01-24 17:13:19,873 - logger.config - INFO - Data scraped: {'address': '3602 Iroquois Trl, Temple, TX 76504', 'listing_price': '$384,900', 'down_payment': '$33,643', 'principal_and_interest': '$1,981/mo.', 'interest_rate': '5.1%'}
-2025-01-24 17:13:24,929 - logger.config - INFO - Processing listing 12
-2025-01-24 17:13:30,833 - logger.config - INFO - Data scraped: {'address': '10415 Francisco Way, Converse, TX 78109', 'listing_price': '$299,000', 'down_payment': '$24,728', 'principal_and_interest': '$1,203/mo.', 'interest_rate': '2.7%'}
-2025-01-24 17:13:35,891 - logger.config - INFO - Processing listing 13
-2025-01-24 17:13:39,312 - logger.config - INFO - Data scraped: {'address': '625 Cypress Byu, Cibolo, TX 78108', 'listing_price': '$315,000', 'down_payment': '$24,271', 'principal_and_interest': '$1,285/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:13:44,368 - logger.config - INFO - Processing listing 14
-2025-01-24 17:13:47,834 - logger.config - INFO - Data scraped: {'address': '10423 Idared, San Antonio, TX 78252', 'listing_price': '$305,000', 'down_payment': '$19,838', 'principal_and_interest': '$1,656/mo.', 'interest_rate': '5.375%'}
-2025-01-24 17:13:52,891 - logger.config - INFO - Processing listing 15
-2025-01-24 17:13:56,337 - logger.config - INFO - Data scraped: {'address': '98 N Highland Dr, Sanger, TX 76266', 'listing_price': '$385,000', 'down_payment': '$31,248', 'principal_and_interest': '$1,564/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:14:01,393 - logger.config - INFO - Processing listing 16
-2025-01-24 17:14:04,806 - logger.config - INFO - Data scraped: {'address': '1127 Mount Olive Ln, Forney, TX 75126', 'listing_price': '$260,000', 'down_payment': '$0', 'principal_and_interest': '$1,820/mo.', 'interest_rate': '5.11%'}
-2025-01-24 17:14:09,863 - logger.config - INFO - Processing listing 17
-2025-01-24 17:14:13,316 - logger.config - INFO - Data scraped: {'address': '1410 Stephen St, Killeen, TX 76549', 'listing_price': '$170,000', 'down_payment': '$9,828', 'principal_and_interest': '$795/mo.', 'interest_rate': '3.89%'}
-2025-01-24 17:14:18,372 - logger.config - INFO - Processing listing 18
-2025-01-24 17:14:23,614 - logger.config - INFO - Data scraped: {'address': '7322 Bowdre, San Antonio, TX 78252', 'listing_price': '$249,000', 'down_payment': '$25,264', 'principal_and_interest': '$1,049/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:14:28,673 - logger.config - INFO - Processing listing 19
-2025-01-24 17:14:54,637 - logger.config - INFO - Data scraped: {'address': '10519 Midsummer Mdw, Converse, TX 78109', 'listing_price': '$249,999', 'down_payment': '$21,745', 'principal_and_interest': '$1,009/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:14:59,695 - logger.config - INFO - Processing listing 20
-2025-01-24 17:15:04,517 - logger.config - INFO - Data scraped: {'address': '3504 Oglala Trl, Temple, TX 76502', 'listing_price': '$294,900', 'down_payment': '$15,968', 'principal_and_interest': '$1,573/mo.', 'interest_rate': '5.125%'}
-2025-01-24 17:15:09,575 - logger.config - INFO - Processing listing 21
-2025-01-24 17:15:13,081 - logger.config - INFO - Data scraped: {'address': '293 Nautical Loop, Kyle, TX 78640', 'listing_price': '$380,000', 'down_payment': '$40,325', 'principal_and_interest': '$1,496/mo.', 'interest_rate': '2.625%'}
-2025-01-24 17:15:18,137 - logger.config - INFO - Processing listing 22
-2025-01-24 17:15:21,677 - logger.config - INFO - Data scraped: {'address': '9604 Rogano Ct, Killeen, TX 76542', 'listing_price': '$279,900', 'down_payment': '$17,323', 'principal_and_interest': '$1,183/mo.', 'interest_rate': '2.98%'}
-2025-01-24 17:15:26,817 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:15:31,817 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:15:31,832 - logger.config - INFO - Retrieved 19 listings on this page.
-2025-01-24 17:15:31,832 - logger.config - INFO - Processing listing 1
-2025-01-24 17:15:36,736 - logger.config - INFO - Data scraped: {'address': '108 Linda St, Anahuac, TX 77514', 'listing_price': '$220,000', 'down_payment': '$20,688', 'principal_and_interest': '$877/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:15:41,792 - logger.config - INFO - Processing listing 2
-2025-01-24 17:15:48,251 - logger.config - INFO - Data scraped: {'address': '935 Red Merganser, San Antonio, TX 78253', 'listing_price': '$285,000', 'down_payment': '$36,613', 'principal_and_interest': '$1,088/mo.', 'interest_rate': '2.5%'}
-2025-01-24 17:15:53,311 - logger.config - INFO - Processing listing 3
-2025-01-24 17:15:59,637 - logger.config - INFO - Data scraped: {'address': '2373 Carson Loop, New Braunfels, TX 78130', 'listing_price': '$249,000', 'down_payment': '$19,205', 'principal_and_interest': '$1,024/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:16:04,694 - logger.config - INFO - Processing listing 4
-2025-01-24 17:16:09,308 - logger.config - INFO - Data scraped: {'address': '200 Walnut St, Chico, TX 76431', 'listing_price': '$274,495', 'down_payment': '$35,550', 'principal_and_interest': '$1,047/mo.', 'interest_rate': '2.5%'}
-2025-01-24 17:16:14,365 - logger.config - INFO - Processing listing 5
-2025-01-24 17:16:17,604 - logger.config - INFO - Data scraped: {'address': '5638 Barkridge Dr, Granbury, TX 76048', 'listing_price': '$285,000', 'down_payment': '$0', 'principal_and_interest': '$1,428/mo.', 'interest_rate': '3.69%'}
-2025-01-24 17:16:22,663 - logger.config - INFO - Processing listing 6
-2025-01-24 17:16:25,831 - logger.config - INFO - Data scraped: {'address': '4734 Lyndys Farm, San Antonio, TX 78244', 'listing_price': '$230,000', 'down_payment': '$14,684', 'principal_and_interest': '$970/mo.', 'interest_rate': '3%'}
-2025-01-24 17:16:30,887 - logger.config - INFO - Processing listing 7
-2025-01-24 17:16:37,794 - logger.config - INFO - Data scraped: {'address': '500 Comal Run, Hutto, TX 78634', 'listing_price': '$350,000', 'down_payment': '$28,566', 'principal_and_interest': '$1,433/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:16:42,856 - logger.config - INFO - Processing listing 8
-2025-01-24 17:16:46,387 - logger.config - INFO - Data scraped: {'address': '7118 Elgin St, Pearland, TX 77584', 'listing_price': '$319,000', 'down_payment': '$31,629', 'principal_and_interest': '$1,265/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:16:51,444 - logger.config - INFO - Processing listing 9
-2025-01-24 17:16:54,820 - logger.config - INFO - Data scraped: {'address': '10021 Cedar Lake Dr, Providence Village, TX 76227', 'listing_price': '$295,000', 'down_payment': '$29,460', 'principal_and_interest': '$1,169/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:16:59,878 - logger.config - INFO - Processing listing 10
-2025-01-24 17:17:04,232 - logger.config - INFO - Data scraped: {'address': '14838 Maverick Ave, San Antonio, TX 78217', 'listing_price': '$315,000', 'down_payment': '$32,230', 'principal_and_interest': '$1,247/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:17:09,293 - logger.config - INFO - Processing listing 11
-2025-01-24 17:17:12,844 - logger.config - INFO - Data scraped: {'address': '177 Cuban Emerald, San Antonio, TX 78253', 'listing_price': '$308,000', 'down_payment': '$22,030', 'principal_and_interest': '$1,288/mo.', 'interest_rate': '2.98%'}
-2025-01-24 17:17:17,904 - logger.config - INFO - Processing listing 12
-2025-01-24 17:17:21,539 - logger.config - INFO - Data scraped: {'address': '11675 Folsom Pass, San Antonio, TX 78245', 'listing_price': '$355,000', 'down_payment': '$31,123', 'principal_and_interest': '$1,444/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:17:26,596 - logger.config - INFO - Processing listing 13
-2025-01-24 17:17:29,959 - logger.config - INFO - Data scraped: {'address': '2977 County Road 1545, Crockett, TX 75835', 'listing_price': '$310,000', 'down_payment': '$43,422', 'principal_and_interest': '$1,168/mo.', 'interest_rate': '2.5%'}
-2025-01-24 17:17:35,016 - logger.config - INFO - Processing listing 14
-2025-01-24 17:17:39,356 - logger.config - INFO - Data scraped: {'address': '732 Olaf Dr, Temple, TX 76504', 'listing_price': '$305,000', 'down_payment': '$6,711', 'principal_and_interest': '$1,401/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:17:44,413 - logger.config - INFO - Processing listing 15
-2025-01-24 17:17:48,085 - logger.config - INFO - Data scraped: {'address': '4325 E Bayou Maison Cir, Dickinson, TX 77539', 'listing_price': '$295,000', 'down_payment': '$27,276', 'principal_and_interest': '$1,203/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:17:53,142 - logger.config - INFO - Processing listing 16
-2025-01-24 17:17:57,646 - logger.config - INFO - Data scraped: {'address': '4914 Drovers Path, Saint Hedwig, TX 78152', 'listing_price': '$305,000', 'down_payment': '$28,209', 'principal_and_interest': '$1,244/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:18:02,706 - logger.config - INFO - Processing listing 17
-2025-01-24 17:18:06,138 - logger.config - INFO - Data scraped: {'address': '9907 Kents Store St, San Antonio, TX 78245', 'listing_price': '$219,999', 'down_payment': '$24,784', 'principal_and_interest': '$867/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:18:11,196 - logger.config - INFO - Processing listing 18
-2025-01-24 17:18:14,655 - logger.config - INFO - Data scraped: {'address': '945 Sam St, Springtown, TX 76082', 'listing_price': '$299,900', 'down_payment': '$49,612', 'principal_and_interest': '$1,073/mo.', 'interest_rate': '2.375%'}
-2025-01-24 17:18:19,712 - logger.config - INFO - Processing listing 19
-2025-01-24 17:18:24,482 - logger.config - INFO - Data scraped: {'address': '323 Big Hawk, New Braunfels, TX 78130', 'listing_price': '$339,000', 'down_payment': '$38,988', 'principal_and_interest': '$1,326/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:18:29,652 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:18:34,652 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:18:34,695 - logger.config - INFO - Retrieved 20 listings on this page.
-2025-01-24 17:18:34,696 - logger.config - INFO - Processing listing 1
-2025-01-24 17:18:39,399 - logger.config - INFO - Data scraped: {'address': '1815 Overlook Knl, San Antonio, TX 78245', 'listing_price': '$300,000', 'down_payment': '$38,061', 'principal_and_interest': '$1,182/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:18:44,457 - logger.config - INFO - Processing listing 2
-2025-01-24 17:18:49,655 - logger.config - INFO - Data scraped: {'address': '22535 Aspen Tarn Trl, Spring, TX 77373', 'listing_price': '$244,000', 'down_payment': '$20,082', 'principal_and_interest': '$1,009/mo.', 'interest_rate': '3%'}
-2025-01-24 17:18:54,717 - logger.config - INFO - Processing listing 3
-2025-01-24 17:18:58,508 - logger.config - INFO - Data scraped: {'address': '5708 Black Pine Cir, Granbury, TX 76048', 'listing_price': '$300,000', 'down_payment': '$37,442', 'principal_and_interest': '$1,151/mo.', 'interest_rate': '2.7%'}
-2025-01-24 17:19:03,565 - logger.config - INFO - Processing listing 4
-2025-01-24 17:19:06,794 - logger.config - INFO - Data scraped: {'address': '831 S Flores St, San Antonio, TX 78204', 'listing_price': '$319,999', 'down_payment': '$43,743', 'principal_and_interest': '$1,216/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:19:11,853 - logger.config - INFO - Processing listing 5
-2025-01-24 17:19:15,046 - logger.config - INFO - Data scraped: {'address': '717 Acacia Dr, Anna, TX 75409', 'listing_price': '$290,000', 'down_payment': '$29,503', 'principal_and_interest': '$1,161/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:19:20,102 - logger.config - INFO - Processing listing 6
-2025-01-24 17:19:23,404 - logger.config - INFO - Data scraped: {'address': '4104 Princess Point Ct, Forney, TX 75126', 'listing_price': '$344,500', 'down_payment': '$41,026', 'principal_and_interest': '$1,336/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:19:28,461 - logger.config - INFO - Processing listing 7
-2025-01-24 17:19:34,898 - logger.config - INFO - Data scraped: {'address': '5514 Bat Cyn, San Antonio, TX 78252', 'listing_price': '$225,000', 'down_payment': '$28,654', 'principal_and_interest': '$861/mo.', 'interest_rate': '2.7%'}
-2025-01-24 17:19:39,959 - logger.config - INFO - Processing listing 8
-2025-01-24 17:19:43,142 - logger.config - INFO - Data scraped: {'address': '16427 Dawncrest Way, Sugar Land, TX 77498', 'listing_price': '$262,500', 'down_payment': '$27,123', 'principal_and_interest': '$1,049/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:19:48,198 - logger.config - INFO - Processing listing 9
-2025-01-24 17:19:51,753 - logger.config - INFO - Data scraped: {'address': '722 Aberdeen Pl, San Antonio, TX 78210', 'listing_price': '$189,000', 'down_payment': '$6,732', 'principal_and_interest': '$854/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:19:56,812 - logger.config - INFO - Processing listing 10
-2025-01-24 17:20:03,430 - logger.config - INFO - Data scraped: {'address': '1603 Advance Dr, San Antonio, TX 78220', 'listing_price': '$170,000', 'down_payment': '$23,617', 'principal_and_interest': '$644/mo.', 'interest_rate': '2.625%'}
-2025-01-24 17:20:08,489 - logger.config - INFO - Processing listing 11
-2025-01-24 17:20:12,034 - logger.config - INFO - Data scraped: {'address': '3916 Ancient Song, San Antonio, TX 78245', 'listing_price': '$269,999', 'down_payment': '$30,123', 'principal_and_interest': '$1,069/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:20:17,091 - logger.config - INFO - Processing listing 12
-2025-01-24 17:20:20,687 - logger.config - INFO - Data scraped: {'address': '505 Sapphire Ln, Jarrell, TX 76537', 'listing_price': '$268,000', 'down_payment': '$30,064', 'principal_and_interest': '$1,061/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:20:25,749 - logger.config - INFO - Processing listing 13
-2025-01-24 17:20:29,201 - logger.config - INFO - Data scraped: {'address': '224 Maddox St, Clute, TX 77531', 'listing_price': '$210,000', 'down_payment': '$24,024', 'principal_and_interest': '$829/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:20:34,281 - logger.config - INFO - Processing listing 14
-2025-01-24 17:20:37,684 - logger.config - INFO - Data scraped: {'address': '211 Shady Ln, Livingston, TX 77351', 'listing_price': '$335,000', 'down_payment': '$44,219', 'principal_and_interest': '$1,285/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:20:42,741 - logger.config - INFO - Processing listing 15
-2025-01-24 17:20:48,661 - logger.config - INFO - Data scraped: {'address': '1609 Glenbrook St, Corsicana, TX 75110', 'listing_price': '$379,999', 'down_payment': '$37,136', 'principal_and_interest': '$1,548/mo.', 'interest_rate': '3%'}
-2025-01-24 17:20:53,718 - logger.config - INFO - Processing listing 16
-2025-01-24 17:21:00,091 - logger.config - INFO - Data scraped: {'address': '8907 Ridge Hollow St, San Antonio, TX 78250', 'listing_price': '$245,000', 'down_payment': '$28,180', 'principal_and_interest': '$974/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:21:05,148 - logger.config - INFO - Processing listing 17
-2025-01-24 17:21:09,232 - logger.config - INFO - Data scraped: {'address': '5839 Lake Champlain St, San Antonio, TX 78233', 'listing_price': '$270,000', 'down_payment': '$26,751', 'principal_and_interest': '$1,096/mo.', 'interest_rate': '3%'}
-2025-01-24 17:21:14,288 - logger.config - INFO - Processing listing 18
-2025-01-24 17:21:18,659 - logger.config - INFO - Data scraped: {'address': '121 Everest Ct, Burleson, TX 76028', 'listing_price': '$409,900', 'down_payment': '$41,111', 'principal_and_interest': '$1,662/mo.', 'interest_rate': '3%'}
-2025-01-24 17:21:23,716 - logger.config - INFO - Processing listing 19
-2025-01-24 17:21:27,320 - logger.config - INFO - Data scraped: {'address': '4007 Somers Crst, San Antonio, TX 78211', 'listing_price': '$245,000', 'down_payment': '$11,958', 'principal_and_interest': '$1,092/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:21:32,378 - logger.config - INFO - Processing listing 20
-2025-01-24 17:21:35,775 - logger.config - INFO - Data scraped: {'address': '2308 Terrace Dr, Killeen, TX 76543', 'listing_price': '$169,900', 'down_payment': '$22,905', 'principal_and_interest': '$647/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:21:40,955 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:21:45,955 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:21:45,969 - logger.config - INFO - Retrieved 22 listings on this page.
-2025-01-24 17:21:45,969 - logger.config - INFO - Processing listing 1
-2025-01-24 17:21:50,557 - logger.config - INFO - Data scraped: {'address': '408 Town Frk, Cibolo, TX 78108', 'listing_price': '$305,000', 'down_payment': '$41,446', 'principal_and_interest': '$1,163/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:21:55,614 - logger.config - INFO - Processing listing 2
-2025-01-24 17:21:59,128 - logger.config - INFO - Data scraped: {'address': '1035 Northern Oaks Ct, Springtown, TX 76082', 'listing_price': '$429,000', 'down_payment': '$43,710', 'principal_and_interest': '$1,736/mo.', 'interest_rate': '3%'}
-2025-01-24 17:22:04,185 - logger.config - INFO - Processing listing 3
-2025-01-24 17:22:07,672 - logger.config - INFO - Data scraped: {'address': '23923 Sage Row Ln, Katy, TX 77493', 'listing_price': '$415,000', 'down_payment': '$49,706', 'principal_and_interest': '$1,629/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:22:12,730 - logger.config - INFO - Processing listing 4
-2025-01-24 17:22:16,116 - logger.config - INFO - Data scraped: {'address': '18693 Swainboro Dr, New Caney, TX 77357', 'listing_price': '$289,900', 'down_payment': '$39,736', 'principal_and_interest': '$1,106/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:22:21,173 - logger.config - INFO - Processing listing 5
-2025-01-24 17:22:24,507 - logger.config - INFO - Data scraped: {'address': '1219 Glencoe Dr, Glenn Heights, TX 75154', 'listing_price': '$350,000', 'down_payment': '$48,714', 'principal_and_interest': '$1,326/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:22:29,569 - logger.config - INFO - Processing listing 6
-2025-01-24 17:22:33,085 - logger.config - INFO - Data scraped: {'address': '12056 Latour Vly, San Antonio, TX 78252', 'listing_price': '$235,000', 'down_payment': '$28,758', 'principal_and_interest': '$933/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:22:38,142 - logger.config - INFO - Processing listing 7
-2025-01-24 17:22:41,565 - logger.config - INFO - Data scraped: {'address': '145 Horsemint Way, San Marcos, TX 78666', 'listing_price': '$315,000', 'down_payment': '$44,047', 'principal_and_interest': '$1,193/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:22:46,621 - logger.config - INFO - Processing listing 8
-2025-01-24 17:22:50,185 - logger.config - INFO - Data scraped: {'address': '7727 Vacek Meadows Loop, Richmond, TX 77469', 'listing_price': '$245,000', 'down_payment': '$47,175', 'principal_and_interest': '$850/mo.', 'interest_rate': '2.375%'}
-2025-01-24 17:22:55,241 - logger.config - INFO - Processing listing 9
-2025-01-24 17:22:58,715 - logger.config - INFO - Data scraped: {'address': '2506 Ventura Dr, League City, TX 77573', 'listing_price': '$430,000', 'down_payment': '$46,075', 'principal_and_interest': '$1,733/mo.', 'interest_rate': '3%'}
-2025-01-24 17:23:03,773 - logger.config - INFO - Processing listing 10
-2025-01-24 17:23:07,323 - logger.config - INFO - Data scraped: {'address': '2019 Deer Field Way, Harker Heights, TX 76548', 'listing_price': '$290,000', 'down_payment': '$41,109', 'principal_and_interest': '$1,098/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:23:12,380 - logger.config - INFO - Processing listing 11
-2025-01-24 17:23:15,867 - logger.config - INFO - Data scraped: {'address': '15859 Misty Loch Ln, Houston, TX 77084', 'listing_price': '$210,000', 'down_payment': '$29,993', 'principal_and_interest': '$796/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:23:20,924 - logger.config - INFO - Processing listing 12
-2025-01-24 17:23:24,595 - logger.config - INFO - Data scraped: {'address': '7104 Andalucia St, Killeen, TX 76542', 'listing_price': '$325,000', 'down_payment': '$46,482', 'principal_and_interest': '$1,226/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:23:29,664 - logger.config - INFO - Processing listing 13
-2025-01-24 17:23:33,157 - logger.config - INFO - Data scraped: {'address': '13521 Martha Washington Pl, Manor, TX 78653', 'listing_price': '$321,000', 'down_payment': '$46,005', 'principal_and_interest': '$1,216/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:23:38,214 - logger.config - INFO - Processing listing 14
-2025-01-24 17:23:42,375 - logger.config - INFO - Data scraped: {'address': '616 Elizabeth Ln, Bastrop, TX 78602', 'listing_price': '$375,000', 'down_payment': '$12,748', 'principal_and_interest': '$1,733/mo.', 'interest_rate': '3.55%'}
-2025-01-24 17:23:47,441 - logger.config - INFO - Processing listing 15
-2025-01-24 17:23:50,866 - logger.config - INFO - Data scraped: {'address': '1806 Kangaroo Ave, Killeen, TX 76543', 'listing_price': '$175,500', 'down_payment': '$19,516', 'principal_and_interest': '$703/mo.', 'interest_rate': '3%'}
-2025-01-24 17:23:55,922 - logger.config - INFO - Processing listing 16
-2025-01-24 17:24:00,671 - logger.config - INFO - Data scraped: {'address': '15102 Jetfire Pt, Von Ormy, TX 78073', 'listing_price': '$340,000', 'down_payment': '$49,838', 'principal_and_interest': '$1,277/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:24:05,729 - logger.config - INFO - Processing listing 17
-2025-01-24 17:24:09,270 - logger.config - INFO - Data scraped: {'address': '2407 High Spruce Cir, Spring, TX 77373', 'listing_price': '$284,999', 'down_payment': '$32,012', 'principal_and_interest': '$1,142/mo.', 'interest_rate': '3%'}
-2025-01-24 17:24:14,329 - logger.config - INFO - Processing listing 18
-2025-01-24 17:24:17,962 - logger.config - INFO - Data scraped: {'address': '3709 Rusack Dr, Killeen, TX 76542', 'listing_price': '$332,000', 'down_payment': '$48,792', 'principal_and_interest': '$1,252/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:24:23,019 - logger.config - INFO - Processing listing 19
-2025-01-24 17:24:26,660 - logger.config - INFO - Data scraped: {'address': '11707 Silver Fld, San Antonio, TX 78254', 'listing_price': '$294,000', 'down_payment': '$38,214', 'principal_and_interest': '$1,150/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:24:31,717 - logger.config - INFO - Processing listing 20
-2025-01-24 17:24:35,147 - logger.config - INFO - Data scraped: {'address': '421 House St, Lufkin, TX 75904', 'listing_price': '$299,900', 'down_payment': '$33,927', 'principal_and_interest': '$1,201/mo.', 'interest_rate': '3%'}
-2025-01-24 17:24:40,204 - logger.config - INFO - Processing listing 21
-2025-01-24 17:24:43,665 - logger.config - INFO - Data scraped: {'address': '7345 Ventura Ln, Grand Prairie, TX 75054', 'listing_price': '$357,000', 'down_payment': '$0', 'principal_and_interest': '$1,795/mo.', 'interest_rate': '4%'}
-2025-01-24 17:24:48,722 - logger.config - INFO - Processing listing 22
-2025-01-24 17:24:52,183 - logger.config - INFO - Data scraped: {'address': '265 Remington Rd, Tuscola, TX 79562', 'listing_price': '$329,900', 'down_payment': '$3,520', 'principal_and_interest': '$1,597/mo.', 'interest_rate': '3.75%'}
-2025-01-24 17:24:57,325 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:25:02,326 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:25:02,369 - logger.config - INFO - Retrieved 17 listings on this page.
-2025-01-24 17:25:02,370 - logger.config - INFO - Processing listing 1
-2025-01-24 17:25:07,041 - logger.config - INFO - Data scraped: {'address': '4734 Night Herder, Saint Hedwig, TX 78152', 'listing_price': '$297,999', 'down_payment': '$39,053', 'principal_and_interest': '$1,154/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:25:12,097 - logger.config - INFO - Processing listing 2
-2025-01-24 17:25:15,673 - logger.config - INFO - Data scraped: {'address': '3507 Addison St, Killeen, TX 76542', 'listing_price': '$245,000', 'down_payment': '$21,809', 'principal_and_interest': '$1,103/mo.', 'interest_rate': '3.85%'}
-2025-01-24 17:25:20,729 - logger.config - INFO - Processing listing 3
-2025-01-24 17:25:24,239 - logger.config - INFO - Data scraped: {'address': '17110 Mystic River Ln, Conroe, TX 77302', 'listing_price': '$390,000', 'down_payment': '$24,449', 'principal_and_interest': '$1,717/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:25:29,297 - logger.config - INFO - Processing listing 4
-2025-01-24 17:25:33,209 - logger.config - INFO - Data scraped: {'address': '9334 Nubuck Br, Converse, TX 78109', 'listing_price': '$296,000', 'down_payment': '$44,090', 'principal_and_interest': '$1,118/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:25:38,266 - logger.config - INFO - Processing listing 5
-2025-01-24 17:25:41,886 - logger.config - INFO - Data scraped: {'address': '6918 Jennings Dr, Abilene, TX 79606', 'listing_price': '$270,000', 'down_payment': '$31,240', 'principal_and_interest': '$1,078/mo.', 'interest_rate': '3%'}
-2025-01-24 17:25:46,944 - logger.config - INFO - Processing listing 6
-2025-01-24 17:25:51,115 - logger.config - INFO - Data scraped: {'address': '134 E High Ave, San Antonio, TX 78210', 'listing_price': '$284,000', 'down_payment': '$18,854', 'principal_and_interest': '$1,245/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:25:56,171 - logger.config - INFO - Processing listing 7
-2025-01-24 17:25:59,684 - logger.config - INFO - Data scraped: {'address': '3717 Limestone Mesa, Schertz, TX 78154', 'listing_price': '$340,000', 'down_payment': '$46,030', 'principal_and_interest': '$1,310/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:26:04,740 - logger.config - INFO - Processing listing 8
-2025-01-24 17:26:08,291 - logger.config - INFO - Data scraped: {'address': '6708 Parker Oaks Ln, Houston, TX 77076', 'listing_price': '$285,900', 'down_payment': '$45,187', 'principal_and_interest': '$1,064/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:26:13,347 - logger.config - INFO - Processing listing 9
-2025-01-24 17:26:16,851 - logger.config - INFO - Data scraped: {'address': '313 Elm St, Copperas Cove, TX 76522', 'listing_price': '$159,400', 'down_payment': '$25,443', 'principal_and_interest': '$589/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:26:21,908 - logger.config - INFO - Processing listing 10
-2025-01-24 17:26:25,364 - logger.config - INFO - Data scraped: {'address': '3612 Judges Dr, Ennis, TX 75119', 'listing_price': '$257,000', 'down_payment': '$0', 'principal_and_interest': '$1,281/mo.', 'interest_rate': '3.92%'}
-2025-01-24 17:26:30,422 - logger.config - INFO - Processing listing 11
-2025-01-24 17:26:33,990 - logger.config - INFO - Data scraped: {'address': '21318 Russell Chase Dr, Porter, TX 77365', 'listing_price': '$374,999', 'down_payment': '$47,594', 'principal_and_interest': '$1,475/mo.', 'interest_rate': '3%'}
-2025-01-24 17:26:39,046 - logger.config - INFO - Processing listing 12
-2025-01-24 17:26:43,299 - logger.config - INFO - Data scraped: {'address': '7707 Watersedge Cv, San Antonio, TX 78254', 'listing_price': '$335,000', 'down_payment': '$48,521', 'principal_and_interest': '$1,288/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:26:48,356 - logger.config - INFO - Processing listing 13
-2025-01-24 17:26:51,924 - logger.config - INFO - Data scraped: {'address': '3401 Knight Ln, Baytown, TX 77521', 'listing_price': '$265,000', 'down_payment': '$38,498', 'principal_and_interest': '$1,010/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:26:56,981 - logger.config - INFO - Processing listing 14
-2025-01-24 17:27:01,247 - logger.config - INFO - Data scraped: {'address': '4307 Brigadier Dr, Converse, TX 78109', 'listing_price': '$287,000', 'down_payment': '$47,054', 'principal_and_interest': '$1,065/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:27:06,304 - logger.config - INFO - Processing listing 15
-2025-01-24 17:27:09,622 - logger.config - INFO - Data scraped: {'address': '5015 Cassiopeia, San Antonio, TX 78245', 'listing_price': '$298,999', 'down_payment': '$49,592', 'principal_and_interest': '$1,098/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:27:14,679 - logger.config - INFO - Processing listing 16
-2025-01-24 17:27:18,957 - logger.config - INFO - Data scraped: {'address': '3254 Old Almonte Dr, San Antonio, TX 78224', 'listing_price': '$287,000', 'down_payment': '$23,268', 'principal_and_interest': '$1,239/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:27:24,014 - logger.config - INFO - Processing listing 17
-2025-01-24 17:27:28,810 - logger.config - INFO - Data scraped: {'address': '2008 Clairidge Ave, Killeen, TX 76549', 'listing_price': '$207,900', 'down_payment': '$28,005', 'principal_and_interest': '$812/mo.', 'interest_rate': '3%'}
-2025-01-24 17:27:33,972 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:27:38,972 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:27:39,015 - logger.config - INFO - Retrieved 17 listings on this page.
-2025-01-24 17:27:39,015 - logger.config - INFO - Processing listing 1
-2025-01-24 17:27:44,004 - logger.config - INFO - Data scraped: {'address': '909 Kiowa Dr, Burkburnett, TX 76354', 'listing_price': '$289,900', 'down_payment': '$47,417', 'principal_and_interest': '$1,071/mo.', 'interest_rate': '2.8%'}
-2025-01-24 17:27:49,065 - logger.config - INFO - Processing listing 2
-2025-01-24 17:27:52,458 - logger.config - INFO - Data scraped: {'address': '2985 Willow Pl, Beaumont, TX 77707', 'listing_price': '$165,000', 'down_payment': '$22,457', 'principal_and_interest': '$668/mo.', 'interest_rate': '3%'}
-2025-01-24 17:27:57,519 - logger.config - INFO - Processing listing 3
-2025-01-24 17:28:01,067 - logger.config - INFO - Data scraped: {'address': '8011 Chasemont Ct, Converse, TX 78109', 'listing_price': '$269,900', 'down_payment': '$46,053', 'principal_and_interest': '$1,016/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:28:06,124 - logger.config - INFO - Processing listing 4
-2025-01-24 17:28:10,910 - logger.config - INFO - Data scraped: {'address': '15603 Wood Sorrel, San Antonio, TX 78247', 'listing_price': '$256,000', 'down_payment': '$25,752', 'principal_and_interest': '$1,145/mo.', 'interest_rate': '4%'}
-2025-01-24 17:28:15,966 - logger.config - INFO - Processing listing 5
-2025-01-24 17:28:19,459 - logger.config - INFO - Data scraped: {'address': '411 Dandelion Bnd, San Antonio, TX 78245', 'listing_price': '$290,000', 'down_payment': '$49,898', 'principal_and_interest': '$1,057/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:28:24,515 - logger.config - INFO - Processing listing 6
-2025-01-24 17:28:28,295 - logger.config - INFO - Data scraped: {'address': '141 Bell St, Abilene, TX 79602', 'listing_price': '$406,500', 'down_payment': '$115', 'principal_and_interest': '$1,963/mo.', 'interest_rate': '4%'}
-2025-01-24 17:28:33,364 - logger.config - INFO - Processing listing 7
-2025-01-24 17:28:36,832 - logger.config - INFO - Data scraped: {'address': '3509 Fortner Way, Fort Worth, TX 76116', 'listing_price': '$235,000', 'down_payment': '$21,309', 'principal_and_interest': '$1,004/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:28:41,888 - logger.config - INFO - Processing listing 8
-2025-01-24 17:28:45,210 - logger.config - INFO - Data scraped: {'address': '2041 Woodard St, Abilene, TX 79605', 'listing_price': '$199,900', 'down_payment': '$35,344', 'principal_and_interest': '$730/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:28:50,268 - logger.config - INFO - Processing listing 9
-2025-01-24 17:28:53,759 - logger.config - INFO - Data scraped: {'address': '6161 Lavaca Dr, Belton, TX 76513', 'listing_price': '$340,000', 'down_payment': '$16,429', 'principal_and_interest': '$1,828/mo.', 'interest_rate': '5.1%'}
-2025-01-24 17:28:58,818 - logger.config - INFO - Processing listing 10
-2025-01-24 17:29:02,373 - logger.config - INFO - Data scraped: {'address': '639 Hummingbird Hl, Canyon Lake, TX 78133', 'listing_price': '$339,900', 'down_payment': '$44,782', 'principal_and_interest': '$1,413/mo.', 'interest_rate': '3.56%'}
-2025-01-24 17:29:07,430 - logger.config - INFO - Processing listing 11
-2025-01-24 17:29:11,520 - logger.config - INFO - Data scraped: {'address': '4430 Heathers Dawn, Saint Hedwig, TX 78152', 'listing_price': '$280,000', 'down_payment': '$45,923', 'principal_and_interest': '$1,052/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:29:16,576 - logger.config - INFO - Processing listing 12
-2025-01-24 17:29:20,006 - logger.config - INFO - Data scraped: {'address': '3404 Catalina Dr, Killeen, TX 76549', 'listing_price': '$235,000', 'down_payment': '$38,677', 'principal_and_interest': '$882/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:29:25,062 - logger.config - INFO - Processing listing 13
-2025-01-24 17:29:28,569 - logger.config - INFO - Data scraped: {'address': '7834 London Tower Ln, Houston, TX 77044', 'listing_price': '$300,000', 'down_payment': '$49,708', 'principal_and_interest': '$1,130/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:29:33,625 - logger.config - INFO - Processing listing 14
-2025-01-24 17:29:37,585 - logger.config - INFO - Data scraped: {'address': '349 Wagon Wheel Way, Cibolo, TX 78108', 'listing_price': '$345,000', 'down_payment': '$33,551', 'principal_and_interest': '$1,463/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:29:42,642 - logger.config - INFO - Processing listing 15
-2025-01-24 17:29:45,923 - logger.config - INFO - Data scraped: {'address': '723 Ridingate Farm, San Antonio, TX 78228', 'listing_price': '$295,000', 'down_payment': '$43,997', 'principal_and_interest': '$1,133/mo.', 'interest_rate': '3%'}
-2025-01-24 17:29:50,982 - logger.config - INFO - Processing listing 16
-2025-01-24 17:29:54,793 - logger.config - INFO - Data scraped: {'address': '17811 Oxford Mt, Helotes, TX 78023', 'listing_price': '$469,900', 'down_payment': '$45,861', 'principal_and_interest': '$1,992/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:29:59,852 - logger.config - INFO - Processing listing 17
-2025-01-24 17:30:03,371 - logger.config - INFO - Data scraped: {'address': '18515 Egret Bay Blvd Apt 1201 # 1201, Houston, TX 77058', 'listing_price': '$193,000', 'down_payment': '$2,529', 'principal_and_interest': '$935/mo.', 'interest_rate': '4%'}
-2025-01-24 17:30:08,572 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:30:13,573 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:30:13,586 - logger.config - INFO - Retrieved 13 listings on this page.
-2025-01-24 17:30:13,586 - logger.config - INFO - Processing listing 1
-2025-01-24 17:30:17,110 - logger.config - INFO - Data scraped: {'address': '23303 Canyon Lake Dr, Spring, TX 77373', 'listing_price': '$250,316', 'down_payment': '$46,368', 'principal_and_interest': '$898/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:30:22,174 - logger.config - INFO - Processing listing 2
-2025-01-24 17:30:26,357 - logger.config - INFO - Data scraped: {'address': '1025 Mulberry St, Abilene, TX 79601', 'listing_price': '$202,000', 'down_payment': '$20,074', 'principal_and_interest': '$854/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:30:31,414 - logger.config - INFO - Processing listing 3
-2025-01-24 17:30:34,655 - logger.config - INFO - Data scraped: {'address': '5607 Schorn Dr, Killeen, TX 76542', 'listing_price': '$295,000', 'down_payment': '$31,052', 'principal_and_interest': '$1,298/mo.', 'interest_rate': '4%'}
-2025-01-24 17:30:39,712 - logger.config - INFO - Processing listing 4
-2025-01-24 17:30:44,417 - logger.config - INFO - Data scraped: {'address': '3217 S 5th St, Abilene, TX 79605', 'listing_price': '$160,000', 'down_payment': '$24,323', 'principal_and_interest': '$611/mo.', 'interest_rate': '3%'}
-2025-01-24 17:30:49,475 - logger.config - INFO - Processing listing 5
-2025-01-24 17:30:52,973 - logger.config - INFO - Data scraped: {'address': '5108 Parkwood Dr, Killeen, TX 76542', 'listing_price': '$199,900', 'down_payment': '$33,825', 'principal_and_interest': '$746/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:30:58,029 - logger.config - INFO - Processing listing 6
-2025-01-24 17:31:01,549 - logger.config - INFO - Data scraped: {'address': '105 Wisteria St, Richwood, TX 77531', 'listing_price': '$220,000', 'down_payment': '$5,153', 'principal_and_interest': '$1,184/mo.', 'interest_rate': '3.94%'}
-2025-01-24 17:31:06,606 - logger.config - INFO - Processing listing 7
-2025-01-24 17:31:10,114 - logger.config - INFO - Data scraped: {'address': '1804 SE 12th St, Mineral Wells, TX 76067', 'listing_price': '$250,000', 'down_payment': '$0', 'principal_and_interest': '$1,606/mo.', 'interest_rate': '5.125%'}
-2025-01-24 17:31:15,171 - logger.config - INFO - Processing listing 8
-2025-01-24 17:31:18,697 - logger.config - INFO - Data scraped: {'address': '4602 Janelle Dr, Killeen, TX 76549', 'listing_price': '$225,000', 'down_payment': '$11,684', 'principal_and_interest': '$1,043/mo.', 'interest_rate': '3.76%'}
-2025-01-24 17:31:23,754 - logger.config - INFO - Processing listing 9
-2025-01-24 17:31:27,250 - logger.config - INFO - Data scraped: {'address': '2301 Birdwell Cv, Forney, TX 75126', 'listing_price': '$399,999', 'down_payment': '$42,446', 'principal_and_interest': '$1,679/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:31:32,307 - logger.config - INFO - Processing listing 10
-2025-01-24 17:31:35,814 - logger.config - INFO - Data scraped: {'address': '6108 Abrams Rd Apt 103 # 103, Dallas, TX 75231', 'listing_price': '$89,900', 'down_payment': '$9,582', 'principal_and_interest': '$377/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:31:40,870 - logger.config - INFO - Processing listing 11
-2025-01-24 17:31:44,455 - logger.config - INFO - Data scraped: {'address': '2108 Nimitz Dr, Killeen, TX 76543', 'listing_price': '$235,000', 'down_payment': '$13,761', 'principal_and_interest': '$1,253/mo.', 'interest_rate': '5.125%'}
-2025-01-24 17:31:49,511 - logger.config - INFO - Processing listing 12
-2025-01-24 17:31:52,734 - logger.config - INFO - Data scraped: {'address': '221 Timber Ridge Dr, Nolanville, TX 76559', 'listing_price': '$260,000', 'down_payment': '$45,858', 'principal_and_interest': '$954/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:31:57,792 - logger.config - INFO - Processing listing 13
-2025-01-24 17:32:01,777 - logger.config - INFO - Data scraped: {'address': '4812 Water Oak Dr, Killeen, TX 76542', 'listing_price': '$225,000', 'down_payment': '$43,679', 'principal_and_interest': '$800/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:32:07,015 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:32:12,016 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:32:12,052 - logger.config - INFO - Retrieved 16 listings on this page.
-2025-01-24 17:32:12,052 - logger.config - INFO - Processing listing 1
-2025-01-24 17:32:20,659 - logger.config - INFO - Data scraped: {'address': '6530 Robin Frst, San Antonio, TX 78239', 'listing_price': '$239,000', 'down_payment': '$37,394', 'principal_and_interest': '$905/mo.', 'interest_rate': '3.05%'}
-2025-01-24 17:32:25,716 - logger.config - INFO - Processing listing 2
-2025-01-24 17:32:31,461 - logger.config - INFO - Data scraped: {'address': '10450 De Gonzalo Way, Converse, TX 78109', 'listing_price': '$227,000', 'down_payment': '$49,022', 'principal_and_interest': '$793/mo.', 'interest_rate': '2.625%'}
-2025-01-24 17:32:36,518 - logger.config - INFO - Processing listing 3
-2025-01-24 17:32:40,090 - logger.config - INFO - Data scraped: {'address': '5590 Spring Valley Rd # E, Dallas, TX 75254', 'listing_price': '$179,900', 'down_payment': '$38,883', 'principal_and_interest': '$628/mo.', 'interest_rate': '2.625%'}
-2025-01-24 17:32:45,148 - logger.config - INFO - Processing listing 4
-2025-01-24 17:32:49,162 - logger.config - INFO - Data scraped: {'address': '104 Memita Rd, Jarrell, TX 76537', 'listing_price': '$279,000', 'down_payment': '$8,062', 'principal_and_interest': '$1,316/mo.', 'interest_rate': '4%'}
-2025-01-24 17:32:54,218 - logger.config - INFO - Processing listing 5
-2025-01-24 17:32:57,756 - logger.config - INFO - Data scraped: {'address': '733 S La Salle Dr, Abilene, TX 79605', 'listing_price': '$189,900', 'down_payment': '$38,163', 'principal_and_interest': '$668/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:33:02,813 - logger.config - INFO - Processing listing 6
-2025-01-24 17:33:06,334 - logger.config - INFO - Data scraped: {'address': '1458 Bel Air Dr, Abilene, TX 79603', 'listing_price': '$179,900', 'down_payment': '$45,655', 'principal_and_interest': '$575/mo.', 'interest_rate': '2.375%'}
-2025-01-24 17:33:11,391 - logger.config - INFO - Processing listing 7
-2025-01-24 17:33:14,942 - logger.config - INFO - Data scraped: {'address': '6909 Oliver Loving Dr, Killeen, TX 76549', 'listing_price': '$239,900', 'down_payment': '$44,775', 'principal_and_interest': '$881/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:33:19,998 - logger.config - INFO - Processing listing 8
-2025-01-24 17:33:23,924 - logger.config - INFO - Data scraped: {'address': '100 Wilson Ct, Hutto, TX 78634', 'listing_price': '$360,000', 'down_payment': '$11,679', 'principal_and_interest': '$1,713/mo.', 'interest_rate': '4%'}
-2025-01-24 17:33:28,982 - logger.config - INFO - Processing listing 9
-2025-01-24 17:33:32,780 - logger.config - INFO - Data scraped: {'address': '618 Woodard Ave, Cleburne, TX 76033', 'listing_price': '$195,000', 'down_payment': '$10,722', 'principal_and_interest': '$910/mo.', 'interest_rate': '3.85%'}
-2025-01-24 17:33:37,837 - logger.config - INFO - Processing listing 10
-2025-01-24 17:33:41,363 - logger.config - INFO - Data scraped: {'address': '4540 Chaha Rd Apt 201 # 201, Garland, TX 75043', 'listing_price': '$170,000', 'down_payment': '$5,845', 'principal_and_interest': '$811/mo.', 'interest_rate': '4%'}
-2025-01-24 17:33:46,423 - logger.config - INFO - Processing listing 11
-2025-01-24 17:33:49,894 - logger.config - INFO - Data scraped: {'address': '9035 Interlachen, Selma, TX 78154', 'listing_price': '$258,999', 'down_payment': '$44,535', 'principal_and_interest': '$966/mo.', 'interest_rate': '3%'}
-2025-01-24 17:33:54,951 - logger.config - INFO - Processing listing 12
-2025-01-24 17:33:58,498 - logger.config - INFO - Data scraped: {'address': '4554 Martin Way, San Antonio, TX 78222', 'listing_price': '$325,000', 'down_payment': '$11,324', 'principal_and_interest': '$1,536/mo.', 'interest_rate': '4%'}
-2025-01-24 17:34:03,557 - logger.config - INFO - Processing listing 13
-2025-01-24 17:34:08,915 - logger.config - INFO - Data scraped: {'address': '0 Bright Sun Dr, Houston, TX 77048', 'listing_price': '$289,900', 'down_payment': '$10,741', 'principal_and_interest': '$1,365/mo.', 'interest_rate': '4%'}
-2025-01-24 17:34:13,971 - logger.config - INFO - Processing listing 14
-2025-01-24 17:34:18,260 - logger.config - INFO - Data scraped: {'address': '8846 Barrow Path, Converse, TX 78109', 'listing_price': '$299,999', 'down_payment': '$11,430', 'principal_and_interest': '$1,440/mo.', 'interest_rate': '4%'}
-2025-01-24 17:34:23,317 - logger.config - INFO - Processing listing 15
-2025-01-24 17:34:26,839 - logger.config - INFO - Data scraped: {'address': '11131 30th Ave N, Texas City, TX 77591', 'listing_price': '$345,000', 'down_payment': '$42,811', 'principal_and_interest': '$1,419/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:34:31,897 - logger.config - INFO - Processing listing 16
-2025-01-24 17:34:36,740 - logger.config - INFO - Data scraped: {'address': '11375 Olney Spgs, San Antonio, TX 78245', 'listing_price': '$182,500', 'down_payment': '$41,675', 'principal_and_interest': '$628/mo.', 'interest_rate': '2.625%'}
-2025-01-24 17:34:41,957 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:34:46,957 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:34:46,987 - logger.config - INFO - Retrieved 10 listings on this page.
-2025-01-24 17:34:46,988 - logger.config - INFO - Processing listing 1
-2025-01-24 17:34:51,748 - logger.config - INFO - Data scraped: {'address': '413 Big Timber Dr, Temple, TX 76502', 'listing_price': '$275,000', 'down_payment': '$4,811', 'principal_and_interest': '$1,380/mo.', 'interest_rate': '4.16%'}
-2025-01-24 17:34:56,808 - logger.config - INFO - Processing listing 2
-2025-01-24 17:35:00,951 - logger.config - INFO - Data scraped: {'address': '6247 Ozona Ml, San Antonio, TX 78253', 'listing_price': '$415,000', 'down_payment': '$16,491', 'principal_and_interest': '$1,973/mo.', 'interest_rate': '4%'}
-2025-01-24 17:35:06,013 - logger.config - INFO - Processing listing 3
-2025-01-24 17:35:09,803 - logger.config - INFO - Data scraped: {'address': '9207 Hartford Valley Trl, Baytown, TX 77521', 'listing_price': '$410,000', 'down_payment': '$33,828', 'principal_and_interest': '$1,828/mo.', 'interest_rate': '3.69%'}
-2025-01-24 17:35:14,859 - logger.config - INFO - Processing listing 4
-2025-01-24 17:35:18,542 - logger.config - INFO - Data scraped: {'address': '4526 Don Juan St, Abilene, TX 79605', 'listing_price': '$199,900', 'down_payment': '$35,480', 'principal_and_interest': '$742/mo.', 'interest_rate': '3%'}
-2025-01-24 17:35:23,598 - logger.config - INFO - Processing listing 5
-2025-01-24 17:35:27,095 - logger.config - INFO - Data scraped: {'address': '3008 Belmont Dr, Killeen, TX 76549', 'listing_price': '$230,000', 'down_payment': '$19,133', 'principal_and_interest': '$1,025/mo.', 'interest_rate': '3.69%'}
-2025-01-24 17:35:32,153 - logger.config - INFO - Processing listing 6
-2025-01-24 17:35:36,738 - logger.config - INFO - Data scraped: {'address': '7210 Willow Rain, San Antonio, TX 78244', 'listing_price': '$246,000', 'down_payment': '$48,205', 'principal_and_interest': '$912/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:35:41,795 - logger.config - INFO - Processing listing 7
-2025-01-24 17:35:45,416 - logger.config - INFO - Data scraped: {'address': '276 Broadmoor Dr, Brookeland, TX 75931', 'listing_price': '$369,500', 'down_payment': '$31,547', 'principal_and_interest': '$1,643/mo.', 'interest_rate': '3.69%'}
-2025-01-24 17:35:50,473 - logger.config - INFO - Processing listing 8
-2025-01-24 17:35:54,668 - logger.config - INFO - Data scraped: {'address': '232 Governor Hogg Dr, Pointblank, TX 77364', 'listing_price': '$199,000', 'down_payment': '$22,307', 'principal_and_interest': '$886/mo.', 'interest_rate': '3.5%'}
-2025-01-24 17:35:59,728 - logger.config - INFO - Processing listing 9
-2025-01-24 17:36:03,860 - logger.config - INFO - Data scraped: {'address': '2 Finley Cir, Krum, TX 76249', 'listing_price': '$297,000', 'down_payment': '$12,951', 'principal_and_interest': '$1,415/mo.', 'interest_rate': '4%'}
-2025-01-24 17:36:08,917 - logger.config - INFO - Processing listing 10
-2025-01-24 17:36:16,406 - logger.config - INFO - Data scraped: {'address': '9915 Loma Alta Cir, Converse, TX 78109', 'listing_price': '$394,990', 'down_payment': '$18,367', 'principal_and_interest': '$1,853/mo.', 'interest_rate': '4%'}
-2025-01-24 17:36:21,592 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:36:26,592 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:36:26,621 - logger.config - INFO - Retrieved 6 listings on this page.
-2025-01-24 17:36:26,621 - logger.config - INFO - Processing listing 1
-2025-01-24 17:36:30,265 - logger.config - INFO - Data scraped: {'address': '2806 Live Oak Dr, Copperas Cove, TX 76522', 'listing_price': '$170,000', 'down_payment': '$24,156', 'principal_and_interest': '$685/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:36:35,326 - logger.config - INFO - Processing listing 2
-2025-01-24 17:36:39,022 - logger.config - INFO - Data scraped: {'address': '6309 Creek Land Rd, Killeen, TX 76549', 'listing_price': '$269,000', 'down_payment': '$22,206', 'principal_and_interest': '$1,208/mo.', 'interest_rate': '3.75%'}
-2025-01-24 17:36:44,084 - logger.config - INFO - Processing listing 3
-2025-01-24 17:36:48,872 - logger.config - INFO - Data scraped: {'address': '3131 Canterbury Ln, Montgomery, TX 77356', 'listing_price': '$420,000', 'down_payment': '$26,772', 'principal_and_interest': '$1,962/mo.', 'interest_rate': '3.92%'}
-2025-01-24 17:36:53,928 - logger.config - INFO - Processing listing 4
-2025-01-24 17:36:57,594 - logger.config - INFO - Data scraped: {'address': '5633 Topwater Trl, Fort Worth, TX 76119', 'listing_price': '$259,900', 'down_payment': '$13,996', 'principal_and_interest': '$1,208/mo.', 'interest_rate': '4%'}
-2025-01-24 17:37:02,653 - logger.config - INFO - Processing listing 5
-2025-01-24 17:37:06,162 - logger.config - INFO - Data scraped: {'address': '8504 Platinum Dr, Killeen, TX 76542', 'listing_price': '$419,500', 'down_payment': '$31,342', 'principal_and_interest': '$1,918/mo.', 'interest_rate': '3.85%'}
-2025-01-24 17:37:11,218 - logger.config - INFO - Processing listing 6
-2025-01-24 17:37:14,774 - logger.config - INFO - Data scraped: {'address': '1147 W Rosewood Ave, San Antonio, TX 78201', 'listing_price': '$229,870', 'down_payment': '$33,216', 'principal_and_interest': '$923/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:37:19,986 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:37:24,986 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:37:24,998 - logger.config - INFO - Retrieved 11 listings on this page.
-2025-01-24 17:37:24,999 - logger.config - INFO - Processing listing 1
-2025-01-24 17:37:28,529 - logger.config - INFO - Data scraped: {'address': '636 Kyle St, Angleton, TX 77515', 'listing_price': '$165,000', 'down_payment': '$38,154', 'principal_and_interest': '$563/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:37:33,587 - logger.config - INFO - Processing listing 2
-2025-01-24 17:37:38,372 - logger.config - INFO - Data scraped: {'address': '4819 Galewood Ave, San Antonio, TX 78247', 'listing_price': '$309,900', 'down_payment': '$35,904', 'principal_and_interest': '$1,348/mo.', 'interest_rate': '4%'}
-2025-01-24 17:37:43,431 - logger.config - INFO - Processing listing 3
-2025-01-24 17:37:46,839 - logger.config - INFO - Data scraped: {'address': '434 Appalachian Trl, Copperas Cove, TX 76522', 'listing_price': '$278,000', 'down_payment': '$17,097', 'principal_and_interest': '$1,267/mo.', 'interest_rate': '4%'}
-2025-01-24 17:37:51,896 - logger.config - INFO - Processing listing 4
-2025-01-24 17:37:55,435 - logger.config - INFO - Data scraped: {'address': '6810 Red Yucca Rd, Abilene, TX 79606', 'listing_price': '$350,000', 'down_payment': '$25,500', 'principal_and_interest': '$1,616/mo.', 'interest_rate': '3.92%'}
-2025-01-24 17:38:00,493 - logger.config - INFO - Processing listing 5
-2025-01-24 17:38:03,960 - logger.config - INFO - Data scraped: {'address': '11351 Dawn Beach Ln, Conroe, TX 77304', 'listing_price': '$270,000', 'down_payment': '$0', 'principal_and_interest': '$1,715/mo.', 'interest_rate': '5.25%'}
-2025-01-24 17:38:09,016 - logger.config - INFO - Processing listing 6
-2025-01-24 17:38:12,500 - logger.config - INFO - Data scraped: {'address': '2707 Stonehedge Dr, Baytown, TX 77521', 'listing_price': '$215,000', 'down_payment': '$46,868', 'principal_and_interest': '$759/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:38:17,568 - logger.config - INFO - Processing listing 7
-2025-01-24 17:38:20,993 - logger.config - INFO - Data scraped: {'address': '1107 Bluebonnet Hill Dr, Ennis, TX 75119', 'listing_price': '$269,000', 'down_payment': '$11,151', 'principal_and_interest': '$1,319/mo.', 'interest_rate': '4.16%'}
-2025-01-24 17:38:26,051 - logger.config - INFO - Processing listing 8
-2025-01-24 17:38:29,501 - logger.config - INFO - Data scraped: {'address': '1526 Stony Island Dr, San Antonio, TX 78245', 'listing_price': '$344,999', 'down_payment': '$22,200', 'principal_and_interest': '$1,588/mo.', 'interest_rate': '4%'}
-2025-01-24 17:38:34,560 - logger.config - INFO - Processing listing 9
-2025-01-24 17:38:38,081 - logger.config - INFO - Data scraped: {'address': '110 E Rob Ave, Corsicana, TX 75110', 'listing_price': '$155,000', 'down_payment': '$42,031', 'principal_and_interest': '$493/mo.', 'interest_rate': '2.5%'}
-2025-01-24 17:38:43,137 - logger.config - INFO - Processing listing 10
-2025-01-24 17:38:46,655 - logger.config - INFO - Data scraped: {'address': '3222 Cumby Dr, Royse City, TX 75189', 'listing_price': '$409,900', 'down_payment': '$32,997', 'principal_and_interest': '$1,871/mo.', 'interest_rate': '3.89%'}
-2025-01-24 17:38:51,712 - logger.config - INFO - Processing listing 11
-2025-01-24 17:38:55,366 - logger.config - INFO - Data scraped: {'address': '2707 Volute Ct, Houston, TX 77038', 'listing_price': '$277,777', 'down_payment': '$18,163', 'principal_and_interest': '$1,267/mo.', 'interest_rate': '4%'}
-2025-01-24 17:39:00,566 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:39:05,566 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:39:05,578 - logger.config - INFO - Retrieved 10 listings on this page.
-2025-01-24 17:39:05,578 - logger.config - INFO - Processing listing 1
-2025-01-24 17:39:09,218 - logger.config - INFO - Data scraped: {'address': '17031 Stones River Ln, Humble, TX 77346', 'listing_price': '$415,000', 'down_payment': '$28,142', 'principal_and_interest': '$1,885/mo.', 'interest_rate': '4%'}
-2025-01-24 17:39:14,274 - logger.config - INFO - Processing listing 2
-2025-01-24 17:39:18,335 - logger.config - INFO - Data scraped: {'address': '3915 Southern Sky, San Antonio, TX 78222', 'listing_price': '$265,000', 'down_payment': '$18,043', 'principal_and_interest': '$1,220/mo.', 'interest_rate': '4%'}
-2025-01-24 17:39:23,392 - logger.config - INFO - Processing listing 3
-2025-01-24 17:39:26,879 - logger.config - INFO - Data scraped: {'address': '3327 Carriage Cir, Sherman, TX 75092', 'listing_price': '$289,000', 'down_payment': '$0', 'principal_and_interest': '$1,821/mo.', 'interest_rate': '5.25%'}
-2025-01-24 17:39:31,937 - logger.config - INFO - Processing listing 4
-2025-01-24 17:39:35,457 - logger.config - INFO - Data scraped: {'address': '3207 Pine St, Dallas, TX 75215', 'listing_price': '$195,000', 'down_payment': '$40,653', 'principal_and_interest': '$695/mo.', 'interest_rate': '3%'}
-2025-01-24 17:39:40,513 - logger.config - INFO - Processing listing 5
-2025-01-24 17:39:44,072 - logger.config - INFO - Data scraped: {'address': '2502 Golden Rain, San Antonio, TX 78245', 'listing_price': '$405,000', 'down_payment': '$40,579', 'principal_and_interest': '$1,790/mo.', 'interest_rate': '4%'}
-2025-01-24 17:39:49,129 - logger.config - INFO - Processing listing 6
-2025-01-24 17:39:54,134 - logger.config - INFO - Data scraped: {'address': '6807 Cougar Clf, San Antonio, TX 78242', 'listing_price': '$203,999', 'down_payment': '$15,083', 'principal_and_interest': '$1,057/mo.', 'interest_rate': '5%'}
-2025-01-24 17:39:59,191 - logger.config - INFO - Processing listing 7
-2025-01-24 17:40:02,704 - logger.config - INFO - Data scraped: {'address': '2104 Brantley Ave, Copperas Cove, TX 76522', 'listing_price': '$175,000', 'down_payment': '$7,405', 'principal_and_interest': '$958/mo.', 'interest_rate': '5.23%'}
-2025-01-24 17:40:07,761 - logger.config - INFO - Processing listing 8
-2025-01-24 17:40:11,873 - logger.config - INFO - Data scraped: {'address': '3701 Chevy Chase Dr, Nacogdoches, TX 75965', 'listing_price': '$348,500', 'down_payment': '$33,572', 'principal_and_interest': '$1,556/mo.', 'interest_rate': '3.85%'}
-2025-01-24 17:40:16,930 - logger.config - INFO - Processing listing 9
-2025-01-24 17:40:20,450 - logger.config - INFO - Data scraped: {'address': '7912 Hidden Path Ln, Denton, TX 76210', 'listing_price': '$380,000', 'down_payment': '$29,056', 'principal_and_interest': '$1,718/mo.', 'interest_rate': '4%'}
-2025-01-24 17:40:25,506 - logger.config - INFO - Processing listing 10
-2025-01-24 17:40:29,222 - logger.config - INFO - Data scraped: {'address': '1102 Jefferson Ave, Cleveland, TX 77327', 'listing_price': '$262,000', 'down_payment': '$42,767', 'principal_and_interest': '$1,030/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:40:34,453 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:40:39,454 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:40:39,470 - logger.config - INFO - Retrieved 11 listings on this page.
-2025-01-24 17:40:39,470 - logger.config - INFO - Processing listing 1
-2025-01-24 17:40:42,946 - logger.config - INFO - Data scraped: {'address': '1028 Rs County Road 4261, Emory, TX 75440', 'listing_price': '$415,000', 'down_payment': '$41,398', 'principal_and_interest': '$1,846/mo.', 'interest_rate': '3.85%'}
-2025-01-24 17:40:48,002 - logger.config - INFO - Processing listing 2
-2025-01-24 17:40:51,576 - logger.config - INFO - Data scraped: {'address': '109 Myers Ave, Cleburne, TX 76033', 'listing_price': '$314,995', 'down_payment': '$28,551', 'principal_and_interest': '$1,426/mo.', 'interest_rate': '3.92%'}
-2025-01-24 17:40:56,632 - logger.config - INFO - Processing listing 3
-2025-01-24 17:41:01,539 - logger.config - INFO - Data scraped: {'address': '13907 Cyprus Sedge, San Antonio, TX 78254', 'listing_price': '$295,000', 'down_payment': '$33,363', 'principal_and_interest': '$1,279/mo.', 'interest_rate': '3.76%'}
-2025-01-24 17:41:06,607 - logger.config - INFO - Processing listing 4
-2025-01-24 17:41:10,672 - logger.config - INFO - Data scraped: {'address': '4402 Janelle Dr, Killeen, TX 76549', 'listing_price': '$215,000', 'down_payment': '$0', 'principal_and_interest': '$1,308/mo.', 'interest_rate': '5.125%'}
-2025-01-24 17:41:15,733 - logger.config - INFO - Processing listing 5
-2025-01-24 17:41:19,326 - logger.config - INFO - Data scraped: {'address': '424 Waterline Dr, Crowley, TX 76036', 'listing_price': '$399,000', 'down_payment': '$49,153', 'principal_and_interest': '$1,700/mo.', 'interest_rate': '3.69%'}
-2025-01-24 17:41:24,383 - logger.config - INFO - Processing listing 6
-2025-01-24 17:41:28,291 - logger.config - INFO - Data scraped: {'address': '12513 Burninglog Ln, Dallas, TX 75243', 'listing_price': '$365,000', 'down_payment': '$42,393', 'principal_and_interest': '$1,579/mo.', 'interest_rate': '3.75%'}
-2025-01-24 17:41:33,348 - logger.config - INFO - Processing listing 7
-2025-01-24 17:41:36,818 - logger.config - INFO - Data scraped: {'address': '6508 Deorsam Loop, Killeen, TX 76542', 'listing_price': '$265,000', 'down_payment': '$25,722', 'principal_and_interest': '$1,349/mo.', 'interest_rate': '5.1%'}
-2025-01-24 17:41:41,874 - logger.config - INFO - Processing listing 8
-2025-01-24 17:41:45,362 - logger.config - INFO - Data scraped: {'address': '1908 Chattanooga Dr, Bedford, TX 76022', 'listing_price': '$365,000', 'down_payment': '$30,555', 'principal_and_interest': '$1,617/mo.', 'interest_rate': '4%'}
-2025-01-24 17:41:50,419 - logger.config - INFO - Processing listing 9
-2025-01-24 17:41:53,973 - logger.config - INFO - Data scraped: {'address': '27100 Meadowmore Ct # 302, Whitney, TX 76692', 'listing_price': '$309,900', 'down_payment': '$39,538', 'principal_and_interest': '$1,314/mo.', 'interest_rate': '3.69%'}
-2025-01-24 17:41:59,030 - logger.config - INFO - Processing listing 10
-2025-01-24 17:42:03,272 - logger.config - INFO - Data scraped: {'address': '4090 Woodlawn St, Beaumont, TX 77703', 'listing_price': '$100,000', 'down_payment': '$17,308', 'principal_and_interest': '$406/mo.', 'interest_rate': '3.375%'}
-2025-01-24 17:42:08,329 - logger.config - INFO - Processing listing 11
-2025-01-24 17:42:11,937 - logger.config - INFO - Data scraped: {'address': '2700 Boyd Ave, Killeen, TX 76543', 'listing_price': '$199,500', 'down_payment': '$48,483', 'principal_and_interest': '$679/mo.', 'interest_rate': '2.875%'}
-2025-01-24 17:42:17,173 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:42:22,174 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:42:22,186 - logger.config - INFO - Retrieved 10 listings on this page.
-2025-01-24 17:42:22,186 - logger.config - INFO - Processing listing 1
-2025-01-24 17:42:25,437 - logger.config - INFO - Data scraped: {'address': '4311 Waterproof, Killeen, TX 76549', 'listing_price': '$235,000', 'down_payment': '$41,134', 'principal_and_interest': '$967/mo.', 'interest_rate': '3.92%'}
-2025-01-24 17:42:30,493 - logger.config - INFO - Processing listing 2
-2025-01-24 17:42:33,720 - logger.config - INFO - Data scraped: {'address': '2308 32nd Ave N, Texas City, TX 77590', 'listing_price': '$129,900', 'down_payment': '$34,112', 'principal_and_interest': '$425/mo.', 'interest_rate': '2.75%'}
-2025-01-24 17:42:38,776 - logger.config - INFO - Processing listing 3
-2025-01-24 17:42:42,646 - logger.config - INFO - Data scraped: {'address': '13001 Ryden Dr, Live Oak, TX 78233', 'listing_price': '$269,500', 'down_payment': '$24,801', 'principal_and_interest': '$1,211/mo.', 'interest_rate': '4%'}
-2025-01-24 17:42:47,703 - logger.config - INFO - Processing listing 4
-2025-01-24 17:42:51,139 - logger.config - INFO - Data scraped: {'address': '1126 Rosebay Rd, Baytown, TX 77521', 'listing_price': '$237,900', 'down_payment': '$0', 'principal_and_interest': '$1,432/mo.', 'interest_rate': '5.125%'}
-2025-01-24 17:42:56,195 - logger.config - INFO - Processing listing 5
-2025-01-24 17:42:59,503 - logger.config - INFO - Data scraped: {'address': '2610 Homestead Loop, San Antonio, TX 78245', 'listing_price': '$315,000', 'down_payment': '$23,001', 'principal_and_interest': '$1,494/mo.', 'interest_rate': '4.16%'}
-2025-01-24 17:43:04,562 - logger.config - INFO - Processing listing 6
-2025-01-24 17:43:08,101 - logger.config - INFO - Data scraped: {'address': '4534 Beaus Way, Garland, TX 75043', 'listing_price': '$350,000', 'down_payment': '$13,048', 'principal_and_interest': '$1,771/mo.', 'interest_rate': '4.42%'}
-2025-01-24 17:43:13,158 - logger.config - INFO - Processing listing 7
-2025-01-24 17:43:16,820 - logger.config - INFO - Data scraped: {'address': '405 High Tech Dr # 9A, Georgetown, TX 78626', 'listing_price': '$339,000', 'down_payment': '$1,157', 'principal_and_interest': '$1,825/mo.', 'interest_rate': '4.67%'}
-2025-01-24 17:43:21,890 - logger.config - INFO - Processing listing 8
-2025-01-24 17:43:25,650 - logger.config - INFO - Data scraped: {'address': '31214 Zacara Ln, Fulshear, TX 77441', 'listing_price': '$319,000', 'down_payment': '$30,729', 'principal_and_interest': '$1,432/mo.', 'interest_rate': '4%'}
-2025-01-24 17:43:30,711 - logger.config - INFO - Processing listing 9
-2025-01-24 17:43:34,140 - logger.config - INFO - Data scraped: {'address': '15010 Rolling Oaks Dr, Houston, TX 77070', 'listing_price': '$295,000', 'down_payment': '$28,918', 'principal_and_interest': '$1,317/mo.', 'interest_rate': '4%'}
-2025-01-24 17:43:39,203 - logger.config - INFO - Processing listing 10
-2025-01-24 17:43:42,821 - logger.config - INFO - Data scraped: {'address': '6518 Tudor Pl, Aubrey, TX 76227', 'listing_price': '$395,000', 'down_payment': '$39,483', 'principal_and_interest': '$1,757/mo.', 'interest_rate': '4%'}
-2025-01-24 17:43:47,954 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:43:52,955 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:43:52,969 - logger.config - INFO - Retrieved 11 listings on this page.
-2025-01-24 17:43:52,969 - logger.config - INFO - Processing listing 1
-2025-01-24 17:43:56,486 - logger.config - INFO - Data scraped: {'address': '3949 Ridgway Rd, Abilene, TX 79606', 'listing_price': '$279,900', 'down_payment': '$45,602', 'principal_and_interest': '$1,121/mo.', 'interest_rate': '3.55%'}
-2025-01-24 17:44:01,545 - logger.config - INFO - Processing listing 2
-2025-01-24 17:44:05,034 - logger.config - INFO - Data scraped: {'address': '182 Lt Rusty Dr, Jarrell, TX 76537', 'listing_price': '$285,000', 'down_payment': '$0', 'principal_and_interest': '$1,604/mo.', 'interest_rate': '4.875%'}
-2025-01-24 17:44:10,092 - logger.config - INFO - Processing listing 3
-2025-01-24 17:44:13,564 - logger.config - INFO - Data scraped: {'address': '9310 Poplar Bluff Ln, Houston, TX 77095', 'listing_price': '$389,900', 'down_payment': '$39,963', 'principal_and_interest': '$1,713/mo.', 'interest_rate': '4%'}
-2025-01-24 17:44:18,620 - logger.config - INFO - Processing listing 4
-2025-01-24 17:44:22,238 - logger.config - INFO - Data scraped: {'address': '2909 Canadian River Loop, Killeen, TX 76549', 'listing_price': '$339,900', 'down_payment': '$49,716', 'principal_and_interest': '$1,410/mo.', 'interest_rate': '3.69%'}
-2025-01-24 17:44:27,294 - logger.config - INFO - Processing listing 5
-2025-01-24 17:44:30,748 - logger.config - INFO - Data scraped: {'address': '3413 Oleander Ave, Texas City, TX 77590', 'listing_price': '$175,000', 'down_payment': '$49,522', 'principal_and_interest': '$550/mo.', 'interest_rate': '2.7%'}
-2025-01-24 17:44:35,805 - logger.config - INFO - Processing listing 6
-2025-01-24 17:44:40,960 - logger.config - INFO - Data scraped: {'address': '761 Rushing Banks, Cibolo, TX 78108', 'listing_price': '$448,000', 'down_payment': '$46,722', 'principal_and_interest': '$1,980/mo.', 'interest_rate': '4%'}
-2025-01-24 17:44:46,017 - logger.config - INFO - Processing listing 7
-2025-01-24 17:44:49,777 - logger.config - INFO - Data scraped: {'address': '2808 Kneese Dr, Belton, TX 76513', 'listing_price': '$297,900', 'down_payment': '$31,287', 'principal_and_interest': '$1,322/mo.', 'interest_rate': '4%'}
-2025-01-24 17:44:54,838 - logger.config - INFO - Processing listing 8
-2025-01-24 17:44:59,731 - logger.config - INFO - Data scraped: {'address': '3001 Murworth Dr # 1704, Houston, TX 77025', 'listing_price': '$199,900', 'down_payment': '$48,543', 'principal_and_interest': '$711/mo.', 'interest_rate': '3%'}
-2025-01-24 17:45:04,789 - logger.config - INFO - Processing listing 9
-2025-01-24 17:45:08,855 - logger.config - INFO - Data scraped: {'address': '5834 Les Harrison Dr, San Antonio, TX 78250', 'listing_price': '$259,900', 'down_payment': '$22,115', 'principal_and_interest': '$1,216/mo.', 'interest_rate': '4.16%'}
-2025-01-24 17:45:13,911 - logger.config - INFO - Processing listing 10
-2025-01-24 17:45:17,439 - logger.config - INFO - Data scraped: {'address': '2711 Darwin Dr, Wichita Falls, TX 76308', 'listing_price': '$229,900', 'down_payment': '$40,581', 'principal_and_interest': '$949/mo.', 'interest_rate': '3.5%'}
-2025-01-24 17:45:22,495 - logger.config - INFO - Processing listing 11
-2025-01-24 17:45:25,968 - logger.config - INFO - Data scraped: {'address': '1106 Liberty Bell Loop, Killeen, TX 76543', 'listing_price': '$190,000', 'down_payment': '$27,104', 'principal_and_interest': '$796/mo.', 'interest_rate': '3.76%'}
-2025-01-24 17:45:31,178 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:45:36,179 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:45:36,221 - logger.config - INFO - Retrieved 6 listings on this page.
-2025-01-24 17:45:36,221 - logger.config - INFO - Processing listing 1
-2025-01-24 17:45:40,262 - logger.config - INFO - Data scraped: {'address': '9919 Fortune Ridge Dr, Converse, TX 78109', 'listing_price': '$255,000', 'down_payment': '$28,445', 'principal_and_interest': '$1,121/mo.', 'interest_rate': '4%'}
-2025-01-24 17:45:45,318 - logger.config - INFO - Processing listing 2
-2025-01-24 17:45:48,848 - logger.config - INFO - Data scraped: {'address': '707 Acacia Park Ln, Rosharon, TX 77583', 'listing_price': '$255,000', 'down_payment': '$46,073', 'principal_and_interest': '$1,048/mo.', 'interest_rate': '3.5%'}
-2025-01-24 17:45:53,905 - logger.config - INFO - Processing listing 3
-2025-01-24 17:45:57,397 - logger.config - INFO - Data scraped: {'address': '18946 Jasper Ridge Dr, Hockley, TX 77447', 'listing_price': '$250,000', 'down_payment': '$28,097', 'principal_and_interest': '$1,098/mo.', 'interest_rate': '4%'}
-2025-01-24 17:46:02,454 - logger.config - INFO - Processing listing 4
-2025-01-24 17:46:06,365 - logger.config - INFO - Data scraped: {'address': '1050 Broadmoor Dr, Huntsville, TX 77340', 'listing_price': '$287,500', 'down_payment': '$0', 'principal_and_interest': '$1,683/mo.', 'interest_rate': '5.1%'}
-2025-01-24 17:46:11,421 - logger.config - INFO - Processing listing 5
-2025-01-24 17:46:15,647 - logger.config - INFO - Data scraped: {'address': '22818 Skila Dr, Elmendorf, TX 78112', 'listing_price': '$249,998', 'down_payment': '$15,597', 'principal_and_interest': '$1,232/mo.', 'interest_rate': '4.42%'}
-2025-01-24 17:46:20,704 - logger.config - INFO - Processing listing 6
-2025-01-24 17:46:24,266 - logger.config - INFO - Data scraped: {'address': '2601 Bellefontaine St Apt C201 # C201, Houston, TX 77025', 'listing_price': '$100,000', 'down_payment': '$9,969', 'principal_and_interest': '$459/mo.', 'interest_rate': '4.16%'}
-2025-01-24 17:46:29,462 - logger.config - INFO - Navigating to the next page.
-2025-01-24 17:46:34,463 - logger.config - INFO - Scraping listings from the current page.
-2025-01-24 17:47:05,038 - logger.config - ERROR - An error occurred: Message: 
-
-2025-01-24 17:47:10,267 - logger.config - INFO - making request to address 420 Jacks Pl to get detail url
-2025-01-24 17:47:43,907 - logger.config - INFO - fond detail_url for address: 420 Jacks Pl
-2025-01-24 17:47:43,907 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/420-Jacks-Pl-Seguin-TX-78155/339759960_zpid/.
-2025-01-24 18:05:02,475 - logger.config - INFO - making request to address 420 Jacks Pl to get detail url
-2025-01-24 18:05:42,348 - logger.config - INFO - fond detail_url for address: 420 Jacks Pl
-2025-01-24 18:05:42,348 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/420-Jacks-Pl-Seguin-TX-78155/339759960_zpid/.
-2025-01-24 18:07:19,228 - logger.config - INFO - making request to address 420 Jacks Pl to get detail url
-2025-01-24 18:07:55,287 - logger.config - INFO - fond detail_url for address: 420 Jacks Pl
-2025-01-24 18:07:55,287 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/420-Jacks-Pl-Seguin-TX-78155/339759960_zpid/.
-2025-01-24 18:22:40,067 - logger.config - INFO - making request to address 420 Jacks Pl to get detail url
-2025-01-24 18:23:24,748 - logger.config - INFO - fond detail_url for address: 420 Jacks Pl
-2025-01-24 18:23:24,749 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/420-Jacks-Pl-Seguin-TX-78155/339759960_zpid/.
-2025-01-24 18:24:14,318 - logger.config - INFO - making request to address 2407 Hartsel Forest Trl to get detail url
-2025-01-24 18:24:54,233 - logger.config - INFO - fond detail_url for address: 2407 Hartsel Forest Trl
-2025-01-24 18:24:54,233 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/2407-Hartsel-Forest-Trl-Spring-TX-77373/442471179_zpid/.
-2025-01-24 18:25:05,578 - logger.config - INFO - making request to address 171 Whitetail Way to get detail url
-2025-01-24 18:25:43,772 - logger.config - INFO - fond detail_url for address: 171 Whitetail Way
-2025-01-24 18:25:43,772 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/171-Whitetail-Way-Caddo-Mills-TX-75135/337574265_zpid/.
-2025-01-24 18:26:32,416 - logger.config - INFO - making request to address 529 Sentry Valley St to get detail url
-2025-01-24 18:27:08,033 - logger.config - INFO - fond detail_url for address: 529 Sentry Valley St
-2025-01-24 18:27:08,034 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/529-Sentry-Valley-St-New-Braunfels-TX-78130/307162095_zpid/.
-2025-01-24 18:27:56,536 - logger.config - INFO - making request to address 153 Niemietz Cv to get detail url
-2025-01-24 18:28:31,833 - logger.config - INFO - fond detail_url for address: 153 Niemietz Cv
-2025-01-24 18:28:31,833 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/153-Niemietz-Cv-Cibolo-TX-78108/82759075_zpid/.
-2025-01-24 18:29:21,425 - logger.config - INFO - making request to address 12131 Sampson Crk to get detail url
-2025-01-24 18:30:06,476 - logger.config - INFO - fond detail_url for address: 12131 Sampson Crk
-2025-01-24 18:30:06,477 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/12131-Sampson-Crk-San-Antonio-TX-78245/2055023394_zpid/.
-2025-01-24 18:30:57,710 - logger.config - INFO - making request to address 12750 Rambling Rose to get detail url
-2025-01-24 18:31:43,834 - logger.config - ERROR - Failed to retrieve detail_url for address: 12750 Rambling Rose
-2025-01-24 18:31:43,835 - logger.config - INFO - No detail URL found for the given address.
-2025-01-24 18:31:48,835 - logger.config - INFO - making request to address 421 Blueberry Dr to get detail url
-2025-01-24 18:32:27,560 - logger.config - INFO - fond detail_url for address: 421 Blueberry Dr
-2025-01-24 18:32:27,561 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/421-Blueberry-Dr-Azle-TX-76020/230804840_zpid/.
-2025-01-24 18:33:16,307 - logger.config - INFO - making request to address 504 Stimpson St to get detail url
-2025-01-24 18:34:20,550 - logger.config - ERROR - Failed to retrieve detail_url for address: 504 Stimpson St
-2025-01-24 18:34:20,552 - logger.config - INFO - No detail URL found for the given address.
-2025-01-24 18:34:25,552 - logger.config - INFO - making request to address 2316 Julia Ln to get detail url
-2025-01-24 18:35:12,184 - logger.config - ERROR - Failed to retrieve detail_url for address: 2316 Julia Ln
-2025-01-24 18:35:12,185 - logger.config - INFO - No detail URL found for the given address.
-2025-01-24 18:35:17,186 - logger.config - INFO - making request to address 14627 Woodcott Warren Way to get detail url
-2025-01-24 18:35:54,486 - logger.config - INFO - fond detail_url for address: 14627 Woodcott Warren Way
-2025-01-24 18:35:54,487 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/14627-Woodcott-Warren-Way-Rosharon-TX-77583/2062203190_zpid/.
-2025-01-24 18:36:48,081 - logger.config - INFO - making request to address 5519 Lacreek Ln to get detail url
-2025-01-24 18:37:48,096 - logger.config - ERROR - Failed to retrieve detail_url for address: 5519 Lacreek Ln
-2025-01-24 18:37:48,097 - logger.config - INFO - No detail URL found for the given address.
-2025-01-24 18:37:53,098 - logger.config - INFO - making request to address 928 Edwards St to get detail url
-2025-01-24 18:38:24,775 - logger.config - INFO - fond detail_url for address: 928 Edwards St
-2025-01-24 18:38:24,776 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/928-Edwards-St-Copperas-Cove-TX-76522/78803962_zpid/.
-2025-01-24 18:39:13,455 - logger.config - INFO - making request to address 6059 Shelbourne Park Ln to get detail url
-2025-01-24 18:39:50,004 - logger.config - INFO - fond detail_url for address: 6059 Shelbourne Park Ln
-2025-01-24 18:39:50,004 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/6059-Shelbourne-Park-Ln-Houston-TX-77084/80574496_zpid/.
-2025-01-24 18:40:40,844 - logger.config - INFO - making request to address 3527 Palm Grove Dr to get detail url
-2025-01-24 18:41:27,433 - logger.config - INFO - fond detail_url for address: 3527 Palm Grove Dr
-2025-01-24 18:41:27,433 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/3527-Palm-Grove-Dr-Missouri-City-TX-77459/27597112_zpid/.
-2025-01-24 18:42:23,057 - logger.config - INFO - making request to address 15414 Night Heron to get detail url
-2025-01-24 18:43:04,481 - logger.config - INFO - fond detail_url for address: 15414 Night Heron
-2025-01-24 18:43:04,482 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/15414-Night-Heron-San-Antonio-TX-78253/169466056_zpid/.
-2025-01-24 18:43:53,815 - logger.config - INFO - making request to address 440 Panther Way to get detail url
-2025-01-24 18:44:32,892 - logger.config - INFO - fond detail_url for address: 440 Panther Way
-2025-01-24 18:44:32,894 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/440-Panther-Way-Seguin-TX-78155/2066706014_zpid/.
-2025-01-24 18:45:26,699 - logger.config - INFO - making request to address 8901 Eastwood Ave to get detail url
-2025-01-24 18:46:33,225 - logger.config - ERROR - Failed to retrieve detail_url for address: 8901 Eastwood Ave
-2025-01-24 18:46:33,227 - logger.config - INFO - No detail URL found for the given address.
-2025-01-24 18:46:38,228 - logger.config - INFO - making request to address 401 Suzie St to get detail url
-2025-01-24 18:47:44,478 - logger.config - ERROR - Failed to retrieve detail_url for address: 401 Suzie St
-2025-01-24 18:47:44,479 - logger.config - INFO - No detail URL found for the given address.
-2025-01-24 18:47:49,480 - logger.config - INFO - making request to address 2607 Bolzano Trl to get detail url
-2025-01-24 18:48:55,655 - logger.config - ERROR - Failed to retrieve detail_url for address: 2607 Bolzano Trl
-2025-01-24 18:48:55,656 - logger.config - INFO - No detail URL found for the given address.
-2025-01-24 18:49:00,656 - logger.config - INFO - making request to address 12730 Cooper Breaks Dr to get detail url
-2025-01-24 18:49:52,184 - logger.config - INFO - fond detail_url for address: 12730 Cooper Breaks Dr
-2025-01-24 18:49:52,185 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/12730-Cooper-Breaks-Dr-Humble-TX-77346/70315420_zpid/.
-2025-01-24 18:50:40,157 - logger.config - INFO - making request to address 2820 Arrowhead Dr to get detail url
-2025-01-24 18:51:46,029 - logger.config - ERROR - Failed to retrieve detail_url for address: 2820 Arrowhead Dr
-2025-01-24 18:51:46,030 - logger.config - INFO - No detail URL found for the given address.
-2025-01-24 18:51:51,030 - logger.config - INFO - making request to address 10915 Airmen Dr to get detail url
-2025-01-24 18:52:57,055 - logger.config - ERROR - Failed to retrieve detail_url for address: 10915 Airmen Dr
-2025-01-24 18:52:57,056 - logger.config - INFO - No detail URL found for the given address.
-2025-01-24 18:53:02,057 - logger.config - INFO - making request to address 7003 Cokui Dr to get detail url
-2025-01-24 18:53:47,708 - logger.config - INFO - fond detail_url for address: 7003 Cokui Dr
-2025-01-24 18:53:47,708 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/7003-Cokui-Dr-Killeen-TX-76542/96474986_zpid/.
-2025-01-24 18:54:35,433 - logger.config - INFO - making request to address 349 Zarya to get detail url
-2025-01-24 18:55:14,693 - logger.config - INFO - fond detail_url for address: 349 Zarya
-2025-01-24 18:55:14,694 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/349-Zarya-Kyle-TX-78640/202167589_zpid/.
-2025-01-24 18:56:03,572 - logger.config - INFO - making request to address 623 Coral Hbr to get detail url
-2025-01-24 18:56:36,043 - logger.config - INFO - fond detail_url for address: 623 Coral Hbr
-2025-01-24 18:56:36,045 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/623-Coral-Hbr-San-Antonio-TX-78251/62021061_zpid/.
-2025-01-24 18:57:23,449 - logger.config - INFO - making request to address 13322 Ailey Knl to get detail url
-2025-01-24 18:57:59,440 - logger.config - INFO - fond detail_url for address: 13322 Ailey Knl
-2025-01-24 18:57:59,441 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/13322-Ailey-Knl-San-Antonio-TX-78254/339853606_zpid/.
-2025-01-24 18:58:49,665 - logger.config - INFO - making request to address 10731 Giacconi Dr to get detail url
-2025-01-24 18:59:37,925 - logger.config - INFO - fond detail_url for address: 10731 Giacconi Dr
-2025-01-24 18:59:37,926 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/10731-Giacconi-Dr-Converse-TX-78109/2078492020_zpid/.
-2025-01-24 19:00:30,305 - logger.config - INFO - making request to address 245 Legacy Rdg to get detail url
-2025-01-24 19:01:20,553 - logger.config - INFO - fond detail_url for address: 245 Legacy Rdg
-2025-01-24 19:01:20,555 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/245-Legacy-Rdg-Canyon-Lake-TX-78133/196712060_zpid/.
-2025-01-24 19:02:09,794 - logger.config - INFO - making request to address 2952 Red Tip Dr to get detail url
-2025-01-24 19:02:56,088 - logger.config - INFO - fond detail_url for address: 2952 Red Tip Dr
-2025-01-24 19:02:56,090 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/2952-Red-Tip-Dr-Schertz-TX-78108/97656570_zpid/.
-2025-01-24 19:03:43,341 - logger.config - INFO - making request to address 9418 Madison Crk to get detail url
-2025-01-24 19:04:15,687 - logger.config - INFO - fond detail_url for address: 9418 Madison Crk
-2025-01-24 19:04:15,688 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/9418-Madison-Crk-Converse-TX-78109/80030342_zpid/.
-2025-01-24 19:05:07,875 - logger.config - INFO - making request to address 8210 Green Gully to get detail url
-2025-01-24 19:05:42,042 - logger.config - INFO - fond detail_url for address: 8210 Green Gully
-2025-01-24 19:05:42,043 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/8210-Green-Gully-San-Antonio-TX-78244/2055481925_zpid/.
-2025-01-24 19:06:32,198 - logger.config - INFO - making request to address 3322 Taurus Sky to get detail url
-2025-01-24 19:07:09,919 - logger.config - INFO - fond detail_url for address: 3322 Taurus Sky
-2025-01-24 19:07:09,920 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/3322-Taurus-Sky-Converse-TX-78109/337832058_zpid/.
-2025-01-24 19:09:21,931 - logger.config - INFO - making request to address 14923 Costa Leon to get detail url
-2025-01-24 19:09:58,714 - logger.config - INFO - fond detail_url for address: 14923 Costa Leon
-2025-01-24 19:09:58,716 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/14923-Costa-Leon-San-Antonio-TX-78245/305173100_zpid/.
-2025-01-24 19:10:46,597 - logger.config - INFO - making request to address 421 Big Timber Dr to get detail url
-2025-01-24 19:11:26,451 - logger.config - INFO - fond detail_url for address: 421 Big Timber Dr
-2025-01-24 19:11:26,452 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/421-Big-Timber-Dr-Temple-TX-76502/69627854_zpid/.
-2025-01-24 19:12:14,334 - logger.config - INFO - making request to address 3802 Brunswick Dr to get detail url
-2025-01-24 19:13:11,232 - logger.config - ERROR - Failed to retrieve detail_url for address: 3802 Brunswick Dr
-2025-01-24 19:13:11,234 - logger.config - INFO - No detail URL found for the given address.
-2025-01-24 19:13:16,234 - logger.config - INFO - making request to address 9722 Marbach Hl to get detail url
-2025-01-24 19:13:55,144 - logger.config - INFO - fond detail_url for address: 9722 Marbach Hl
-2025-01-24 19:13:55,145 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/9722-Marbach-Hl-San-Antonio-TX-78245/333532790_zpid/.
-2025-01-24 19:14:44,570 - logger.config - INFO - making request to address 3210 Rancho Grande to get detail url
-2025-01-24 19:15:15,248 - logger.config - INFO - fond detail_url for address: 3210 Rancho Grande
-2025-01-24 19:15:15,248 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/3210-Rancho-Grande-San-Antonio-TX-78224/339854643_zpid/.
-2025-01-24 19:16:05,122 - logger.config - INFO - making request to address 4504 Donegal Bay Ct to get detail url
-2025-01-24 19:16:40,501 - logger.config - INFO - fond detail_url for address: 4504 Donegal Bay Ct
-2025-01-24 19:16:40,501 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/4504-Donegal-Bay-Ct-Killeen-TX-76549/69585260_zpid/.
-2025-01-24 19:17:36,129 - logger.config - INFO - making request to address 3809 Tanchico Dr to get detail url
-2025-01-24 19:18:09,648 - logger.config - INFO - fond detail_url for address: 3809 Tanchico Dr
-2025-01-24 19:18:09,650 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/3809-Tanchico-Dr-Killeen-TX-76542/2067410679_zpid/.
-2025-01-24 19:19:02,663 - logger.config - INFO - making request to address 3423 Southton Vw to get detail url
-2025-01-24 19:19:51,484 - logger.config - ERROR - Failed to retrieve detail_url for address: 3423 Southton Vw
-2025-01-24 19:19:51,486 - logger.config - INFO - No detail URL found for the given address.
-2025-01-24 19:19:56,487 - logger.config - INFO - making request to address 2250 Golf Dr to get detail url
-2025-01-24 19:20:33,856 - logger.config - INFO - fond detail_url for address: 2250 Golf Dr
-2025-01-24 19:20:33,858 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/2250-Golf-Dr-Spring-Branch-TX-78070/97591801_zpid/.
-2025-01-24 19:21:27,267 - logger.config - INFO - making request to address 11518 Lightning Way to get detail url
-2025-01-24 19:22:14,563 - logger.config - INFO - fond detail_url for address: 11518 Lightning Way
-2025-01-24 19:22:14,565 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/11518-Lightning-Way-San-Antonio-TX-78245/2076569349_zpid/.
-2025-01-24 19:30:11,041 - logger.config - INFO - making request to address 420 Jacks Pl to get detail url
-2025-01-24 19:30:44,184 - logger.config - INFO - fond detail_url for address: 420 Jacks Pl
-2025-01-24 19:30:44,186 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/420-Jacks-Pl-Seguin-TX-78155/339759960_zpid/.
-2025-01-24 19:34:48,885 - logger.config - INFO - making request to address 420 Jacks Pl to get detail url
-2025-01-24 19:35:19,319 - logger.config - INFO - fond detail_url for address: 420 Jacks Pl
-2025-01-24 19:35:19,321 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/420-Jacks-Pl-Seguin-TX-78155/339759960_zpid/.
-2025-01-24 19:36:07,014 - logger.config - INFO - making request to address 2407 Hartsel Forest Trl to get detail url
-2025-01-24 19:36:35,825 - logger.config - INFO - fond detail_url for address: 2407 Hartsel Forest Trl
-2025-01-24 19:36:35,826 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/2407-Hartsel-Forest-Trl-Spring-TX-77373/442471179_zpid/.
-2025-01-24 19:37:27,280 - logger.config - INFO - making request to address 171 Whitetail Way to get detail url
-2025-01-24 19:37:53,696 - logger.config - INFO - fond detail_url for address: 171 Whitetail Way
-2025-01-24 19:37:53,698 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/171-Whitetail-Way-Caddo-Mills-TX-75135/337574265_zpid/.
-2025-01-24 19:38:41,301 - logger.config - INFO - making request to address 529 Sentry Valley St to get detail url
-2025-01-24 19:39:14,090 - logger.config - INFO - fond detail_url for address: 529 Sentry Valley St
-2025-01-24 19:39:14,091 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/529-Sentry-Valley-St-New-Braunfels-TX-78130/307162095_zpid/.
-2025-01-24 19:40:04,072 - logger.config - INFO - making request to address 153 Niemietz Cv to get detail url
-2025-01-24 19:42:57,445 - logger.config - INFO - making request to address 420 Jacks Pl to get detail url
-2025-01-24 19:43:43,333 - logger.config - INFO - fond detail_url for address: 420 Jacks Pl
-2025-01-24 19:43:43,334 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/420-Jacks-Pl-Seguin-TX-78155/339759960_zpid/.
-2025-01-24 19:44:31,002 - logger.config - INFO - making request to address 2407 Hartsel Forest Trl to get detail url
-2025-01-24 19:45:10,652 - logger.config - INFO - fond detail_url for address: 2407 Hartsel Forest Trl
-2025-01-24 19:45:10,653 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/2407-Hartsel-Forest-Trl-Spring-TX-77373/442471179_zpid/.
-2025-01-24 19:45:57,720 - logger.config - INFO - making request to address 171 Whitetail Way to get detail url
-2025-01-24 19:46:44,156 - logger.config - ERROR - Failed to retrieve detail_url for address: 171 Whitetail Way
-2025-01-24 19:46:44,157 - logger.config - INFO - No detail URL found for the given address.
-2025-01-24 19:46:49,157 - logger.config - INFO - making request to address 529 Sentry Valley St to get detail url
-2025-01-24 19:47:38,500 - logger.config - ERROR - Failed to retrieve detail_url for address: 529 Sentry Valley St
-2025-01-24 19:47:38,501 - logger.config - INFO - No detail URL found for the given address.
-2025-01-24 19:47:43,502 - logger.config - INFO - making request to address 153 Niemietz Cv to get detail url
-2025-01-24 19:48:17,662 - logger.config - INFO - fond detail_url for address: 153 Niemietz Cv
-2025-01-24 19:48:17,663 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/153-Niemietz-Cv-Cibolo-TX-78108/82759075_zpid/.
-2025-01-24 19:52:29,888 - logger.config - INFO - making request to address 420 Jacks Pl to get detail url
-2025-01-24 19:52:56,932 - logger.config - INFO - fond detail_url for address: 420 Jacks Pl
-2025-01-24 19:52:56,934 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/420-Jacks-Pl-Seguin-TX-78155/339759960_zpid/.
-2025-01-24 19:53:53,345 - logger.config - INFO - making request to address 2407 Hartsel Forest Trl to get detail url
-2025-01-24 19:54:20,705 - logger.config - INFO - fond detail_url for address: 2407 Hartsel Forest Trl
-2025-01-24 19:54:20,707 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/2407-Hartsel-Forest-Trl-Spring-TX-77373/442471179_zpid/.
-2025-01-24 19:56:29,075 - logger.config - INFO - making request to address 420 Jacks Pl to get detail url
-2025-01-24 19:56:54,539 - logger.config - INFO - fond detail_url for address: 420 Jacks Pl
-2025-01-24 19:56:54,541 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/420-Jacks-Pl-Seguin-TX-78155/339759960_zpid/.
-2025-01-24 19:57:53,335 - logger.config - INFO - making request to address 2407 Hartsel Forest Trl to get detail url
+2025-07-31 18:39:04,316 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 18:41:35,387 - logger.config - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=57065): Read timed out. (read timeout=120)
+2025-07-31 18:41:36,513 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 18:42:11,858 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 18:44:32,740 - logger.config - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=53889): Read timed out. (read timeout=120)
+2025-07-31 18:44:33,248 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 18:45:17,228 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 18:45:37,270 - logger.config - INFO - Scraping listings from the page: 1
+2025-07-31 18:45:38,505 - logger.config - INFO - Retrieved 30 unique listings on this page.
+2025-07-31 18:45:38,506 - logger.config - INFO - Processing listing https://www.withroam.com/listing/3951-COUNTRY-CLUB-DR-BAYTOWN-TX-77521/301266?down_payment=50000
+2025-07-31 18:45:44,506 - logger.config - INFO - Processing listing https://www.withroam.com/listing/809-FORTUNE-ST-HOUSTON-TX-77088/301956?down_payment=50000
+2025-07-31 18:45:50,341 - logger.config - INFO - Processing listing https://www.withroam.com/listing/4031-THREE-FORKS-RD-KAUFMAN-TX-75142/217659?down_payment=50000
+2025-07-31 18:45:50,705 - logger.config - ERROR - Failed to take screenshot: HTTPConnectionPool(host='localhost', port=52589): Max retries exceeded with url: /session/0aa7523fdd4220276cf91b6b41d23ef6/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ef4a1c74950>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-31 18:45:50,706 - logger.config - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=52589): Max retries exceeded with url: /session/0aa7523fdd4220276cf91b6b41d23ef6/window (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ef4a1c74230>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-31 18:45:51,513 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 18:46:29,898 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 18:49:00,585 - logger.config - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=41733): Read timed out. (read timeout=120)
+2025-07-31 18:49:01,278 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 18:49:12,182 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 18:49:25,073 - logger.config - INFO - Scraping listings from the page: 1
+2025-07-31 18:49:26,421 - logger.config - INFO - Retrieved 30 unique listings on this page.
+2025-07-31 18:49:26,422 - logger.config - INFO - Processing listing https://www.withroam.com/listing/504-STIMPSON-ST-BAYTOWN-TX-77520/50185?down_payment=50000
+2025-07-31 18:49:31,945 - logger.config - INFO - Processing listing https://www.withroam.com/listing/4006-RASBERRY-CT-DICKINSON-TX-77539/274875?down_payment=50000
+2025-07-31 18:49:37,816 - logger.config - INFO - Processing listing https://www.withroam.com/listing/2530-LIVE-OAK-PASS-SAN-ANTONIO-TX-78244/303919?down_payment=50000
+2025-07-31 19:02:11,875 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:04:39,295 - logger.config - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=59063): Read timed out. (read timeout=120)
+2025-07-31 19:04:40,063 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:04:49,121 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:07:51,320 - logger.config - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=57227): Read timed out. (read timeout=120)
+2025-07-31 19:07:52,054 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:08:01,030 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:12:52,977 - logger.config - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=51487): Read timed out. (read timeout=120)
+2025-07-31 19:12:53,751 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:13:15,297 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:15:37,172 - logger.config - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=56891): Read timed out. (read timeout=120)
+2025-07-31 19:15:38,268 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:15:54,491 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:16:00,983 - logger.config - INFO - Scraping listings from the page: 1
+2025-07-31 19:16:01,791 - logger.config - INFO - Retrieved 30 unique listings on this page.
+2025-07-31 19:16:01,792 - logger.config - INFO - Processing listing https://www.withroam.com/listing/5518-SALADO-FLS-SAN-ANTONIO-TX-78222/260580?down_payment=50000
+2025-07-31 19:16:05,081 - logger.config - ERROR - Error scraping listing https://www.withroam.com/listing/5518-SALADO-FLS-SAN-ANTONIO-TX-78222/260580?down_payment=50000: cannot access local variable 'interest_rate' where it is not associated with a value
+2025-07-31 19:16:08,144 - logger.config - INFO - Processing listing https://www.withroam.com/listing/7211-MARINA-DEL-REY-CONVERSE-TX-78109/179742?down_payment=50000
+2025-07-31 19:16:10,900 - logger.config - ERROR - Error scraping listing https://www.withroam.com/listing/7211-MARINA-DEL-REY-CONVERSE-TX-78109/179742?down_payment=50000: cannot access local variable 'interest_rate' where it is not associated with a value
+2025-07-31 19:16:14,006 - logger.config - INFO - Processing listing https://www.withroam.com/listing/5484-RUE-GIRARD-CONVERSE-TX-78109/305034?down_payment=50000
+2025-07-31 19:16:16,716 - logger.config - ERROR - Error scraping listing https://www.withroam.com/listing/5484-RUE-GIRARD-CONVERSE-TX-78109/305034?down_payment=50000: cannot access local variable 'interest_rate' where it is not associated with a value
+2025-07-31 19:16:19,792 - logger.config - INFO - Processing listing https://www.withroam.com/listing/2618-NW-28TH-ST-FORT-WORTH-TX-76106/301374?down_payment=50000
+2025-07-31 19:16:22,859 - logger.config - ERROR - Error scraping listing https://www.withroam.com/listing/2618-NW-28TH-ST-FORT-WORTH-TX-76106/301374?down_payment=50000: cannot access local variable 'interest_rate' where it is not associated with a value
+2025-07-31 19:18:04,974 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:23:05,516 - logger.config - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=51467): Read timed out. (read timeout=120)
+2025-07-31 19:23:06,275 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:23:30,761 - logger.config - INFO - Scraping listings from the page: 1
+2025-07-31 19:23:31,859 - logger.config - INFO - Retrieved 30 unique listings on this page.
+2025-07-31 19:23:31,860 - logger.config - INFO - Processing listing https://www.withroam.com/listing/2530-LIVE-OAK-PASS-SAN-ANTONIO-TX-78244/303919?down_payment=50000
+2025-07-31 19:23:38,184 - logger.config - INFO - Processing listing https://www.withroam.com/listing/809-FORTUNE-ST-HOUSTON-TX-77088/301956?down_payment=50000
+2025-07-31 19:23:44,350 - logger.config - INFO - Processing listing https://www.withroam.com/listing/4031-THREE-FORKS-RD-KAUFMAN-TX-75142/217659?down_payment=50000
+2025-07-31 19:23:50,412 - logger.config - INFO - Processing listing https://www.withroam.com/listing/5518-SALADO-FLS-SAN-ANTONIO-TX-78222/260580?down_payment=50000
+2025-07-31 19:23:56,327 - logger.config - INFO - Processing listing https://www.withroam.com/listing/205-CALLENDER-DR-FORT-WORTH-TX-76108/269623?down_payment=50000
+2025-07-31 19:25:25,821 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:25:36,059 - logger.config - INFO - Scraping listings from the page: 1
+2025-07-31 19:25:36,485 - logger.config - INFO - Retrieved 30 unique listings on this page.
+2025-07-31 19:25:36,486 - logger.config - INFO - Processing listing https://www.withroam.com/listing/2800-JEANETTA-ST-APT-1110-1110-HOUSTON-TX-77063/245317?down_payment=50000
+2025-07-31 19:25:41,363 - logger.config - INFO - Processing listing https://www.withroam.com/listing/821-E-JONES-ST-SHERMAN-TX-75090/211769?down_payment=50000
+2025-07-31 19:26:49,300 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:27:24,945 - logger.config - INFO - Scraping listings from the page: 1
+2025-07-31 19:27:25,338 - logger.config - INFO - Retrieved 30 unique listings on this page.
+2025-07-31 19:27:25,338 - logger.config - INFO - Processing listing https://www.withroam.com/listing/9510-RAINBOW-CRK-SAN-ANTONIO-TX-78245/301481?down_payment=50000
+2025-07-31 19:27:30,276 - logger.config - INFO - Processing listing https://www.withroam.com/listing/3233-HYACINTH-NEW-BRAUNFELS-TX-78130/305897?down_payment=50000
+2025-07-31 19:27:30,462 - logger.config - ERROR - Failed to take screenshot: HTTPConnectionPool(host='localhost', port=48629): Max retries exceeded with url: /session/c41944adbd6ea401bd2c441af110046e/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efe746acc50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-31 19:27:30,463 - logger.config - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=48629): Max retries exceeded with url: /session/c41944adbd6ea401bd2c441af110046e/window (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efe746ac500>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-31 19:27:30,920 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:28:52,302 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:29:01,821 - logger.config - INFO - Scraping listings from the page: 1
+2025-07-31 19:29:02,229 - logger.config - INFO - Retrieved 30 unique listings on this page.
+2025-07-31 19:29:02,229 - logger.config - INFO - Processing listing https://www.withroam.com/listing/5518-SALADO-FLS-SAN-ANTONIO-TX-78222/260580?down_payment=50000
+2025-07-31 19:29:08,565 - logger.config - INFO - Processing listing https://www.withroam.com/listing/830-STONE-MOUNTAIN-DR-CONROE-TX-77302/299384?down_payment=50000
+2025-07-31 19:29:13,634 - logger.config - INFO - Processing listing https://www.withroam.com/listing/15690-BRIAR-FOREST-DR-CONROE-TX-77306/131899?down_payment=50000
+2025-07-31 19:29:19,481 - logger.config - INFO - Processing listing https://www.withroam.com/listing/205-CALLENDER-DR-FORT-WORTH-TX-76108/269623?down_payment=50000
+2025-07-31 19:29:24,847 - logger.config - INFO - Processing listing https://www.withroam.com/listing/2618-NW-28TH-ST-FORT-WORTH-TX-76106/301374?down_payment=50000
+2025-07-31 19:29:30,485 - logger.config - INFO - Processing listing https://www.withroam.com/listing/2800-JEANETTA-ST-APT-1110-1110-HOUSTON-TX-77063/245317?down_payment=50000
+2025-07-31 19:29:35,833 - logger.config - INFO - Processing listing https://www.withroam.com/listing/9510-RAINBOW-CRK-SAN-ANTONIO-TX-78245/301481?down_payment=50000
+2025-07-31 19:29:41,006 - logger.config - INFO - Processing listing https://www.withroam.com/listing/4006-RASBERRY-CT-DICKINSON-TX-77539/274875?down_payment=50000
+2025-07-31 19:29:46,260 - logger.config - INFO - Processing listing https://www.withroam.com/listing/1909-CHIRICAHUA-TRCE-HARKER-HEIGHTS-TX-76548/165945?down_payment=50000
+2025-07-31 19:29:51,882 - logger.config - INFO - Processing listing https://www.withroam.com/listing/2407-HARTSEL-FOREST-TRL-SPRING-TX-77373/165807?down_payment=50000
+2025-07-31 19:29:56,883 - logger.config - INFO - Processing listing https://www.withroam.com/listing/7211-MARINA-DEL-REY-CONVERSE-TX-78109/179742?down_payment=50000
+2025-07-31 19:29:58,920 - logger.config - ERROR - Failed to take screenshot: HTTPConnectionPool(host='localhost', port=39185): Max retries exceeded with url: /session/e6b7557475ac4a443d174e328c30621f/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2555599400>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-31 19:29:58,920 - logger.config - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=39185): Max retries exceeded with url: /session/e6b7557475ac4a443d174e328c30621f/window (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2555598d70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-31 19:29:59,417 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:30:55,387 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:31:05,291 - logger.config - INFO - Scraping listings from the page: 1
+2025-07-31 19:31:05,695 - logger.config - INFO - Retrieved 30 unique listings on this page.
+2025-07-31 19:31:05,696 - logger.config - INFO - Processing listing https://www.withroam.com/listing/809-FORTUNE-ST-HOUSTON-TX-77088/301956?down_payment=50000
+2025-07-31 19:31:11,187 - logger.config - INFO - Processing listing https://www.withroam.com/listing/2530-LIVE-OAK-PASS-SAN-ANTONIO-TX-78244/303919?down_payment=50000
+2025-07-31 19:31:16,280 - logger.config - INFO - Processing listing https://www.withroam.com/listing/10915-AIRMEN-DR-CONVERSE-TX-78109/35716?down_payment=50000
+2025-07-31 19:31:53,894 - logger.config - INFO - Processing listing https://www.withroam.com/listing/5484-RUE-GIRARD-CONVERSE-TX-78109/305034?down_payment=50000
+2025-07-31 19:31:59,503 - logger.config - INFO - Processing listing https://www.withroam.com/listing/504-STIMPSON-ST-BAYTOWN-TX-77520/50185?down_payment=50000
+2025-07-31 19:32:05,139 - logger.config - INFO - Processing listing https://www.withroam.com/listing/2407-HARTSEL-FOREST-TRL-SPRING-TX-77373/165807?down_payment=50000
+2025-07-31 19:32:10,501 - logger.config - INFO - Processing listing https://www.withroam.com/listing/3233-HYACINTH-NEW-BRAUNFELS-TX-78130/305897?down_payment=50000
+2025-07-31 19:32:11,075 - logger.config - ERROR - Failed to take screenshot: HTTPConnectionPool(host='localhost', port=41129): Max retries exceeded with url: /session/b272913b36a1bf865e4b894aac70ea05/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x79f1d123d1f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-31 19:32:11,079 - logger.config - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=41129): Max retries exceeded with url: /session/b272913b36a1bf865e4b894aac70ea05/window (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x79f1d123cb60>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-31 19:32:11,547 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:34:39,413 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:34:47,073 - logger.config - INFO - Scraping listings from the page: 1
+2025-07-31 19:34:47,481 - logger.config - INFO - Retrieved 30 unique listings on this page.
+2025-07-31 19:34:47,481 - logger.config - INFO - Processing listing https://www.withroam.com/listing/5518-SALADO-FLS-SAN-ANTONIO-TX-78222/260580?down_payment=50000
+2025-07-31 19:35:05,800 - logger.config - ERROR - Failed to take screenshot: HTTPConnectionPool(host='localhost', port=60327): Max retries exceeded with url: /session/1abdebb8f8e948af1a1ef26db103b05d/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x780e04eb8920>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-31 19:35:05,801 - logger.config - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=60327): Max retries exceeded with url: /session/1abdebb8f8e948af1a1ef26db103b05d/window (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x780e04eb81d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-31 19:35:06,309 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:37:00,736 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:37:08,781 - logger.config - INFO - Scraping listings from the page: 1
+2025-07-31 19:37:09,193 - logger.config - INFO - Retrieved 30 unique listings on this page.
+2025-07-31 19:37:09,193 - logger.config - INFO - Processing listing https://www.withroam.com/listing/4006-RASBERRY-CT-DICKINSON-TX-77539/274875?down_payment=50000
+2025-07-31 19:37:14,564 - logger.config - INFO - Processing listing https://www.withroam.com/listing/4930-ELDORADO-ROSE-PL-KATY-TX-77493/237961?down_payment=50000
+2025-07-31 19:37:19,602 - logger.config - INFO - Processing listing https://www.withroam.com/listing/1909-CHIRICAHUA-TRCE-HARKER-HEIGHTS-TX-76548/165945?down_payment=50000
+2025-07-31 19:41:57,018 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:42:05,835 - logger.config - INFO - Scraping listings from the page: 1
+2025-07-31 19:42:06,281 - logger.config - INFO - Retrieved 30 unique listings on this page.
+2025-07-31 19:42:06,281 - logger.config - INFO - Processing listing https://www.withroam.com/listing/1303-MAC-DR-SWEENY-TX-77480/166477?down_payment=50000
+2025-07-31 19:42:11,928 - logger.config - INFO - Processing listing https://www.withroam.com/listing/2618-NW-28TH-ST-FORT-WORTH-TX-76106/301374?down_payment=50000
+2025-07-31 19:42:13,904 - logger.config - ERROR - Failed to take screenshot: HTTPConnectionPool(host='localhost', port=40693): Max retries exceeded with url: /session/21b1379a49c8a55a499a954018494356/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7b41b3664c50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-31 19:42:13,904 - logger.config - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=40693): Max retries exceeded with url: /session/21b1379a49c8a55a499a954018494356/window (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7b41b3664530>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-31 19:42:14,352 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:42:21,996 - logger.config - INFO - Scraping listings from the page: 1
+2025-07-31 19:42:22,408 - logger.config - INFO - Retrieved 30 unique listings on this page.
+2025-07-31 19:42:22,408 - logger.config - INFO - Processing listing https://www.withroam.com/listing/1303-MAC-DR-SWEENY-TX-77480/166477?down_payment=50000
+2025-07-31 19:42:27,736 - logger.config - INFO - Processing listing https://www.withroam.com/listing/2618-NW-28TH-ST-FORT-WORTH-TX-76106/301374?down_payment=50000
+2025-07-31 19:42:32,863 - logger.config - INFO - Processing listing https://www.withroam.com/listing/821-E-JONES-ST-SHERMAN-TX-75090/211769?down_payment=50000
+2025-07-31 19:42:41,038 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:42:49,276 - logger.config - INFO - Scraping listings from the page: 1
+2025-07-31 19:42:49,664 - logger.config - INFO - Retrieved 30 unique listings on this page.
+2025-07-31 19:42:49,665 - logger.config - INFO - Processing listing https://www.withroam.com/listing/5708-BLACK-PINE-CIR-GRANBURY-TX-76048/135135?down_payment=50000
+2025-07-31 19:42:51,226 - logger.config - INFO - Data scraped: {'address': '5708 Black Pine Cir Granbury, TX 76048', 'listing_price': '$294,900', 'down_payment': 'Principal & interest\n$1,151\nMortgage insurance\n-\nProperty taxes\n$326\nHome insurance\n$253\nHOA fees\n$25\nUtilities\nNot included\nTotal monthly payment\n$1,757', 'principal_and_interest': '$1,151', 'interest_rate': '2.7%', 'property_type': 'Single Family', 'formatted_address': '5708 Black Pine Cir Granbury, TX 76048, USA', 'num_of_beds': 3, 'zipcode': '76048', 'square_feet': '1956'}
+2025-07-31 19:42:54,284 - logger.config - INFO - Processing listing https://www.withroam.com/listing/5484-RUE-GIRARD-CONVERSE-TX-78109/305034?down_payment=50000
+2025-07-31 19:42:56,664 - logger.config - INFO - Data scraped: {'address': '5484 Rue Girard Converse, TX 78109', 'listing_price': '$268,999', 'down_payment': 'Principal & interest\n$1,099\nMortgage insurance\n-\nProperty taxes\n$468\nHome insurance\n$230\nHOA fees\n$41\nUtilities\nNot included\nTotal monthly payment\n$1,840', 'principal_and_interest': '$1,099', 'interest_rate': '2.75%', 'property_type': 'Single Family', 'formatted_address': '5484 Rue Girard Converse, TX 78109, USA', 'num_of_beds': 3, 'zipcode': '78109', 'square_feet': '1628'}
+2025-07-31 19:42:59,732 - logger.config - INFO - Processing listing https://www.withroam.com/listing/830-STONE-MOUNTAIN-DR-CONROE-TX-77302/299384?down_payment=50000
+2025-07-31 19:43:02,632 - logger.config - INFO - Data scraped: {'address': '830 Stone Mountain Dr Conroe, TX 77302', 'listing_price': '$195,000', 'down_payment': 'Principal & interest\n$984\nMortgage insurance\n-\nProperty taxes\n$282\nHome insurance\n$167\nHOA fees\n$90\nUtilities\nNot included\nTotal monthly payment\n$1,524', 'principal_and_interest': '$984', 'interest_rate': '2.875%', 'property_type': 'Single Family', 'formatted_address': '830 Stone Mountain Dr Conroe, TX 77302, USA', 'num_of_beds': 5, 'zipcode': '77302', 'square_feet': '2921'}
+2025-07-31 19:46:25,640 - logger.config - INFO - Navigating to the WithRoam.
+2025-07-31 19:46:44,190 - logger.config - INFO - Scraping listings from the page: 1
+2025-07-31 19:46:44,581 - logger.config - INFO - Retrieved 30 unique listings on this page.
+2025-07-31 19:46:44,581 - logger.config - INFO - Processing listing https://www.withroam.com/listing/2530-LIVE-OAK-PASS-SAN-ANTONIO-TX-78244/303919?down_payment=50000
+2025-07-31 19:46:47,201 - logger.config - INFO - Data scraped: {'address': '2530 Live Oak Pass San Antonio, TX 78244', 'listing_price': '$220,000', 'down_payment': '$39,214', 'principal_and_interest': '$788', 'interest_rate': '2.375%', 'property_type': 'Single Family', 'formatted_address': '2530 Live Oak Pass San Antonio, TX 78244, USA', 'num_of_beds': 4, 'zipcode': '78244', 'square_feet': '1704'}
+2025-07-31 19:46:50,260 - logger.config - INFO - Processing listing https://www.withroam.com/listing/4417-BRIARWOOD-DR-TEMPLE-TX-76502/305903?down_payment=50000
+2025-07-31 19:46:52,461 - logger.config - INFO - Data scraped: {'address': '4417 Briarwood Dr Temple, TX 76502', 'listing_price': '$150,000', 'down_payment': '$16,575', 'principal_and_interest': '$635', 'interest_rate': '3%', 'property_type': 'Single Family', 'formatted_address': '4417 Briarwood Dr Temple, TX 76502, USA', 'num_of_beds': 3, 'zipcode': '76502', 'square_feet': '1362'}
+2025-07-31 19:46:55,550 - logger.config - INFO - Processing listing https://www.withroam.com/listing/2800-JEANETTA-ST-APT-1110-1110-HOUSTON-TX-77063/245317?down_payment=50000
+2025-07-31 19:46:58,137 - logger.config - INFO - Data scraped: {'address': '2800 Jeanetta St Apt 1110 Unit 1110 Houston, TX 77063', 'listing_price': '$115,000', 'down_payment': '$43,618', 'principal_and_interest': '$300', 'interest_rate': '2.27%', 'property_type': 'Condominium', 'formatted_address': '2800 Jeanetta St Apt 1110 Unit 1110 Houston, TX 77063, USA', 'num_of_beds': 1, 'zipcode': '77063', 'square_feet': '746'}
+2025-07-31 19:48:52,301 - logger.config - INFO - making request to address 2530 Live Oak Pass San Antonio to get detail url
+2025-07-31 19:48:59,022 - logger.config - INFO - fond detail_url for address: 2530 Live Oak Pass San Antonio
+2025-07-31 19:48:59,030 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/2530-Live-Oak-Pass-San-Antonio-TX-78244/244680444_zpid/.
+2025-07-31 19:49:05,355 - logger.config - INFO - making request to mashvisor for str and mtr
+2025-07-31 19:49:06,889 - logger.config - ERROR - cannot unpack non-iterable NoneType object
+2025-07-31 20:37:17,550 - logger.config - INFO - making request to address 2530 Live Oak Pass San Antonio to get detail url
+2025-07-31 20:37:27,126 - logger.config - INFO - fond detail_url for address: 2530 Live Oak Pass San Antonio
+2025-07-31 20:37:27,127 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/2530-Live-Oak-Pass-San-Antonio-TX-78244/244680444_zpid/.
+2025-07-31 20:57:21,695 - logger.config - INFO - making request to address 2530 Live Oak Pass San Antonio to get detail url
+2025-07-31 20:57:25,869 - logger.config - INFO - fond detail_url for address: 2530 Live Oak Pass San Antonio
+2025-07-31 20:57:25,871 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/2530-Live-Oak-Pass-San-Antonio-TX-78244/244680444_zpid/.
+2025-07-31 20:57:45,119 - logger.config - ERROR - 'NoneType' object has no attribute 'get'
+2025-07-31 20:57:50,120 - logger.config - INFO - making request to address 4417 Briarwood Dr Temple to get detail url
+2025-07-31 20:57:54,165 - logger.config - INFO - fond detail_url for address: 4417 Briarwood Dr Temple
+2025-07-31 20:57:54,167 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/4417-Briarwood-Dr-Temple-TX-76502/49514446_zpid/.
+2025-07-31 20:58:22,171 - logger.config - ERROR - 'NoneType' object has no attribute 'get'
+2025-07-31 20:58:27,172 - logger.config - INFO - making request to address 2800 Jeanetta St Apt 1110 Unit 1110 Houston to get detail url
+2025-07-31 20:58:33,055 - logger.config - INFO - fond detail_url for address: 2800 Jeanetta St Apt 1110 Unit 1110 Houston
+2025-07-31 20:58:33,056 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/2800-Jeanetta-St-APT-1110-Houston-TX-77063/28351436_zpid/.
+2025-07-31 20:59:21,249 - logger.config - INFO - making request to address 2530 Live Oak Pass San Antonio to get detail url
+2025-07-31 20:59:26,200 - logger.config - INFO - fond detail_url for address: 2530 Live Oak Pass San Antonio
+2025-07-31 20:59:26,202 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/2530-Live-Oak-Pass-San-Antonio-TX-78244/244680444_zpid/.
+2025-07-31 20:59:31,392 - logger.config - INFO - making request to mashvisor for str and mtr
+2025-07-31 20:59:38,142 - logger.config - INFO - making request to address 4417 Briarwood Dr Temple to get detail url
+2025-07-31 20:59:42,225 - logger.config - INFO - fond detail_url for address: 4417 Briarwood Dr Temple
+2025-07-31 20:59:42,226 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/4417-Briarwood-Dr-Temple-TX-76502/49514446_zpid/.
+2025-07-31 21:00:03,134 - logger.config - INFO - making request to mashvisor for str and mtr
+2025-07-31 21:00:11,308 - logger.config - INFO - making request to address 2800 Jeanetta St Apt 1110 Unit 1110 Houston to get detail url
+2025-07-31 21:00:16,846 - logger.config - INFO - fond detail_url for address: 2800 Jeanetta St Apt 1110 Unit 1110 Houston
+2025-07-31 21:00:16,848 - logger.config - INFO - Fetching rent_zestimate, HOA, insurance, and taxes of url: https://www.zillow.com/homedetails/2800-Jeanetta-St-APT-1110-Houston-TX-77063/28351436_zpid/.
+2025-07-31 21:00:27,919 - logger.config - INFO - making request to mashvisor for str and mtr
+2025-08-04 10:53:31,011 - logger.config - INFO - Navigating to the WithRoam.
+2025-08-04 10:53:37,342 - logger.config - INFO - Scraping listings from the page: 1
+2025-08-04 10:53:37,692 - logger.config - INFO - Retrieved 30 unique listings on this page.
+2025-08-04 10:53:37,693 - logger.config - INFO - Processing listing https://www.withroam.com/listing/9821-OVERLOOK-CYN-SAN-ANTONIO-TX-78245/251525?down_payment=50000
+2025-08-04 10:53:40,688 - logger.config - INFO - Data scraped: {'address': '9821 Overlook Cyn San Antonio, TX 78245', 'listing_price': '$295,000', 'down_payment': '$50,000', 'principal_and_interest': '$1,172', 'interest_rate': '3.419%', 'property_type': 'Single Family', 'formatted_address': '9821 Overlook Cyn San Antonio, TX 78245, USA', 'num_of_beds': 3, 'zipcode': '78245', 'square_feet': '2453'}
+2025-08-04 10:53:43,744 - logger.config - INFO - Processing listing https://www.withroam.com/listing/7211-MARINA-DEL-REY-CONVERSE-TX-78109/179742?down_payment=50000
+2025-08-04 10:53:45,540 - logger.config - INFO - Data scraped: {'address': '7211 Marina Del Rey Converse, TX 78109', 'listing_price': '$279,999', 'down_payment': '$24,892', 'principal_and_interest': '$1,154', 'interest_rate': '2.875%', 'property_type': 'Single Family', 'formatted_address': '7211 Marina Del Rey Converse, TX 78109, USA', 'num_of_beds': 4, 'zipcode': '78109', 'square_feet': '1876'}
+2025-08-04 11:04:13,353 - logger.config - INFO - Navigating to the WithRoam.
+2025-08-04 11:05:52,683 - logger.config - INFO - Navigating to the WithRoam.
+2025-08-04 11:05:57,164 - logger.config - INFO - Scraping listings from the page: 1
+2025-08-04 11:05:57,520 - logger.config - INFO - Retrieved 30 unique listings on this page.
+2025-08-04 11:05:57,520 - logger.config - INFO - Processing listing https://www.withroam.com/listing/6704-DEORSAM-LOOP-KILLEEN-TX-76542/103559?down_payment=100000
+2025-08-04 11:06:18,275 - logger.config - INFO - Data scraped: {'address': '6704 Deorsam Loop Killeen, TX 76542', 'listing_price': '$270,000', 'down_payment': '$100,000', 'principal_and_interest': '$768', 'interest_rate': '2.694%', 'property_type': 'Single Family', 'formatted_address': '6704 Deorsam Loop Killeen, TX 76542, USA', 'num_of_beds': 4, 'zipcode': '76542', 'square_feet': '2016'}
+2025-08-04 11:06:21,331 - logger.config - INFO - Processing listing https://www.withroam.com/listing/5518-SALADO-FLS-SAN-ANTONIO-TX-78222/260580?down_payment=100000
+2025-08-04 11:06:21,549 - logger.config - ERROR - Failed to take screenshot: HTTPConnectionPool(host='localhost', port=43619): Max retries exceeded with url: /session/a6caacb3c0061c90849d71e91dba8c33/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x740027fceed0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-04 11:06:21,549 - logger.config - ERROR - An error occurred: HTTPConnectionPool(host='localhost', port=43619): Max retries exceeded with url: /session/a6caacb3c0061c90849d71e91dba8c33/window (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x740027fce030>: Failed to establish a new connection: [Errno 111] Connection refused'))

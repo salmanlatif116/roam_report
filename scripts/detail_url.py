@@ -54,8 +54,8 @@ def get_detail_url(address):
         search_results = soup.find_all("div", class_="tF2Cxc")
         for detail_link in search_results:
             link = detail_link.find("a")["href"]
-            formated_address = address.replace(",","-").replace(" ","-")
-            if formated_address in link and link.endswith("zpid/"):
+            # formated_address = address.replace(",","-").replace(" ","-")
+            if link.endswith("zpid/"):
                 logger.info(f"fond detail_url for address: {address}")
                 return link
         

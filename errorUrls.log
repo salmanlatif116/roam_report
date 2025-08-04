@@ -1,13 +1,23 @@
-2025-01-24 18:31:43,834 - detail_url - ERROR - the edetail url not fond for address: 12750 Rambling Rose
-2025-01-24 18:34:20,551 - detail_url - ERROR - the edetail url not fond for address: 504 Stimpson St
-2025-01-24 18:35:12,184 - detail_url - ERROR - the edetail url not fond for address: 2316 Julia Ln
-2025-01-24 18:37:48,096 - detail_url - ERROR - the edetail url not fond for address: 5519 Lacreek Ln
-2025-01-24 18:46:33,226 - detail_url - ERROR - the edetail url not fond for address: 8901 Eastwood Ave
-2025-01-24 18:47:44,478 - detail_url - ERROR - the edetail url not fond for address: 401 Suzie St
-2025-01-24 18:48:55,656 - detail_url - ERROR - the edetail url not fond for address: 2607 Bolzano Trl
-2025-01-24 18:51:46,029 - detail_url - ERROR - the edetail url not fond for address: 2820 Arrowhead Dr
-2025-01-24 18:52:57,055 - detail_url - ERROR - the edetail url not fond for address: 10915 Airmen Dr
-2025-01-24 19:13:11,233 - detail_url - ERROR - the edetail url not fond for address: 3802 Brunswick Dr
-2025-01-24 19:19:51,485 - detail_url - ERROR - the edetail url not fond for address: 3423 Southton Vw
-2025-01-24 19:46:44,156 - detail_url - ERROR - the edetail url not fond for address: 171 Whitetail Way
-2025-01-24 19:47:38,500 - detail_url - ERROR - the edetail url not fond for address: 529 Sentry Valley St
+2025-03-21 11:22:56,134 - __main__ - ERROR - fields not fond against detail_url: https://www.zillow.com/homedetails/5519-Lacreek-Ln-Spring-TX-77379/28359638_zpid/
+2025-03-21 11:31:00,490 - __main__ - ERROR - fields not fond against detail_url: https://www.zillow.com/homedetails/5519-Lacreek-Ln-Spring-TX-77379/28359638_zpid/
+2025-03-21 15:31:30,873 - __main__ - ERROR - fields not fond against detail_url: https://www.zillow.com/homedetails/5519-Lacreek-Ln-Spring-TX-77379/28359638_zpid/
+2025-03-21 15:43:13,378 - __main__ - ERROR - fields not fond against detail_url: https://www.zillow.com/homedetails/5519-Lacreek-Ln-Spring-TX-77379/28359638_zpid/
+2025-03-21 15:51:06,915 - __main__ - ERROR - fields not fond against detail_url: https://www.zillow.com/homedetails/5519-Lacreek-Ln-Spring-TX-77379/28359638_zpid/
+2025-03-21 15:59:21,399 - __main__ - ERROR - fields not fond against detail_url: https://www.zillow.com/homedetails/5519-Lacreek-Ln-Spring-TX-77379/28359638_zpid/
+2025-03-21 16:06:49,968 - __main__ - ERROR - fields not fond against detail_url: https://www.zillow.com/homedetails/5519-Lacreek-Ln-Spring-TX-77379/28359638_zpid/
+2025-03-24 15:39:53,574 - __main__ - ERROR - fields not fond against detail_url: https://www.zillow.com/homedetails/4415-Tiger-Run-San-Antonio-TX-78217/339853710_zpid/
+2025-03-24 15:53:38,747 - __main__ - ERROR - fields not fond against detail_url: https://www.zillow.com/homedetails/4415-Tiger-Run-San-Antonio-TX-78217/339853710_zpid/
+2025-04-21 11:25:57,225 - __main__ - ERROR - fields not fond against detail_url: https://www.zillow.com/homedetails/532-N-6th-St-La-Porte-TX-77571/338047855_zpid/
+2025-05-06 19:40:47,232 - __main__ - ERROR - Error encountered with file /home/tekvix/Desktop/roam_report/scripts/zillowcom_property_rent.def and url: https://www.zillow.com/apartments/los-angeles-ca/wilshire-victoria-westwood-apartments/5XjVVF/. Error: 'Parsing Method'
+2025-05-06 19:42:11,476 - __main__ - ERROR - Error encountered with file /home/tekvix/Desktop/roam_report/scripts/zillowcom_property_rent.def and url: https://www.zillow.com/apartments/los-angeles-ca/wilshire-victoria-westwood-apartments/5XjVVF/. Error: 'Parsing Method'
+2025-05-07 11:53:47,370 - __main__ - ERROR - Error encountered with file /home/tekvix/Desktop/roam_report/scripts/zillowcom_property_rent.def and url: https://www.zillow.com/apartments/los-angeles-ca/wilshire-victoria-westwood-apartments/5XjVVF/. Error: 'Parsing Method'
+2025-05-07 11:55:07,648 - __main__ - ERROR - fields not fond against detail_url: https://www.zillow.com/apartments/los-angeles-ca/wilshire-victoria-westwood-apartments/5XjVVF/
+2025-05-07 12:12:06,113 - __main__ - ERROR - Error encountered with file /home/tekvix/Desktop/roam_report/scripts/zillowcom_property_rent.def and url: https://www.zillow.com/apartments/los-angeles-ca/8500-burton/5XjPzj/. Error: 'Parsing Method'
+2025-05-08 13:51:29,693 - __main__ - ERROR - Error encountered with file /home/tekvix/Desktop/roam_report/scripts/zillowcom_property_rent.def and url: https://www.zillow.com/apartments/los-angeles-ca/8500-burton/5XjPzj/. Error: 'Parsing Method'
+2025-06-10 15:18:37,540 - __main__ - ERROR - fields not fond against detail_url: https://www.zillow.com/homedetails/5514-Othello-Dr-Belton-TX-76513/299920811_zpid/
+2025-06-10 15:24:18,472 - __main__ - ERROR - fields not fond against detail_url: https://www.zillow.com/homedetails/7402-Hollister-Rdg-Houston-TX-77040/80577140_zpid/
+2025-06-11 11:29:24,244 - __main__ - ERROR - fields not fond against detail_url: https://www.zillow.com/homedetails/7402-Hollister-Rdg-Houston-TX-77040/80577140_zpid/
+2025-06-11 11:32:45,807 - __main__ - ERROR - fields not fond against detail_url: https://www.zillow.com/homedetails/6402-Castle-Gap-Dr-Killeen-TX-76549/120883482_zpid/
+2025-06-11 11:41:35,446 - detail_url - ERROR - the edetail url not fond for address: 5514 Othello Dr
+2025-07-31 20:57:45,111 - __main__ - ERROR - fields not fond against detail_url: https://www.zillow.com/homedetails/2530-Live-Oak-Pass-San-Antonio-TX-78244/244680444_zpid/
+2025-07-31 20:58:22,170 - __main__ - ERROR - fields not fond against detail_url: https://www.zillow.com/homedetails/4417-Briarwood-Dr-Temple-TX-76502/49514446_zpid/
